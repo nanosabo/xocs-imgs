@@ -1,4215 +1,3449 @@
 [
   {
-    "id": "586c4b52",
-    "category": "Конструкции",
-    "title": "Борт минивэна",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 14,
-    "build_hp": 32,
-    "eng_name": "Minivan sideboard"
-  },
-  {
-    "id": "cc280978",
-    "category": "Конструкции",
-    "title": "Борт фургона",
-    "power": 13,
-    "durability": 25,
-    "weight": 45,
-    "maxCount": 7,
-    "build_hp": 25,
-    "eng_name": "Van side"
-  },
-  {
-    "id": "d42c18bb",
-    "category": "Конструкции",
-    "title": "Корма Торино",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 32,
-    "eng_name": "Torino rear"
-  },
-  {
-    "id": "d882b657",
-    "category": "Конструкции",
-    "title": "Задняя дверь",
-    "power": 56,
-    "durability": 109,
-    "weight": 196,
-    "maxCount": 3,
-    "build_hp": 109,
-    "eng_name": "Rear door"
-  },
-  {
-    "id": "f9ec4d99",
-    "category": "Конструкции",
-    "title": "Кожух Торино",
-    "power": 61,
-    "durability": 119,
-    "weight": 213,
-    "maxCount": 3,
-    "build_hp": 119,
-    "eng_name": "Torino bonnet"
-  },
-  {
-    "id": "d2a11dc6",
-    "category": "Конструкции",
-    "title": "Край фургона",
-    "power": 3,
-    "durability": 7,
-    "weight": 12,
-    "maxCount": 14,
-    "build_hp": 7,
-    "eng_name": "Van ramp"
-  },
-  {
-    "id": "9ff79390",
-    "category": "Конструкции",
-    "title": "Крыло Торино",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 6,
-    "build_hp": 32,
-    "eng_name": "Torino fender"
-  },
-  {
-    "id": "186f005c",
-    "category": "Конструкции",
-    "title": "Крыша брезент",
-    "power": 38,
-    "durability": 75,
-    "weight": 135,
-    "maxCount": 6,
-    "build_hp": 75,
-    "eng_name": "Canvas roof"
-  },
-  {
-    "id": "108140a1",
-    "category": "Конструкции",
-    "title": "Окно фургона",
-    "power": 14,
-    "durability": 29,
-    "weight": 51,
-    "maxCount": 8,
-    "build_hp": 29,
-    "eng_name": "Van window"
-  },
-  {
-    "id": "0784e603",
-    "category": "Конструкции",
-    "title": "Ноускат Торино",
-    "power": 26,
-    "durability": 50,
-    "weight": 90,
-    "maxCount": 2,
-    "build_hp": 50,
-    "eng_name": "Torino nosecut"
-  },
-  {
-    "id": "daadeef0",
-    "category": "Конструкции",
-    "title": "Подножка",
-    "power": 10,
-    "durability": 19,
-    "weight": 34,
-    "maxCount": 6,
-    "build_hp": 19,
-    "eng_name": "Running board"
-  },
-  {
-    "id": "555a1740",
-    "category": "Конструкции",
-    "title": "Уголок малый",
-    "power": 3,
-    "durability": 7,
-    "weight": 12,
-    "maxCount": 14,
-    "build_hp": 7,
-    "eng_name": "Small strut"
-  },
-  {
-    "id": "8cc70636",
-    "category": "Конструкции",
-    "title": "Уголок средний",
-    "power": 8,
-    "durability": 16,
-    "weight": 28,
-    "maxCount": 14,
-    "build_hp": 16,
-    "eng_name": "Medium strut"
-  },
-  {
-    "id": "ec511280",
-    "category": "Конструкции",
-    "title": "Уголок двойной",
-    "power": 9,
-    "durability": 18,
-    "weight": 31,
-    "maxCount": 2,
-    "build_hp": 18,
-    "eng_name": "Twin strut"
-  },
-  {
-    "id": "98d6639b",
-    "category": "Конструкции",
-    "title": "Багажник Хот-род",
-    "power": 20,
-    "durability": 44,
-    "weight": 85,
-    "maxCount": 1,
-    "build_hp": 44,
-    "eng_name": "'Hot Rod' trunk"
-  },
-  {
-    "id": "3e628579",
-    "category": "Конструкции",
-    "title": "Капот Хот-род",
-    "power": 29,
-    "durability": 63,
-    "weight": 121,
-    "maxCount": 1,
-    "build_hp": 63,
-    "eng_name": "'Hot Rod' hood"
-  },
-  {
-    "id": "53f480c3",
-    "category": "Конструкции",
-    "title": "Левое заднее крыло Хот-род",
-    "power": 19,
-    "durability": 42,
-    "weight": 81,
-    "maxCount": 1,
-    "build_hp": 42,
-    "eng_name": "'Hot Rod' left rear fender"
-  },
-  {
-    "id": "f9141b2e",
-    "category": "Конструкции",
-    "title": "Правое заднее крыло Хот-род",
-    "power": 19,
-    "durability": 42,
-    "weight": 81,
-    "maxCount": 1,
-    "build_hp": 42,
-    "eng_name": "'Hot Rod' right rear fender"
-  },
-  {
-    "id": "8445c7ca",
-    "category": "Конструкции",
-    "title": "Левое крыло Хот-род",
-    "power": 12,
-    "durability": 27,
-    "weight": 51,
-    "maxCount": 1,
-    "build_hp": 27,
-    "eng_name": "'Hot Rod' left fender"
-  },
-  {
-    "id": "795be61e",
-    "category": "Конструкции",
-    "title": "Правое крыло Хот-род",
-    "power": 12,
-    "durability": 27,
-    "weight": 51,
-    "maxCount": 1,
-    "build_hp": 27,
-    "eng_name": "'Hot Rod' right fender"
-  },
-  {
-    "id": "7ea04869",
-    "category": "Конструкции",
-    "title": "Решетка радиатора Хот-род",
-    "power": 13,
-    "durability": 28,
-    "weight": 54,
-    "maxCount": 1,
-    "build_hp": 28,
-    "eng_name": "'Hot Rod' grille"
-  },
-  {
-    "id": "8ca81ec0",
-    "category": "Конструкции",
-    "title": "Боковина внедорожника",
-    "power": 24,
-    "durability": 47,
-    "weight": 84,
-    "maxCount": 2,
-    "build_hp": 47,
-    "eng_name": "Offroader side"
-  },
-  {
-    "id": "b24c565f",
-    "category": "Конструкции",
-    "title": "Угол внедорожника левый",
-    "power": 18,
-    "durability": 35,
-    "weight": 62,
-    "maxCount": 2,
-    "build_hp": 35,
-    "eng_name": "Left offroader corner"
-  },
-  {
-    "id": "89f300ad",
-    "category": "Конструкции",
-    "title": "Угол внедорожника правый",
-    "power": 18,
-    "durability": 35,
-    "weight": 62,
-    "maxCount": 2,
-    "build_hp": 35,
-    "eng_name": "Right offroader corner"
-  },
-  {
-    "id": "1357f61e",
-    "category": "Конструкции",
-    "title": "Ноускат Фурии",
-    "power": 22,
-    "durability": 44,
-    "weight": 79,
-    "maxCount": 1,
-    "build_hp": 44,
-    "eng_name": "Furia nosecut"
-  },
-  {
-    "id": "4d37ec68",
-    "category": "Конструкции",
-    "title": "Левое крыло Фурии",
-    "power": 10,
-    "durability": 19,
-    "weight": 34,
-    "maxCount": 1,
-    "build_hp": 19,
-    "eng_name": "Left Furia fender"
-  },
-  {
-    "id": "31d60269",
-    "category": "Конструкции",
-    "title": "Правое крыло Фурии",
-    "power": 10,
-    "durability": 19,
-    "weight": 34,
-    "maxCount": 1,
-    "build_hp": 19,
-    "eng_name": "Right Furia fender"
-  },
-  {
-    "id": "cbcf90fa",
-    "category": "Конструкции",
-    "title": "Винтажное крыло правое",
-    "power": 12,
-    "durability": 24,
-    "weight": 42,
-    "maxCount": 1,
-    "build_hp": 24,
-    "eng_name": "Right vintage fender"
-  },
-  {
-    "id": "8f99df41",
-    "category": "Конструкции",
-    "title": "Винтажное крыло левое",
-    "power": 12,
-    "durability": 24,
-    "weight": 42,
-    "maxCount": 1,
-    "build_hp": 24,
-    "eng_name": "Left vintage fender"
-  },
-  {
-    "id": "4f7079e9",
-    "category": "Конструкции",
-    "title": "Багажник электромобиля",
-    "power": 62,
-    "durability": 88,
-    "weight": 132,
-    "maxCount": 1,
-    "build_hp": 88,
-    "eng_name": "Electric car trunk"
-  },
-  {
-    "id": "fd443a78",
-    "category": "Конструкции",
-    "title": "Ноускат электромобиля",
-    "power": 42,
-    "durability": 59,
-    "weight": 88,
-    "maxCount": 1,
-    "build_hp": 59,
-    "eng_name": "Electric car nosecut"
-  },
-  {
-    "id": "f0851847",
-    "category": "Конструкции",
-    "title": "Ребро фургона",
-    "power": 11,
-    "durability": 23,
-    "weight": 40,
-    "maxCount": 4,
-    "build_hp": 23,
-    "eng_name": "Truck rib"
-  },
-  {
-    "id": "638de49e",
-    "category": "Конструкции",
-    "title": "Задняя стенка",
-    "power": 53,
-    "durability": 103,
-    "weight": 185,
-    "maxCount": 2,
-    "build_hp": 103,
-    "eng_name": "Back wall"
-  },
-  {
-    "id": "22de8da5",
-    "category": "Конструкции",
-    "title": "Корма спорткара",
-    "power": 35,
-    "durability": 69,
-    "weight": 124,
-    "maxCount": 2,
-    "build_hp": 69,
-    "eng_name": "Sports car hull back"
-  },
-  {
-    "id": "6e7f4910",
-    "category": "Конструкции",
-    "title": "Боковина экскаватора",
-    "power": 22,
-    "durability": 70,
-    "weight": 157,
-    "maxCount": 4,
-    "build_hp": 70,
-    "eng_name": "Digger side"
-  },
-  {
-    "id": "362a925f",
-    "category": "Конструкции",
-    "title": "Боковина экскаватора малая",
-    "power": 18,
-    "durability": 44,
-    "weight": 99,
-    "maxCount": 5,
-    "build_hp": 44,
-    "eng_name": "Small digger side"
-  },
-  {
-    "id": "6a62c659",
-    "category": "Конструкции",
-    "title": "Борт крана левый",
-    "power": 58,
-    "durability": 144,
-    "weight": 323,
-    "maxCount": 4,
-    "build_hp": 144,
-    "eng_name": "Crane side left"
-  },
-  {
-    "id": "49d8641e",
-    "category": "Конструкции",
-    "title": "Борт крана правый",
-    "power": 58,
-    "durability": 144,
-    "weight": 323,
-    "maxCount": 4,
-    "build_hp": 144,
-    "eng_name": "Crane side right"
-  },
-  {
-    "id": "668eee29",
-    "category": "Конструкции",
-    "title": "Заглушка от крана левая",
-    "power": 6,
-    "durability": 16,
-    "weight": 36,
-    "maxCount": 4,
-    "build_hp": 16,
-    "eng_name": "Crane plug left"
-  },
-  {
-    "id": "d4548f6b",
-    "category": "Конструкции",
-    "title": "Заглушка от крана правая",
-    "power": 6,
-    "durability": 16,
-    "weight": 36,
-    "maxCount": 4,
-    "build_hp": 16,
-    "eng_name": "Crane plug right"
-  },
-  {
-    "id": "7526cf2d",
-    "category": "Конструкции",
-    "title": "Корпус экскаватора",
-    "power": 34,
-    "durability": 84,
-    "weight": 189,
-    "maxCount": 4,
-    "build_hp": 84,
-    "eng_name": "Digger hull"
-  },
-  {
-    "id": "18f21764",
-    "category": "Конструкции",
-    "title": "Обшивка крана слева",
-    "power": 14,
-    "durability": 36,
-    "weight": 81,
-    "maxCount": 4,
-    "build_hp": 36,
-    "eng_name": "Crane hull left"
-  },
-  {
-    "id": "771f52de",
-    "category": "Конструкции",
-    "title": "Обшивка крана справа",
-    "power": 14,
-    "durability": 36,
-    "weight": 81,
-    "maxCount": 4,
-    "build_hp": 36,
-    "eng_name": "Crane hull right"
-  },
-  {
-    "id": "c9a3d396",
-    "category": "Конструкции",
-    "title": "Платформа большая",
-    "power": 26,
-    "durability": 64,
-    "weight": 144,
-    "maxCount": 4,
-    "build_hp": 64,
-    "eng_name": "Large platform"
-  },
-  {
-    "id": "fdc6b71a",
-    "category": "Конструкции",
-    "title": "Платформа малая",
-    "power": 13,
-    "durability": 32,
-    "weight": 72,
-    "maxCount": 4,
-    "build_hp": 32,
-    "eng_name": "Small platform"
-  },
-  {
-    "id": "9661689d",
-    "category": "Конструкции",
-    "title": "Платформа скошенная",
-    "power": 11,
-    "durability": 28,
-    "weight": 63,
-    "maxCount": 4,
-    "build_hp": 28,
-    "eng_name": "Sloped platform"
-  },
-  {
-    "id": "879f996b",
-    "category": "Конструкции",
-    "title": "Боковая крышка экскаватора",
-    "power": 34,
-    "durability": 84,
-    "weight": 189,
-    "maxCount": 4,
-    "build_hp": 84,
-    "eng_name": "Excavator side cover"
-  },
-  {
-    "id": "d17bc3ff",
-    "category": "Конструкции",
-    "title": "Обшивка экскаватора справа",
-    "power": 10,
-    "durability": 24,
-    "weight": 54,
-    "maxCount": 4,
-    "build_hp": 24,
-    "eng_name": "Excavator plating right"
-  },
-  {
-    "id": "811b25f7",
-    "category": "Конструкции",
-    "title": "Обшивка экскаватора слева",
-    "power": 10,
-    "durability": 24,
-    "weight": 54,
-    "maxCount": 4,
-    "build_hp": 24,
-    "eng_name": "Excavator plating left"
-  },
-  {
-    "id": "31783861",
-    "category": "Конструкции",
-    "title": "Капот экскаватора",
-    "power": 35,
-    "durability": 88,
-    "weight": 198,
-    "maxCount": 4,
-    "build_hp": 88,
-    "eng_name": "Excavator hood"
-  },
-  {
-    "id": "2aeff4f1",
-    "category": "Конструкции",
-    "title": "Левое крыло тягача",
-    "power": 13,
-    "durability": 32,
-    "weight": 72,
-    "maxCount": 4,
-    "build_hp": 32,
-    "eng_name": "Left truck fender"
-  },
-  {
-    "id": "e33bf8d1",
-    "category": "Конструкции",
-    "title": "Правое крыло тягача",
-    "power": 13,
-    "durability": 32,
-    "weight": 72,
-    "maxCount": 4,
-    "build_hp": 32,
-    "eng_name": "Right truck fender"
-  },
-  {
-    "id": "5740bf58",
-    "category": "Конструкции",
-    "title": "Фронтенд",
-    "power": 42,
-    "durability": 104,
-    "weight": 233,
-    "maxCount": 4,
-    "build_hp": 104,
-    "eng_name": "Frontend"
-  },
-  {
-    "id": "02767895",
-    "category": "Конструкции",
-    "title": "Крыло экскаватора левое",
-    "power": 30,
-    "durability": 76,
-    "weight": 171,
-    "maxCount": 2,
-    "build_hp": 76,
-    "eng_name": "Excavator left fender"
-  },
-  {
-    "id": "b6e13369",
-    "category": "Конструкции",
-    "title": "Крыло экскаватора правое",
-    "power": 30,
-    "durability": 76,
-    "weight": 171,
-    "maxCount": 2,
-    "build_hp": 76,
-    "eng_name": "Excavator right fender"
-  },
-  {
-    "id": "4e592323",
-    "category": "Конструкции",
-    "title": "Крышка багажника экскаватора",
-    "power": 26,
-    "durability": 66,
-    "weight": 148,
-    "maxCount": 4,
-    "build_hp": 66,
-    "eng_name": "Excavator trunk lid"
-  },
-  {
-    "id": "81832192",
-    "category": "Конструкции",
-    "title": "Крыло багги левое",
-    "power": 5,
-    "durability": 8,
-    "weight": 11,
-    "maxCount": 3,
-    "build_hp": 8,
-    "eng_name": "Buggy fender left"
-  },
-  {
-    "id": "bc4af42c",
-    "category": "Конструкции",
-    "title": "Крыло багги правое",
-    "power": 5,
-    "durability": 8,
-    "weight": 11,
-    "maxCount": 3,
-    "build_hp": 8,
-    "eng_name": "Buggy fender right"
-  },
-  {
-    "id": "79f9e055",
-    "category": "Конструкции",
-    "title": "Черпак",
-    "power": 13,
-    "durability": 18,
-    "weight": 27,
-    "maxCount": 4,
-    "build_hp": 18,
-    "eng_name": "Dipper"
-  },
-  {
-    "id": "6658ab70",
-    "category": "Конструкции",
-    "title": "Мангал",
-    "power": 13,
-    "durability": 18,
-    "weight": 27,
-    "maxCount": 6,
-    "build_hp": 18,
-    "eng_name": "Brazier"
-  },
-  {
-    "id": "ae30ee08",
-    "category": "Конструкции",
-    "title": "Фритюрница",
-    "power": 26,
-    "durability": 36,
-    "weight": 54,
-    "maxCount": 6,
-    "build_hp": 36,
-    "eng_name": "Fryer"
-  },
-  {
-    "id": "6feeace5",
-    "category": "Конструкции",
-    "title": "Костыль левый",
-    "power": 9,
-    "durability": 13,
-    "weight": 19,
-    "maxCount": 10,
-    "build_hp": 13,
-    "eng_name": "Left crutch"
-  },
-  {
-    "id": "8d2dcc5d",
-    "category": "Конструкции",
-    "title": "Костыль правый",
-    "power": 9,
-    "durability": 13,
-    "weight": 19,
-    "maxCount": 10,
-    "build_hp": 13,
-    "eng_name": "Right crutch"
-  },
-  {
-    "id": "06028c4e",
-    "category": "Конструкции",
-    "title": "Хвост багги",
-    "power": 41,
-    "durability": 58,
-    "weight": 86,
-    "maxCount": 6,
-    "build_hp": 58,
-    "eng_name": "Buggy rear"
-  },
-  {
-    "id": "bb0ea501",
-    "category": "Конструкции",
-    "title": "Горбатый",
-    "power": 38,
-    "durability": 54,
-    "weight": 80,
-    "maxCount": 9,
-    "build_hp": 54,
-    "eng_name": "Whaleback"
-  },
-  {
-    "id": "629cb8a1",
-    "category": "Конструкции",
-    "title": "Расческа",
-    "power": 3,
-    "durability": 5,
-    "weight": 7,
-    "maxCount": 12,
-    "build_hp": 5,
-    "eng_name": "Comb"
-  },
-  {
-    "id": "0a95bac9",
-    "category": "Конструкции",
-    "title": "Терка",
-    "power": 5,
-    "durability": 8,
-    "weight": 11,
-    "maxCount": 8,
-    "build_hp": 8,
-    "eng_name": "Grater"
-  },
-  {
-    "id": "e19a933a",
-    "category": "Конструкции",
-    "title": "Подножка багги",
-    "power": 6,
-    "durability": 10,
-    "weight": 14,
-    "maxCount": 10,
-    "build_hp": 10,
-    "eng_name": "Buggy step plate"
-  },
-  {
-    "id": "98147562",
-    "category": "Конструкции",
-    "title": "Сушилка",
-    "power": 9,
-    "durability": 13,
-    "weight": 19,
-    "maxCount": 6,
-    "build_hp": 13,
-    "eng_name": "Dryer"
-  },
-  {
-    "id": "9d308330",
-    "category": "Конструкции",
-    "title": "Крыло с навесом левое",
-    "power": 6,
-    "durability": 8,
-    "weight": 12,
-    "maxCount": 1,
-    "build_hp": 8,
-    "eng_name": "Left shielded fender"
-  },
-  {
-    "id": "4bf01297",
-    "category": "Конструкции",
-    "title": "Крыло с навесом правое",
-    "power": 6,
-    "durability": 8,
-    "weight": 12,
-    "maxCount": 1,
-    "build_hp": 8,
-    "eng_name": "Right shielded fender"
-  },
-  {
-    "id": "d96b9fa5",
-    "category": "Конструкции",
-    "title": "Ноускат Задиры",
-    "power": 13,
-    "durability": 18,
-    "weight": 27,
-    "maxCount": 1,
-    "build_hp": 18,
-    "eng_name": "'Bully' nosecut"
-  },
-  {
-    "id": "5abc7ecb",
-    "category": "Конструкции",
-    "title": "Протектор левый",
-    "power": 10,
-    "durability": 14,
-    "weight": 21,
-    "maxCount": 1,
-    "build_hp": 14,
-    "eng_name": "Side guard left"
-  },
-  {
-    "id": "787c5f8e",
-    "category": "Конструкции",
-    "title": "Протектор правый",
-    "power": 10,
-    "durability": 14,
-    "weight": 21,
-    "maxCount": 1,
-    "build_hp": 14,
-    "eng_name": "Side guard right"
-  },
-  {
-    "id": "bcf59838",
-    "category": "Конструкции",
-    "title": "Вираж левый",
-    "power": 13,
-    "durability": 18,
-    "weight": 27,
-    "maxCount": 1,
-    "build_hp": 18,
-    "eng_name": "Left bend"
-  },
-  {
-    "id": "b3b7ae0f",
-    "category": "Конструкции",
-    "title": "Вираж правый",
-    "power": 13,
-    "durability": 18,
-    "weight": 27,
-    "maxCount": 1,
-    "build_hp": 18,
-    "eng_name": "Right bend"
-  },
-  {
-    "id": "8259f064",
-    "category": "Конструкции",
-    "title": "Круговой слева",
-    "power": 16,
-    "durability": 23,
-    "weight": 34,
-    "maxCount": 1,
-    "build_hp": 23,
-    "eng_name": "Left backmarker"
-  },
-  {
-    "id": "5a93f40d",
-    "category": "Конструкции",
-    "title": "Круговой справа",
-    "power": 16,
-    "durability": 23,
-    "weight": 34,
-    "maxCount": 1,
-    "build_hp": 23,
-    "eng_name": "Right backmarker"
-  },
-  {
-    "id": "89c19857",
-    "category": "Конструкции",
-    "title": "Порог",
-    "power": 19,
-    "durability": 28,
-    "weight": 41,
-    "maxCount": 4,
-    "build_hp": 28,
-    "eng_name": "Step rail"
-  },
-  {
-    "id": "3d521974",
-    "category": "Конструкции",
-    "title": "Подлокотник левый",
-    "power": 5,
-    "durability": 8,
-    "weight": 11,
-    "maxCount": 4,
-    "build_hp": 8,
-    "eng_name": "Left armrest"
-  },
-  {
-    "id": "8a9f155a",
-    "category": "Конструкции",
-    "title": "Подлокотник правый",
-    "power": 5,
-    "durability": 8,
-    "weight": 11,
-    "maxCount": 4,
-    "build_hp": 8,
-    "eng_name": "Right armrest"
-  },
-  {
-    "id": "48d2800d",
-    "category": "Конструкции",
-    "title": "Лоток",
-    "power": 34,
-    "durability": 48,
-    "weight": 71,
-    "maxCount": 4,
-    "build_hp": 48,
-    "eng_name": "Tray"
-  },
-  {
-    "id": "e1e7463b",
-    "category": "Конструкции",
-    "title": "Упор правый",
-    "power": 19,
-    "durability": 28,
-    "weight": 41,
-    "maxCount": 2,
-    "build_hp": 28,
-    "eng_name": "Right shoulder rest"
-  },
-  {
-    "id": "180b9213",
-    "category": "Конструкции",
-    "title": "Упор левый",
-    "power": 19,
-    "durability": 28,
-    "weight": 41,
-    "maxCount": 2,
-    "build_hp": 28,
-    "eng_name": "Left shoulder rest"
-  },
-  {
-    "id": "8b6c4b18",
-    "category": "Конструкции",
-    "title": "Левая лапа Кутха",
-    "power": 29,
-    "durability": 41,
-    "weight": 61,
-    "maxCount": 1,
-    "build_hp": 41,
-    "eng_name": "Left Kutkh foot"
-  },
-  {
-    "id": "c219f40e",
-    "category": "Конструкции",
-    "title": "Правая лапа Кутха",
-    "power": 29,
-    "durability": 41,
-    "weight": 61,
-    "maxCount": 1,
-    "build_hp": 41,
-    "eng_name": "Right Kutkh foot"
-  },
-  {
-    "id": "6df7aebb",
-    "category": "Конструкции",
-    "title": "Левое крыло Кутха",
-    "power": 35,
-    "durability": 50,
-    "weight": 74,
-    "maxCount": 1,
-    "build_hp": 50,
-    "eng_name": "Left Kutkh wing"
-  },
-  {
-    "id": "ca50c1c8",
-    "category": "Конструкции",
-    "title": "Правое крыло Кутха",
-    "power": 35,
-    "durability": 50,
-    "weight": 74,
-    "maxCount": 1,
-    "build_hp": 50,
-    "eng_name": "Right Kutkh wing"
-  },
-  {
-    "id": "ab5c1ecd",
-    "category": "Конструкции",
-    "title": "Авиа борт левый",
-    "power": 30,
-    "durability": 66,
-    "weight": 128,
-    "maxCount": 4,
-    "build_hp": 66,
-    "eng_name": "Left avia fender"
-  },
-  {
-    "id": "4cd32032",
-    "category": "Конструкции",
-    "title": "Авиа борт правый",
-    "power": 30,
-    "durability": 66,
-    "weight": 128,
-    "maxCount": 4,
-    "build_hp": 66,
-    "eng_name": "Right avia fender"
-  },
-  {
-    "id": "9b04d75b",
-    "category": "Конструкции",
-    "title": "Крыло узкое",
-    "power": 29,
-    "durability": 63,
-    "weight": 121,
-    "maxCount": 10,
-    "build_hp": 63,
-    "eng_name": "Narrow wing"
-  },
-  {
-    "id": "44f02650",
-    "category": "Конструкции",
-    "title": "Нос самолета",
-    "power": 7,
-    "durability": 16,
-    "weight": 31,
-    "maxCount": 12,
-    "build_hp": 16,
-    "eng_name": "Plane nose"
-  },
-  {
-    "id": "a205acf3",
-    "category": "Конструкции",
-    "title": "Панель авиа",
-    "power": 13,
-    "durability": 28,
-    "weight": 54,
-    "maxCount": 8,
-    "build_hp": 28,
-    "eng_name": "Avia panel"
-  },
-  {
-    "id": "af91f5df",
-    "category": "Конструкции",
-    "title": "Панель авиа большая",
-    "power": 26,
-    "durability": 56,
-    "weight": 108,
-    "maxCount": 6,
-    "build_hp": 56,
-    "eng_name": "Avia panel large"
-  },
-  {
-    "id": "cb2abfa1",
-    "category": "Конструкции",
-    "title": "Скос авиа",
-    "power": 6,
-    "durability": 13,
-    "weight": 24,
-    "maxCount": 12,
-    "build_hp": 13,
-    "eng_name": "Avia slope"
-  },
-  {
-    "id": "147069c8",
-    "category": "Конструкции",
-    "title": "Скос авиа двойной",
-    "power": 31,
-    "durability": 67,
-    "weight": 130,
-    "maxCount": 4,
-    "build_hp": 67,
-    "eng_name": "Avia double slope"
-  },
-  {
-    "id": "ee81074b",
-    "category": "Конструкции",
-    "title": "Скос авиа узкий",
-    "power": 3,
-    "durability": 7,
-    "weight": 12,
-    "maxCount": 8,
-    "build_hp": 7,
-    "eng_name": "Avia narrow slope"
-  },
-  {
-    "id": "b9fc98cc",
-    "category": "Конструкции",
-    "title": "Скос авиа широкий",
-    "power": 11,
-    "durability": 25,
-    "weight": 48,
-    "maxCount": 7,
-    "build_hp": 25,
-    "eng_name": "Avia wide slope"
-  },
-  {
-    "id": "3f8db275",
-    "category": "Конструкции",
-    "title": "Скос покатый",
-    "power": 10,
-    "durability": 23,
-    "weight": 44,
-    "maxCount": 10,
-    "build_hp": 23,
-    "eng_name": "Oblique slope"
-  },
-  {
-    "id": "6ecc8243",
-    "category": "Конструкции",
-    "title": "Скос покатый широкий",
-    "power": 21,
-    "durability": 46,
-    "weight": 88,
-    "maxCount": 4,
-    "build_hp": 46,
-    "eng_name": "Oblique slope wide"
-  },
-  {
-    "id": "27a337b9",
-    "category": "Конструкции",
-    "title": "Уголок авиа",
-    "power": 4,
-    "durability": 10,
-    "weight": 19,
-    "maxCount": 6,
-    "build_hp": 10,
-    "eng_name": "Avia strut"
-  },
-  {
-    "id": "2832fa2b",
-    "category": "Конструкции",
-    "title": "Уголок покатый",
-    "power": 9,
-    "durability": 19,
-    "weight": 37,
-    "maxCount": 10,
-    "build_hp": 19,
-    "eng_name": "Oblique strut"
-  },
-  {
-    "id": "92f9bd87",
-    "category": "Конструкции",
-    "title": "Воздухозаборник самолета",
-    "power": 18,
-    "durability": 38,
-    "weight": 74,
-    "maxCount": 4,
-    "build_hp": 38,
-    "eng_name": "Plane air intake"
-  },
-  {
-    "id": "b5aa973a",
-    "category": "Конструкции",
-    "title": "Скос покатый узкий",
-    "power": 5,
-    "durability": 12,
-    "weight": 22,
-    "maxCount": 4,
-    "build_hp": 12,
-    "eng_name": "Oblique slope narrow"
-  },
-  {
-    "id": "7e95bde9",
-    "category": "Конструкции",
-    "title": "Панель авиа малая",
-    "power": 6,
-    "durability": 14,
-    "weight": 27,
-    "maxCount": 4,
-    "build_hp": 14,
-    "eng_name": "Avia panel small"
-  },
-  {
-    "id": "bb6e17de",
-    "category": "Конструкции",
-    "title": "Излом левый",
-    "power": 3,
-    "durability": 8,
-    "weight": 16,
-    "maxCount": 1,
-    "build_hp": 8,
-    "eng_name": "Left shoulder"
-  },
-  {
-    "id": "e0ff9897",
-    "category": "Конструкции",
-    "title": "Излом правый",
-    "power": 3,
-    "durability": 8,
-    "weight": 16,
-    "maxCount": 1,
-    "build_hp": 8,
-    "eng_name": "Right shoulder"
-  },
-  {
-    "id": "ebb76649",
-    "category": "Конструкции",
-    "title": "Крыло Коррида левое",
-    "power": 29,
-    "durability": 68,
-    "weight": 142,
-    "maxCount": 1,
-    "build_hp": 68,
-    "eng_name": "Corrida left fender"
-  },
-  {
-    "id": "28addf6e",
-    "category": "Конструкции",
-    "title": "Крыло Коррида правое",
-    "power": 29,
-    "durability": 68,
-    "weight": 142,
-    "maxCount": 1,
-    "build_hp": 68,
-    "eng_name": "Corrida right fender"
-  },
-  {
-    "id": "918b0fda",
-    "category": "Конструкции",
-    "title": "Ноускат Коррида",
-    "power": 35,
-    "durability": 83,
-    "weight": 173,
-    "maxCount": 1,
-    "build_hp": 83,
-    "eng_name": "Corrida nosecut"
-  },
-  {
-    "id": "8b0f199a",
-    "category": "Конструкции",
-    "title": "Боковой воздухозаборник левый",
-    "power": 11,
-    "durability": 25,
-    "weight": 48,
-    "maxCount": 1,
-    "build_hp": 25,
-    "eng_name": "Left side air intake"
-  },
-  {
-    "id": "9898849b",
-    "category": "Конструкции",
-    "title": "Боковой воздухозаборник правый",
-    "power": 11,
-    "durability": 25,
-    "weight": 48,
-    "maxCount": 1,
-    "build_hp": 25,
-    "eng_name": "Right side air intake"
-  },
-  {
-    "id": "e608d052",
-    "category": "Конструкции",
-    "title": "Фильтр правый",
-    "power": 5,
-    "durability": 11,
-    "weight": 21,
-    "maxCount": 4,
-    "build_hp": 11,
-    "eng_name": "Right filter"
-  },
-  {
-    "id": "d695a1dd",
-    "category": "Конструкции",
-    "title": "Фильтр левый",
-    "power": 5,
-    "durability": 11,
-    "weight": 21,
-    "maxCount": 4,
-    "build_hp": 11,
-    "eng_name": "Left filter"
-  },
-  {
-    "id": "12e5345c",
-    "category": "Конструкции",
-    "title": "Салон самолета",
-    "power": 45,
-    "durability": 97,
-    "weight": 189,
-    "maxCount": 4,
-    "build_hp": 97,
-    "eng_name": "Airplane interior"
-  },
-  {
-    "id": "759ebd6b",
-    "category": "Конструкции",
-    "title": "Воздухозаборник авиа левый",
-    "power": 32,
-    "durability": 70,
-    "weight": 135,
-    "maxCount": 2,
-    "build_hp": 70,
-    "eng_name": "Left avia air intake"
-  },
-  {
-    "id": "b3f6a7ec",
-    "category": "Конструкции",
-    "title": "Воздухозаборник авиа правый",
-    "power": 32,
-    "durability": 70,
-    "weight": 135,
-    "maxCount": 2,
-    "build_hp": 70,
-    "eng_name": "Right avia air intake"
-  },
-  {
-    "id": "cb8af0ef",
-    "category": "Конструкции",
-    "title": "Сдвоенный авиа скос",
-    "power": 32,
-    "durability": 70,
-    "weight": 135,
-    "maxCount": 4,
-    "build_hp": 70,
-    "eng_name": "Dual avia slope"
-  },
-  {
-    "id": "2d1f46cc",
-    "category": "Конструкции",
-    "title": "Скат фюзеляжа узкий",
-    "power": 5,
-    "durability": 11,
-    "weight": 21,
-    "maxCount": 2,
-    "build_hp": 11,
-    "eng_name": "Narrow fuselage slope"
-  },
-  {
-    "id": "ed9e743a",
-    "category": "Конструкции",
-    "title": "Свод фюзеляжа левый",
-    "power": 11,
-    "durability": 25,
-    "weight": 48,
-    "maxCount": 2,
-    "build_hp": 25,
-    "eng_name": "Left fuselage vault"
-  },
-  {
-    "id": "323374fb",
-    "category": "Конструкции",
-    "title": "Свод фюзеляжа правый",
-    "power": 11,
-    "durability": 25,
-    "weight": 48,
-    "maxCount": 2,
-    "build_hp": 25,
-    "eng_name": "Right fuselage vault"
-  },
-  {
-    "id": "722f9883",
-    "category": "Конструкции",
-    "title": "Основание хвостовой балки",
-    "power": 18,
-    "durability": 38,
-    "weight": 74,
-    "maxCount": 2,
-    "build_hp": 38,
-    "eng_name": "Tail boom base"
-  },
-  {
-    "id": "11fb1b72",
-    "category": "Конструкции",
-    "title": "Верх обтекателя левый",
-    "power": 14,
-    "durability": 32,
-    "weight": 61,
-    "maxCount": 2,
-    "build_hp": 32,
-    "eng_name": "Left fairing top"
-  },
-  {
-    "id": "95745c61",
-    "category": "Конструкции",
-    "title": "Верх обтекателя правый",
-    "power": 14,
-    "durability": 32,
-    "weight": 61,
-    "maxCount": 2,
-    "build_hp": 32,
-    "eng_name": "Right fairing top"
-  },
-  {
-    "id": "728a7012",
-    "category": "Конструкции",
-    "title": "Скат фюзеляжа",
-    "power": 10,
-    "durability": 22,
-    "weight": 41,
-    "maxCount": 2,
-    "build_hp": 22,
-    "eng_name": "Fuselage slope"
-  },
-  {
-    "id": "af4d9d1e",
-    "category": "Простреливаемые",
-    "title": "Крыло вертолета левое",
-    "power": 28,
-    "durability": 35,
-    "weight": 44,
-    "maxCount": 2,
-    "build_hp": 18,
-    "eng_name": "Left helicopter wing"
-  },
-  {
-    "id": "3222739e",
-    "category": "Простреливаемые",
-    "title": "Крыло вертолета правое",
-    "power": 28,
-    "durability": 35,
-    "weight": 44,
-    "maxCount": 2,
-    "build_hp": 18,
-    "eng_name": "Right helicopter wing"
-  },
-  {
-    "id": "2d302a18",
-    "category": "Конструкции",
-    "title": "Низ обтекателя правый",
-    "power": 6,
-    "durability": 14,
-    "weight": 27,
-    "maxCount": 2,
-    "build_hp": 14,
-    "eng_name": "Right fairing bottom"
-  },
-  {
-    "id": "d532a5d4",
-    "category": "Конструкции",
-    "title": "Низ обтекателя левый",
-    "power": 6,
-    "durability": 14,
-    "weight": 27,
-    "maxCount": 2,
-    "build_hp": 14,
-    "eng_name": "Left fairing bottom"
-  },
-  {
-    "id": "ed8b06de",
-    "category": "Конструкции",
-    "title": "Дверь контейнера",
-    "power": 51,
-    "durability": 135,
-    "weight": 323,
-    "maxCount": 4,
-    "build_hp": 135,
-    "eng_name": "Truck door"
-  },
-  {
-    "id": "14bc090c",
-    "category": "Конструкции",
-    "title": "Двойной скос",
-    "power": 10,
-    "durability": 26,
-    "weight": 61,
-    "maxCount": 6,
-    "build_hp": 26,
-    "eng_name": "Twin slope"
-  },
-  {
-    "id": "53e8c81d",
-    "category": "Конструкции",
-    "title": "Крыло массивное",
-    "power": 42,
-    "durability": 110,
-    "weight": 263,
-    "maxCount": 6,
-    "build_hp": 110,
-    "eng_name": "Large fender"
-  },
-  {
-    "id": "a3b5f3d2",
-    "category": "Конструкции",
-    "title": "Полустенка",
-    "power": 26,
-    "durability": 68,
-    "weight": 162,
-    "maxCount": 6,
-    "build_hp": 68,
-    "eng_name": "Half-wall"
-  },
-  {
-    "id": "d555e4a1",
-    "category": "Конструкции",
-    "title": "Скос из труб",
-    "power": 10,
-    "durability": 28,
-    "weight": 66,
-    "maxCount": 4,
-    "build_hp": 28,
-    "eng_name": "Thick pipe mudguard"
-  },
-  {
-    "id": "7e907786",
-    "category": "Конструкции",
-    "title": "Скос массивный",
-    "power": 16,
-    "durability": 43,
-    "weight": 101,
-    "maxCount": 8,
-    "build_hp": 43,
-    "eng_name": "Large slope"
-  },
-  {
-    "id": "21bc9ddb",
-    "category": "Конструкции",
-    "title": "Скос мусоровоза",
-    "power": 5,
-    "durability": 13,
-    "weight": 31,
-    "maxCount": 12,
-    "build_hp": 13,
-    "eng_name": "Truck slope"
-  },
-  {
-    "id": "f0bea34c",
-    "category": "Конструкции",
-    "title": "Скос широкий",
-    "power": 10,
-    "durability": 26,
-    "weight": 61,
-    "maxCount": 4,
-    "build_hp": 26,
-    "eng_name": "Wide slope"
-  },
-  {
-    "id": "ea908d81",
-    "category": "Конструкции",
-    "title": "Труба изогнутая",
-    "power": 4,
-    "durability": 10,
-    "weight": 23,
-    "maxCount": 10,
-    "build_hp": 10,
-    "eng_name": "Curved pipe"
-  },
-  {
-    "id": "703a8cdd",
-    "category": "Конструкции",
-    "title": "Труба прямая",
-    "power": 6,
-    "durability": 18,
-    "weight": 41,
-    "maxCount": 8,
-    "build_hp": 18,
-    "eng_name": "Straight pipe"
-  },
-  {
-    "id": "b14a18cf",
-    "category": "Конструкции",
-    "title": "Труба тройник",
-    "power": 3,
-    "durability": 9,
-    "weight": 21,
-    "maxCount": 10,
-    "build_hp": 9,
-    "eng_name": "T-pipe"
-  },
-  {
-    "id": "6074334d",
-    "category": "Конструкции",
-    "title": "Четверть бочки",
-    "power": 5,
-    "durability": 14,
-    "weight": 32,
-    "maxCount": 10,
-    "build_hp": 14,
-    "eng_name": "Barrel quarter"
-  },
-  {
-    "id": "0e84954f",
-    "category": "Конструкции",
-    "title": "Четверть стенки",
-    "power": 13,
-    "durability": 34,
-    "weight": 81,
-    "maxCount": 8,
-    "build_hp": 34,
-    "eng_name": "Quarter wall"
-  },
-  {
-    "id": "3990fc0e",
-    "category": "Конструкции",
-    "title": "Щит длинный из труб",
-    "power": 19,
-    "durability": 51,
-    "weight": 121,
-    "maxCount": 4,
-    "build_hp": 51,
-    "eng_name": "Long pipe shield"
-  },
-  {
-    "id": "bf45fc6f",
-    "category": "Конструкции",
-    "title": "Щит из труб",
-    "power": 13,
-    "durability": 34,
-    "weight": 81,
-    "maxCount": 4,
-    "build_hp": 34,
-    "eng_name": "Pipe shield"
-  },
-  {
-    "id": "54045edb",
-    "category": "Конструкции",
-    "title": "Ящик металлический",
-    "power": 6,
-    "durability": 18,
-    "weight": 41,
-    "maxCount": 4,
-    "build_hp": 18,
-    "eng_name": "Metal box"
-  },
-  {
-    "id": "ab1038f2",
-    "category": "Конструкции",
-    "title": "Стенка контейнера",
-    "power": 51,
-    "durability": 135,
-    "weight": 323,
-    "maxCount": 2,
-    "build_hp": 135,
-    "eng_name": "Container wall"
-  },
-  {
-    "id": "aadb1d89",
-    "category": "Конструкции",
-    "title": "Бартизан",
-    "power": 32,
-    "durability": 88,
-    "weight": 224,
-    "maxCount": 6,
-    "build_hp": 88,
-    "eng_name": "Bartizan"
-  },
-  {
-    "id": "193baada",
-    "category": "Конструкции",
-    "title": "Левое крыло фантома",
-    "power": 40,
-    "durability": 105,
-    "weight": 252,
-    "maxCount": 1,
-    "build_hp": 105,
-    "eng_name": "Left phantom fender"
-  },
-  {
-    "id": "739f3c5f",
-    "category": "Конструкции",
-    "title": "Правое крыло фантома",
-    "power": 40,
-    "durability": 105,
-    "weight": 252,
-    "maxCount": 1,
-    "build_hp": 105,
-    "eng_name": "Right phantom fender"
-  },
-  {
-    "id": "50515368",
-    "category": "Конструкции",
-    "title": "Прикрытие",
-    "power": 22,
-    "durability": 58,
-    "weight": 137,
-    "maxCount": 3,
-    "build_hp": 58,
-    "eng_name": "Rear cover"
-  },
-  {
-    "id": "f2aad4ea",
-    "category": "Конструкции",
-    "title": "Скос длинный",
-    "power": 38,
-    "durability": 101,
-    "weight": 242,
-    "maxCount": 4,
-    "build_hp": 101,
-    "eng_name": "Long slope"
-  },
-  {
-    "id": "446d0ad8",
-    "category": "Конструкции",
-    "title": "Угловая платформа правая",
-    "power": 38,
-    "durability": 101,
-    "weight": 242,
-    "maxCount": 2,
-    "build_hp": 101,
-    "eng_name": "Corner platform right"
-  },
-  {
-    "id": "671c0b56",
-    "category": "Конструкции",
-    "title": "Угловая платформа левая",
-    "power": 38,
-    "durability": 101,
-    "weight": 242,
-    "maxCount": 2,
-    "build_hp": 101,
-    "eng_name": "Corner platform left"
-  },
-  {
-    "id": "0c5836f2",
-    "category": "Конструкции",
-    "title": "Двери вагона",
-    "power": 34,
-    "durability": 89,
-    "weight": 212,
-    "maxCount": 4,
-    "build_hp": 89,
-    "eng_name": "Tram car doors"
-  },
-  {
-    "id": "25b94394",
-    "category": "Конструкции",
-    "title": "Укрепленный угол правый",
-    "power": 10,
-    "durability": 26,
-    "weight": 61,
-    "maxCount": 4,
-    "build_hp": 26,
-    "eng_name": "Reinforced right corner"
-  },
-  {
-    "id": "90f3993d",
-    "category": "Конструкции",
-    "title": "Укрепленный угол левый",
-    "power": 10,
-    "durability": 26,
-    "weight": 61,
-    "maxCount": 4,
-    "build_hp": 26,
-    "eng_name": "Reinforced left corner"
-  },
-  {
-    "id": "dd8b7afa",
-    "category": "Конструкции",
-    "title": "Борт шагохода",
-    "power": 39,
-    "durability": 101,
-    "weight": 242,
-    "maxCount": 4,
-    "build_hp": 101,
-    "eng_name": "Battle walker side"
-  },
-  {
-    "id": "4f1b0c82",
-    "category": "Конструкции",
-    "title": "Угол шагохода",
-    "power": 24,
-    "durability": 47,
-    "weight": 84,
-    "maxCount": 4,
-    "build_hp": 47,
-    "eng_name": "Battle walker corner"
-  },
-  {
-    "id": "ccaae31f",
-    "category": "Конструкции",
-    "title": "Стойка шагохода левая",
-    "power": 8,
-    "durability": 22,
-    "weight": 51,
-    "maxCount": 4,
-    "build_hp": 22,
-    "eng_name": "Battle walker left stand"
-  },
-  {
-    "id": "1ea069b1",
-    "category": "Конструкции",
-    "title": "Стойка шагохода правая",
-    "power": 8,
-    "durability": 22,
-    "weight": 51,
-    "maxCount": 4,
-    "build_hp": 22,
-    "eng_name": "Battle walker right stand"
-  },
-  {
-    "id": "e07b4c7a",
-    "category": "Конструкции",
-    "title": "Козырек шагохода",
-    "power": 27,
-    "durability": 54,
-    "weight": 172,
-    "maxCount": 2,
-    "build_hp": 85,
-    "eng_name": "Battle walker cover plate"
-  },
-  {
-    "id": "a4b94ee9",
-    "category": "Простреливаемые",
-    "title": "Кожух радиатора левый",
-    "power": 38,
-    "durability": 59,
-    "weight": 84,
-    "maxCount": 2,
-    "build_hp": 30,
-    "eng_name": "Left radiator bonnet"
-  },
-  {
-    "id": "ee692be9",
-    "category": "Простреливаемые",
-    "title": "Кожух радиатора правый",
-    "power": 38,
-    "durability": 59,
-    "weight": 84,
-    "maxCount": 2,
-    "build_hp": 30,
-    "eng_name": "Right radiator bonnet"
-  },
-  {
-    "id": "baa7e9c1",
-    "category": "Конструкции",
-    "title": "Бронеотсек",
-    "power": 40,
-    "durability": 110,
-    "weight": 280,
-    "maxCount": 4,
-    "build_hp": 110,
-    "eng_name": "Hard module"
-  },
-  {
-    "id": "706782a7",
-    "category": "Конструкции",
-    "title": "Задняя часть БТР",
-    "power": 45,
-    "durability": 124,
-    "weight": 314,
-    "maxCount": 2,
-    "build_hp": 124,
-    "eng_name": "APC rear"
-  },
-  {
-    "id": "c935ce6d",
-    "category": "Конструкции",
-    "title": "Дверь БТР",
-    "power": 22,
-    "durability": 62,
-    "weight": 157,
-    "maxCount": 4,
-    "build_hp": 62,
-    "eng_name": "APC door"
-  },
-  {
-    "id": "c3414489",
-    "category": "Конструкции",
-    "title": "Часть борта танка",
-    "power": 19,
-    "durability": 53,
-    "weight": 135,
-    "maxCount": 8,
-    "build_hp": 53,
-    "eng_name": "Tank side part"
-  },
-  {
-    "id": "dd72ca5a",
-    "category": "Конструкции",
-    "title": "Малая часть борта танка",
-    "power": 10,
-    "durability": 27,
-    "weight": 68,
-    "maxCount": 6,
-    "build_hp": 27,
-    "eng_name": "Small tank side part"
-  },
-  {
-    "id": "23af0145",
-    "category": "Конструкции",
-    "title": "Малая часть крыши БТР",
-    "power": 10,
-    "durability": 27,
-    "weight": 68,
-    "maxCount": 9,
-    "build_hp": 27,
-    "eng_name": "Small APC roof part"
-  },
-  {
-    "id": "0bd665cb",
-    "category": "Конструкции",
-    "title": "Люк бронированный",
-    "power": 42,
-    "durability": 115,
-    "weight": 293,
-    "maxCount": 2,
-    "build_hp": 115,
-    "eng_name": "Armored hatch"
-  },
-  {
-    "id": "5af638cb",
-    "category": "Конструкции",
-    "title": "Часть крыши БТР",
-    "power": 51,
-    "durability": 141,
-    "weight": 359,
-    "maxCount": 6,
-    "build_hp": 141,
-    "eng_name": "APC roof part"
-  },
-  {
-    "id": "af24bc10",
-    "category": "Конструкции",
-    "title": "Часть борта БТР",
-    "power": 26,
-    "durability": 71,
-    "weight": 180,
-    "maxCount": 6,
-    "build_hp": 71,
-    "eng_name": "APC side part"
-  },
-  {
-    "id": "2bfbc191",
-    "category": "Конструкции",
-    "title": "Тонкая бронепластина",
-    "power": 3,
-    "durability": 10,
-    "weight": 23,
-    "maxCount": 6,
-    "build_hp": 10,
-    "eng_name": "Thin strike plate"
-  },
-  {
-    "id": "d7591b10",
-    "category": "Конструкции",
-    "title": "Усиленный скос",
-    "power": 21,
-    "durability": 58,
-    "weight": 146,
-    "maxCount": 6,
-    "build_hp": 58,
-    "eng_name": "Strengthened slope"
-  },
-  {
-    "id": "a27c9c4b",
-    "category": "Конструкции",
-    "title": "Усиленный скос двойной",
-    "power": 5,
-    "durability": 14,
-    "weight": 34,
-    "maxCount": 4,
-    "build_hp": 14,
-    "eng_name": "Strengthened twin slope"
-  },
-  {
-    "id": "5bbe1709",
-    "category": "Конструкции",
-    "title": "Усиленный скос с решеткой",
-    "power": 10,
-    "durability": 27,
-    "weight": 68,
-    "maxCount": 6,
-    "build_hp": 27,
-    "eng_name": "Strengthened ventilated slope"
-  },
-  {
-    "id": "ba0a6e3f",
-    "category": "Конструкции",
-    "title": "Авангард",
-    "power": 13,
-    "durability": 36,
-    "weight": 90,
-    "maxCount": 1,
-    "build_hp": 36,
-    "eng_name": "Vanguard"
-  },
-  {
-    "id": "313737a1",
-    "category": "Конструкции",
-    "title": "Восточный фронт",
-    "power": 19,
-    "durability": 53,
-    "weight": 135,
-    "maxCount": 1,
-    "build_hp": 53,
-    "eng_name": "Eastern front"
-  },
-  {
-    "id": "33094798",
-    "category": "Конструкции",
-    "title": "Западный фронт",
-    "power": 19,
-    "durability": 53,
-    "weight": 135,
-    "maxCount": 1,
-    "build_hp": 53,
-    "eng_name": "Western front"
-  },
-  {
-    "id": "64951338",
-    "category": "Конструкции",
-    "title": "Клин",
-    "power": 26,
-    "durability": 71,
-    "weight": 180,
-    "maxCount": 1,
-    "build_hp": 71,
-    "eng_name": "Wedge"
-  },
-  {
-    "id": "35cab0f1",
-    "category": "Конструкции",
-    "title": "Полоса обороны",
-    "power": 32,
-    "durability": 88,
-    "weight": 224,
-    "maxCount": 2,
-    "build_hp": 88,
-    "eng_name": "Line of defence"
-  },
-  {
-    "id": "b08ba9f4",
-    "category": "Конструкции",
-    "title": "Тыл",
-    "power": 45,
-    "durability": 124,
-    "weight": 314,
-    "maxCount": 1,
-    "build_hp": 124,
-    "eng_name": "Home front"
-  },
-  {
-    "id": "faeed7c1",
-    "category": "Конструкции",
-    "title": "Заслон левый",
-    "power": 6,
-    "durability": 16,
-    "weight": 40,
-    "maxCount": 1,
-    "build_hp": 16,
-    "eng_name": "Left barrier"
-  },
-  {
-    "id": "c6521912",
-    "category": "Конструкции",
-    "title": "Заслон правый",
-    "power": 6,
-    "durability": 16,
-    "weight": 40,
-    "maxCount": 1,
-    "build_hp": 16,
-    "eng_name": "Right barrier"
-  },
-  {
-    "id": "76173c2b",
-    "category": "Конструкции",
-    "title": "Вал левый",
-    "power": 16,
-    "durability": 44,
-    "weight": 112,
-    "maxCount": 1,
-    "build_hp": 44,
-    "eng_name": "Left rampart"
-  },
-  {
-    "id": "8ddf61c2",
-    "category": "Конструкции",
-    "title": "Вал правый",
-    "power": 16,
-    "durability": 44,
-    "weight": 112,
-    "maxCount": 1,
-    "build_hp": 44,
-    "eng_name": "Right rampart"
-  },
-  {
-    "id": "e2c01304",
-    "category": "Конструкции",
-    "title": "Крыло военного грузовика левое",
-    "power": 14,
-    "durability": 40,
-    "weight": 101,
-    "maxCount": 3,
-    "build_hp": 40,
-    "eng_name": "Left military truck fender"
-  },
-  {
-    "id": "bc62ee80",
-    "category": "Конструкции",
-    "title": "Крыло военного грузовика правое",
-    "power": 14,
-    "durability": 40,
-    "weight": 101,
-    "maxCount": 3,
-    "build_hp": 40,
-    "eng_name": "Right military truck fender"
-  },
-  {
-    "id": "ba1bd3de",
-    "category": "Конструкции",
-    "title": "Панель БТР малая",
-    "power": 42,
-    "durability": 115,
-    "weight": 292,
-    "maxCount": 4,
-    "build_hp": 115,
-    "eng_name": "Small APC panel"
-  },
-  {
-    "id": "1e2a9f30",
-    "category": "Конструкции",
-    "title": "Панель БТР большая",
-    "power": 38,
-    "durability": 106,
-    "weight": 269,
-    "maxCount": 2,
-    "build_hp": 106,
-    "eng_name": "Large APC panel"
-  },
-  {
-    "id": "9797eaab",
-    "category": "Конструкции",
-    "title": "Крыло броневика правое",
-    "power": 9,
-    "durability": 25,
-    "weight": 62,
-    "maxCount": 2,
-    "build_hp": 25,
-    "eng_name": "APC fender right"
-  },
-  {
-    "id": "12060cc3",
-    "category": "Конструкции",
-    "title": "Крыло броневика левое",
-    "power": 9,
-    "durability": 25,
-    "weight": 62,
-    "maxCount": 2,
-    "build_hp": 25,
-    "eng_name": "APC fender left"
-  },
-  {
-    "id": "1f695058",
-    "category": "Конструкции",
-    "title": "Свод башни левый",
-    "power": 11,
-    "durability": 31,
-    "weight": 79,
-    "maxCount": 2,
-    "build_hp": 31,
-    "eng_name": "Turret vault left"
-  },
-  {
-    "id": "9a875386",
-    "category": "Конструкции",
-    "title": "Свод башни правый",
-    "power": 11,
-    "durability": 31,
-    "weight": 79,
-    "maxCount": 2,
-    "build_hp": 31,
-    "eng_name": "Turret vault right"
-  },
-  {
-    "id": "2521b43f",
-    "category": "Конструкции",
-    "title": "Крыло БТР",
-    "power": 22,
-    "durability": 62,
-    "weight": 157,
-    "maxCount": 4,
-    "build_hp": 62,
-    "eng_name": "APC fender"
-  },
-  {
-    "id": "6ddbc9ed",
-    "category": "Конструкции",
-    "title": "Вентиляционный отсек",
-    "power": 14,
-    "durability": 34,
-    "weight": 71,
-    "maxCount": 6,
-    "build_hp": 34,
-    "eng_name": "Ventilation box"
-  },
-  {
-    "id": "3733a92a",
-    "category": "Конструкции",
-    "title": "Воздухозаборник",
-    "power": 2,
-    "durability": 4,
-    "weight": 8,
-    "maxCount": 10,
-    "build_hp": 4,
-    "eng_name": "Air intake"
-  },
-  {
-    "id": "00442b77",
-    "category": "Конструкции",
-    "title": "Корма",
-    "power": 27,
-    "durability": 64,
-    "weight": 134,
-    "maxCount": 6,
-    "build_hp": 64,
-    "eng_name": "Hull back"
-  },
-  {
-    "id": "80e49cd7",
-    "category": "Конструкции",
-    "title": "Модуль управления",
-    "power": 14,
-    "durability": 34,
-    "weight": 71,
-    "maxCount": 10,
-    "build_hp": 34,
-    "eng_name": "Control module"
-  },
-  {
-    "id": "5831c2dc",
-    "category": "Конструкции",
-    "title": "Наблюдательный отсек",
-    "power": 16,
-    "durability": 38,
-    "weight": 79,
-    "maxCount": 6,
-    "build_hp": 38,
-    "eng_name": "Observation pod"
-  },
-  {
-    "id": "03cb7fe3",
-    "category": "Конструкции",
-    "title": "Система охлаждения",
-    "power": 32,
-    "durability": 75,
-    "weight": 157,
-    "maxCount": 8,
-    "build_hp": 75,
-    "eng_name": "Cooling system"
-  },
-  {
-    "id": "31994e96",
-    "category": "Конструкции",
-    "title": "Сломанный радиатор",
-    "power": 10,
-    "durability": 23,
-    "weight": 48,
-    "maxCount": 8,
-    "build_hp": 23,
-    "eng_name": "Broken radiator"
-  },
-  {
-    "id": "1e2e3afc",
-    "category": "Конструкции",
-    "title": "Часть обшивки",
-    "power": 5,
-    "durability": 12,
-    "weight": 24,
-    "maxCount": 8,
-    "build_hp": 12,
-    "eng_name": "Hull part"
-  },
-  {
-    "id": "cc918a22",
-    "category": "Конструкции",
-    "title": "Крестец",
-    "power": 22,
-    "durability": 32,
-    "weight": 48,
-    "maxCount": 1,
-    "build_hp": 32,
-    "eng_name": "Rump"
-  },
-  {
-    "id": "444c0f94",
-    "category": "Конструкции",
-    "title": "Фаланга правая",
-    "power": 11,
-    "durability": 16,
-    "weight": 24,
-    "maxCount": 1,
-    "build_hp": 16,
-    "eng_name": "Right phalanx"
-  },
-  {
-    "id": "f3fecbc7",
-    "category": "Конструкции",
-    "title": "Фаланга левая",
-    "power": 11,
-    "durability": 16,
-    "weight": 24,
-    "maxCount": 1,
-    "build_hp": 16,
-    "eng_name": "Left phalanx"
-  },
-  {
-    "id": "cef2b9a9",
-    "category": "Конструкции",
-    "title": "Ребро левое",
-    "power": 18,
-    "durability": 25,
-    "weight": 37,
-    "maxCount": 1,
-    "build_hp": 25,
-    "eng_name": "Left rib"
-  },
-  {
-    "id": "0713daf6",
-    "category": "Конструкции",
-    "title": "Ребро правое",
-    "power": 18,
-    "durability": 25,
-    "weight": 37,
-    "maxCount": 1,
-    "build_hp": 25,
-    "eng_name": "Right rib"
-  },
-  {
-    "id": "a5ce4692",
-    "category": "Конструкции",
-    "title": "Отражатель",
-    "power": 32,
-    "durability": 75,
-    "weight": 157,
-    "maxCount": 6,
-    "build_hp": 75,
-    "eng_name": "Reflector"
-  },
-  {
-    "id": "a6875eaf",
-    "category": "Конструкции",
-    "title": "Сборочная секция малая",
-    "power": 38,
-    "durability": 90,
-    "weight": 189,
-    "maxCount": 4,
-    "build_hp": 90,
-    "eng_name": "Small assembly section"
-  },
-  {
-    "id": "af0f8c9e",
-    "category": "Конструкции",
-    "title": "Сборочная секция большая",
-    "power": 51,
-    "durability": 120,
-    "weight": 251,
-    "maxCount": 2,
-    "build_hp": 120,
-    "eng_name": "Large assembly section"
-  },
-  {
-    "id": "29a8c154",
-    "category": "Конструкции",
-    "title": "Каркасный угол",
-    "power": 14,
-    "durability": 32,
-    "weight": 61,
-    "maxCount": 2,
-    "build_hp": 32,
-    "eng_name": "Frame corner"
-  },
-  {
-    "id": "d21192f8",
-    "category": "Конструкции",
-    "title": "Панельная арка",
-    "power": 48,
-    "durability": 113,
-    "weight": 236,
-    "maxCount": 4,
-    "build_hp": 113,
-    "eng_name": "Panel arch"
-  },
-  {
-    "id": "88bdd163",
-    "category": "Конструкции",
-    "title": "Теплоотвод левый",
-    "power": 16,
-    "durability": 38,
-    "weight": 79,
-    "maxCount": 4,
-    "build_hp": 38,
-    "eng_name": "Left heat sink"
-  },
-  {
-    "id": "4941596b",
-    "category": "Конструкции",
-    "title": "Теплоотвод правый",
-    "power": 16,
-    "durability": 38,
-    "weight": 79,
-    "maxCount": 4,
-    "build_hp": 38,
-    "eng_name": "Right heat sink"
-  },
-  {
-    "id": "d8fbea8d",
-    "category": "Конструкции",
-    "title": "Прикрой бока слева",
-    "power": 11,
-    "durability": 20,
-    "weight": 32,
-    "maxCount": 4,
-    "build_hp": 20,
-    "eng_name": "Cover your left"
-  },
-  {
-    "id": "d5288cf1",
-    "category": "Конструкции",
-    "title": "Прикрой бока справа",
-    "power": 11,
-    "durability": 20,
-    "weight": 32,
-    "maxCount": 4,
-    "build_hp": 20,
-    "eng_name": "Cover your right"
-  },
-  {
-    "id": "3e893baf",
-    "category": "Конструкции",
-    "title": "Вепрь",
-    "power": 34,
-    "durability": 58,
-    "weight": 95,
-    "maxCount": 4,
-    "build_hp": 58,
-    "eng_name": "Boar"
-  },
-  {
-    "id": "ef1e75be",
-    "category": "Конструкции",
-    "title": "Колючка левая",
-    "power": 10,
-    "durability": 17,
-    "weight": 27,
-    "maxCount": 4,
-    "build_hp": 17,
-    "eng_name": "Left thorn"
-  },
-  {
-    "id": "ebfea34b",
-    "category": "Конструкции",
-    "title": "Колючка правая",
-    "power": 10,
-    "durability": 17,
-    "weight": 27,
-    "maxCount": 4,
-    "build_hp": 17,
-    "eng_name": "Right thorn"
-  },
-  {
-    "id": "28da11c0",
-    "category": "Конструкции",
-    "title": "Огненные грабли",
-    "power": 16,
-    "durability": 28,
-    "weight": 45,
-    "maxCount": 6,
-    "build_hp": 28,
-    "eng_name": "Flaming rakes"
-  },
-  {
-    "id": "7fefbb5e",
-    "category": "Конструкции",
-    "title": "Острый козырек",
-    "power": 13,
-    "durability": 22,
-    "weight": 36,
-    "maxCount": 6,
-    "build_hp": 22,
-    "eng_name": "Peaky blinder"
-  },
-  {
-    "id": "03518167",
-    "category": "Конструкции",
-    "title": "Перевертыш",
-    "power": 21,
-    "durability": 36,
-    "weight": 59,
-    "maxCount": 8,
-    "build_hp": 36,
-    "eng_name": "Rollover"
-  },
-  {
-    "id": "8edc1816",
-    "category": "Конструкции",
-    "title": "По наклонной",
-    "power": 16,
-    "durability": 28,
-    "weight": 45,
-    "maxCount": 10,
-    "build_hp": 28,
-    "eng_name": "Downstream"
-  },
-  {
-    "id": "e18084e0",
-    "category": "Конструкции",
-    "title": "Подгорелый",
-    "power": 35,
-    "durability": 60,
-    "weight": 99,
-    "maxCount": 6,
-    "build_hp": 60,
-    "eng_name": "Scorched"
-  },
-  {
-    "id": "0bec7ddf",
-    "category": "Конструкции",
-    "title": "Чертовщина",
-    "power": 22,
-    "durability": 39,
-    "weight": 63,
-    "maxCount": 4,
-    "build_hp": 39,
-    "eng_name": "Devilry"
-  },
-  {
-    "id": "b1a292c6",
-    "category": "Конструкции",
-    "title": "Финал",
-    "power": 32,
-    "durability": 70,
-    "weight": 135,
-    "maxCount": 1,
-    "build_hp": 70,
-    "eng_name": "Finale"
-  },
-  {
-    "id": "3c036a4c",
-    "category": "Конструкции",
-    "title": "Левое крыло Смерти",
-    "power": 10,
-    "durability": 23,
-    "weight": 48,
-    "maxCount": 1,
-    "build_hp": 23,
-    "eng_name": "Left Death fender"
-  },
-  {
-    "id": "7d824a23",
-    "category": "Конструкции",
-    "title": "Правое крыло Смерти",
-    "power": 10,
-    "durability": 23,
-    "weight": 48,
-    "maxCount": 1,
-    "build_hp": 23,
-    "eng_name": "Right Death fender"
-  },
-  {
-    "id": "e9a2b7a0",
-    "category": "Простреливаемые",
-    "title": "Катетер левый",
-    "power": 7,
-    "durability": 4,
-    "weight": 4,
-    "maxCount": 3,
-    "build_hp": 0,
-    "eng_name": "Left catheter"
-  },
-  {
-    "id": "cc632f98",
-    "category": "Простреливаемые",
-    "title": "Катетер правый",
-    "power": 7,
-    "durability": 4,
-    "weight": 4,
-    "maxCount": 3,
-    "build_hp": 0,
-    "eng_name": "Right catheter"
-  },
-  {
-    "id": "5a18a775",
-    "category": "Конструкции",
-    "title": "Перевязка",
-    "power": 19,
-    "durability": 33,
-    "weight": 54,
-    "maxCount": 2,
-    "build_hp": 33,
-    "eng_name": "Bandage"
-  },
-  {
-    "id": "cb5571ec",
-    "category": "Конструкции",
-    "title": "Пилюля",
-    "power": 13,
-    "durability": 22,
-    "weight": 36,
-    "maxCount": 1,
-    "build_hp": 22,
-    "eng_name": "Pill"
-  },
-  {
-    "id": "56cd288f",
-    "category": "Конструкции",
-    "title": "Пластырь слева",
-    "power": 11,
-    "durability": 20,
-    "weight": 32,
-    "maxCount": 1,
-    "build_hp": 20,
-    "eng_name": "Left plaster"
-  },
-  {
-    "id": "bc1a9b87",
-    "category": "Конструкции",
-    "title": "Пластырь справа",
-    "power": 11,
-    "durability": 20,
-    "weight": 32,
-    "maxCount": 1,
-    "build_hp": 20,
-    "eng_name": "Right plaster"
-  },
-  {
-    "id": "9a20999c",
-    "category": "Конструкции",
-    "title": "Аура",
-    "power": 16,
-    "durability": 28,
-    "weight": 45,
-    "maxCount": 6,
-    "build_hp": 28,
-    "eng_name": "Aura"
-  },
-  {
-    "id": "9d97cad4",
-    "category": "Конструкции",
-    "title": "Панель автобуса",
-    "power": 38,
-    "durability": 66,
-    "weight": 108,
-    "maxCount": 4,
-    "build_hp": 66,
-    "eng_name": "Bus panel"
-  },
-  {
-    "id": "0ae2edba",
-    "category": "Конструкции",
-    "title": "Панель микроавтобуса",
-    "power": 48,
-    "durability": 82,
-    "weight": 135,
-    "maxCount": 2,
-    "build_hp": 82,
-    "eng_name": "Minivan panel"
-  },
-  {
-    "id": "7f019bb6",
-    "category": "Конструкции",
-    "title": "Багажник Пылающего",
-    "power": 58,
-    "durability": 99,
-    "weight": 162,
-    "maxCount": 1,
-    "build_hp": 99,
-    "eng_name": "'Flaming one' trunk"
-  },
-  {
-    "id": "f20e3ae3",
-    "category": "Конструкции",
-    "title": "Содэ правый",
-    "power": 8,
-    "durability": 19,
-    "weight": 37,
-    "maxCount": 2,
-    "build_hp": 19,
-    "eng_name": "Right sode"
-  },
-  {
-    "id": "4707cd28",
-    "category": "Конструкции",
-    "title": "Содэ левый",
-    "power": 8,
-    "durability": 19,
-    "weight": 37,
-    "maxCount": 2,
-    "build_hp": 19,
-    "eng_name": "Left sode"
-  },
-  {
-    "id": "03b1c6b1",
-    "category": "Конструкции",
-    "title": "Танко",
-    "power": 22,
-    "durability": 51,
-    "weight": 102,
-    "maxCount": 1,
-    "build_hp": 51,
-    "eng_name": "Tanko"
-  },
-  {
-    "id": "70b41a12",
-    "category": "Конструкции",
-    "title": "Нодова",
-    "power": 26,
-    "durability": 58,
-    "weight": 117,
-    "maxCount": 1,
-    "build_hp": 58,
-    "eng_name": "Nodowa"
-  },
-  {
-    "id": "ed39c39d",
-    "category": "Конструкции",
-    "title": "Кусадзури правый",
-    "power": 10,
-    "durability": 22,
-    "weight": 44,
-    "maxCount": 1,
-    "build_hp": 22,
-    "eng_name": "Right kusazuri"
-  },
-  {
-    "id": "39c6f53d",
-    "category": "Конструкции",
-    "title": "Кусадзури левый",
-    "power": 10,
-    "durability": 22,
-    "weight": 44,
-    "maxCount": 1,
-    "build_hp": 22,
-    "eng_name": "Left kusazuri"
-  },
-  {
-    "id": "cdab66e9",
-    "category": "Конструкции",
-    "title": "Котэ правый",
-    "power": 6,
-    "durability": 15,
-    "weight": 30,
-    "maxCount": 3,
-    "build_hp": 15,
-    "eng_name": "Right kote"
-  },
-  {
-    "id": "65572d75",
-    "category": "Конструкции",
-    "title": "Котэ левый",
-    "power": 6,
-    "durability": 15,
-    "weight": 30,
-    "maxCount": 3,
-    "build_hp": 15,
-    "eng_name": "Left kote"
-  },
-  {
-    "id": "d339f74d",
-    "category": "Конструкции",
-    "title": "Сикоро",
-    "power": 58,
-    "durability": 130,
-    "weight": 263,
-    "maxCount": 1,
-    "build_hp": 130,
-    "eng_name": "Sikoro"
-  },
-  {
-    "id": "6aca82eb",
-    "category": "Конструкции",
-    "title": "Хаидатэ",
-    "power": 21,
-    "durability": 47,
-    "weight": 95,
-    "maxCount": 1,
-    "build_hp": 47,
-    "eng_name": "Haidate"
-  },
-  {
-    "id": "09bf3851",
-    "category": "Конструкции",
-    "title": "Мэмпо",
-    "power": 58,
-    "durability": 130,
-    "weight": 263,
-    "maxCount": 1,
-    "build_hp": 130,
-    "eng_name": "Mempo"
-  },
-  {
-    "id": "f33d16c8",
-    "category": "Конструкции",
-    "title": "Кохирэ левый",
-    "power": 19,
-    "durability": 44,
-    "weight": 88,
-    "maxCount": 2,
-    "build_hp": 44,
-    "eng_name": "Left kohire"
-  },
-  {
-    "id": "c6d496a7",
-    "category": "Конструкции",
-    "title": "Кохирэ правый",
-    "power": 19,
-    "durability": 44,
-    "weight": 88,
-    "maxCount": 2,
-    "build_hp": 44,
-    "eng_name": "Right kohire"
-  },
-  {
-    "id": "f1c3e607",
-    "category": "Конструкции",
-    "title": "Сунеатэ правый",
-    "power": 22,
-    "durability": 51,
-    "weight": 102,
-    "maxCount": 2,
-    "build_hp": 51,
-    "eng_name": "Right suneate"
-  },
-  {
-    "id": "8e9ae32e",
-    "category": "Конструкции",
-    "title": "Сунеатэ левый",
-    "power": 22,
-    "durability": 51,
-    "weight": 102,
-    "maxCount": 2,
-    "build_hp": 51,
-    "eng_name": "Left suneate"
-  },
-  {
-    "id": "63370593",
-    "category": "Конструкции",
-    "title": "Сэндан левый",
-    "power": 27,
-    "durability": 62,
-    "weight": 124,
-    "maxCount": 3,
-    "build_hp": 62,
-    "eng_name": "Left sendan"
-  },
-  {
-    "id": "c7ec2f3e",
-    "category": "Конструкции",
-    "title": "Сэндан правый",
-    "power": 27,
-    "durability": 62,
-    "weight": 124,
-    "maxCount": 3,
-    "build_hp": 62,
-    "eng_name": "Right sendan"
-  },
-  {
-    "id": "d940fa60",
-    "category": "Конструкции",
-    "title": "Колено левое",
-    "power": 5,
-    "durability": 11,
-    "weight": 22,
-    "maxCount": 2,
-    "build_hp": 11,
-    "eng_name": "Left knee"
-  },
-  {
-    "id": "fe8a9df6",
-    "category": "Конструкции",
-    "title": "Колено правое",
-    "power": 5,
-    "durability": 11,
-    "weight": 22,
-    "maxCount": 2,
-    "build_hp": 11,
-    "eng_name": "Right knee"
-  },
-  {
-    "id": "b939e4d5",
-    "category": "Конструкции",
-    "title": "Левая лапа",
-    "power": 29,
-    "durability": 66,
-    "weight": 132,
-    "maxCount": 2,
-    "build_hp": 66,
-    "eng_name": "Left paw"
-  },
-  {
-    "id": "10371fc0",
-    "category": "Конструкции",
-    "title": "Правая лапа",
-    "power": 29,
-    "durability": 66,
-    "weight": 132,
-    "maxCount": 2,
-    "build_hp": 66,
-    "eng_name": "Right paw"
-  },
-  {
     "id": "002591aa",
     "category": "Конструкции",
-    "title": "Хоро",
     "power": 136,
     "durability": 306,
     "weight": 619,
     "maxCount": 1,
-    "build_hp": 306,
-    "eng_name": "Horo"
+    "build_hp": 306
   },
   {
-    "id": "2ac214ad",
+    "id": "00442b77",
     "category": "Конструкции",
-    "title": "Кэйко левый",
-    "power": 5,
-    "durability": 11,
-    "weight": 22,
-    "maxCount": 2,
-    "build_hp": 11,
-    "eng_name": "Left keiko"
-  },
-  {
-    "id": "6675c03c",
-    "category": "Конструкции",
-    "title": "Кэйко правый",
-    "power": 5,
-    "durability": 11,
-    "weight": 22,
-    "maxCount": 2,
-    "build_hp": 11,
-    "eng_name": "Right keiko"
-  },
-  {
-    "id": "fe7858cd",
-    "category": "Конструкции",
-    "title": "Тенмаку",
-    "power": 10,
-    "durability": 22,
-    "weight": 44,
-    "maxCount": 4,
-    "build_hp": 22,
-    "eng_name": "Tenmaku"
-  },
-  {
-    "id": "86ae3dd8",
-    "category": "Конструкции",
-    "title": "Харамаки",
-    "power": 30,
-    "durability": 69,
-    "weight": 139,
-    "maxCount": 1,
-    "build_hp": 69,
-    "eng_name": "Haramaki"
-  },
-  {
-    "id": "3db30e53",
-    "category": "Конструкции",
-    "title": "Цури",
-    "power": 35,
-    "durability": 80,
-    "weight": 161,
-    "maxCount": 1,
-    "build_hp": 80,
-    "eng_name": "Tsuri"
-  },
-  {
-    "id": "f5adc733",
-    "category": "Конструкции",
-    "title": "Наплечник правый",
-    "power": 3,
-    "durability": 8,
-    "weight": 17,
-    "maxCount": 1,
-    "build_hp": 8,
-    "eng_name": "Right pauldron"
-  },
-  {
-    "id": "ec8d481b",
-    "category": "Конструкции",
-    "title": "Наплечник левый",
-    "power": 3,
-    "durability": 8,
-    "weight": 17,
-    "maxCount": 1,
-    "build_hp": 8,
-    "eng_name": "Left pauldron"
-  },
-  {
-    "id": "f054efdb",
-    "category": "Конструкции",
-    "title": "Наутилус левый",
-    "power": 6,
-    "durability": 16,
-    "weight": 34,
-    "maxCount": 1,
-    "build_hp": 16,
-    "eng_name": "Left nautilus"
-  },
-  {
-    "id": "526c4dfd",
-    "category": "Конструкции",
-    "title": "Наутилус правый",
-    "power": 6,
-    "durability": 16,
-    "weight": 34,
-    "maxCount": 1,
-    "build_hp": 16,
-    "eng_name": "Right nautilus"
-  },
-  {
-    "id": "be5eeb69",
-    "category": "Конструкции",
-    "title": "Бульб",
-    "power": 58,
-    "durability": 140,
-    "weight": 303,
-    "maxCount": 1,
-    "build_hp": 140,
-    "eng_name": "Bulb"
-  },
-  {
-    "id": "a93de74d",
-    "category": "Конструкции",
-    "title": "Палуба",
-    "power": 22,
-    "durability": 55,
-    "weight": 118,
-    "maxCount": 1,
-    "build_hp": 55,
-    "eng_name": "Deck"
-  },
-  {
-    "id": "adfb2152",
-    "category": "Конструкции",
-    "title": "Капитанский мостик",
-    "power": 26,
-    "durability": 63,
-    "weight": 135,
-    "maxCount": 4,
-    "build_hp": 63,
-    "eng_name": "Captain is bridge"
-  },
-  {
-    "id": "3690f584",
-    "category": "Конструкции",
-    "title": "Литой борт",
-    "power": 19,
-    "durability": 47,
-    "weight": 101,
-    "maxCount": 4,
-    "build_hp": 47,
-    "eng_name": "Cast side part"
-  },
-  {
-    "id": "4f5fd821",
-    "category": "Конструкции",
-    "title": "Литая полуарка",
-    "power": 22,
-    "durability": 55,
-    "weight": 118,
-    "maxCount": 4,
-    "build_hp": 55,
-    "eng_name": "Cast half arc"
-  },
-  {
-    "id": "0a777f4c",
-    "category": "Конструкции",
-    "title": "Вентиляционный выход",
-    "power": 32,
-    "durability": 78,
-    "weight": 168,
-    "maxCount": 4,
-    "build_hp": 78,
-    "eng_name": "Ventillation outlet"
-  },
-  {
-    "id": "0ea2fbe7",
-    "category": "Конструкции",
-    "title": "Литой угол левый",
-    "power": 42,
-    "durability": 101,
-    "weight": 219,
-    "maxCount": 2,
-    "build_hp": 101,
-    "eng_name": "Cast left corner"
-  },
-  {
-    "id": "09230135",
-    "category": "Конструкции",
-    "title": "Литой угол правый",
-    "power": 42,
-    "durability": 101,
-    "weight": 219,
-    "maxCount": 2,
-    "build_hp": 101,
-    "eng_name": "Cast right corner"
-  },
-  {
-    "id": "b14ebc7a",
-    "category": "Конструкции",
-    "title": "Бронеплита",
-    "power": 35,
-    "durability": 49,
-    "weight": 184,
-    "maxCount": 2,
-    "build_hp": 93,
-    "eng_name": "Armour slab"
-  },
-  {
-    "id": "89ed33c7",
-    "category": "Конструкции",
-    "title": "Монтефортино",
-    "power": 59,
-    "durability": 109,
-    "weight": 187,
-    "maxCount": 2,
-    "build_hp": 109,
-    "eng_name": "Montefortino"
-  },
-  {
-    "id": "43c6a853",
-    "category": "Конструкции",
-    "title": "Маника левая",
-    "power": 61,
-    "durability": 112,
-    "weight": 192,
-    "maxCount": 2,
-    "build_hp": 112,
-    "eng_name": "Manica left"
-  },
-  {
-    "id": "c0c66270",
-    "category": "Конструкции",
-    "title": "Маника правая",
-    "power": 61,
-    "durability": 112,
-    "weight": 192,
-    "maxCount": 2,
-    "build_hp": 112,
-    "eng_name": "Manica right"
-  },
-  {
-    "id": "cc12fd91",
-    "category": "Конструкции",
-    "title": "Птеруги левые",
-    "power": 5,
-    "durability": 10,
-    "weight": 16,
-    "maxCount": 2,
-    "build_hp": 10,
-    "eng_name": "Left pteruges"
-  },
-  {
-    "id": "b2e72f1b",
-    "category": "Конструкции",
-    "title": "Птеруги правые",
-    "power": 5,
-    "durability": 10,
-    "weight": 16,
-    "maxCount": 2,
-    "build_hp": 10,
-    "eng_name": "Right pteruges"
-  },
-  {
-    "id": "5177cc8d",
-    "category": "Конструкции",
-    "title": "Плюмата левая",
-    "power": 18,
-    "durability": 33,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 33,
-    "eng_name": "Left plumata"
-  },
-  {
-    "id": "c21e95c1",
-    "category": "Конструкции",
-    "title": "Плюмата правая",
-    "power": 18,
-    "durability": 33,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 33,
-    "eng_name": "Right plumata"
-  },
-  {
-    "id": "66f233e1",
-    "category": "Конструкции",
-    "title": "Калига левая",
-    "power": 28,
-    "durability": 52,
-    "weight": 89,
-    "maxCount": 2,
-    "build_hp": 52,
-    "eng_name": "Left caliga"
-  },
-  {
-    "id": "d370d95d",
-    "category": "Конструкции",
-    "title": "Калига правая",
-    "power": 28,
-    "durability": 52,
-    "weight": 89,
-    "maxCount": 2,
-    "build_hp": 52,
-    "eng_name": "Right caliga"
-  },
-  {
-    "id": "2b4e63f3",
-    "category": "Конструкции",
-    "title": "Борт минивэна СХ",
-    "power": 28,
-    "durability": 22,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 22,
-    "eng_name": "Minivan sideboard CX"
-  },
-  {
-    "id": "7be439c4",
-    "category": "Конструкции",
-    "title": "Задняя дверь СХ",
-    "power": 96,
-    "durability": 76,
-    "weight": 196,
-    "maxCount": 1,
-    "build_hp": 76,
-    "eng_name": "Rear door CX"
-  },
-  {
-    "id": "94a0c1ba",
-    "category": "Конструкции",
-    "title": "Крыло СХ",
-    "power": 28,
-    "durability": 22,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 22,
-    "eng_name": "Fender CX"
-  },
-  {
-    "id": "5a056ff5",
-    "category": "Конструкции",
-    "title": "Крыша СХ",
-    "power": 66,
-    "durability": 52,
-    "weight": 135,
-    "maxCount": 2,
-    "build_hp": 52,
-    "eng_name": "Roof CX"
-  },
-  {
-    "id": "1ac54a25",
-    "category": "Конструкции",
-    "title": "Окно фургона СХ",
-    "power": 25,
-    "durability": 20,
-    "weight": 51,
-    "maxCount": 4,
-    "build_hp": 20,
-    "eng_name": "Van window CX"
-  },
-  {
-    "id": "6d8eeb17",
-    "category": "Простреливаемые",
-    "title": "Лафет",
-    "power": 133,
-    "durability": 38,
-    "weight": 43,
-    "maxCount": 3,
-    "build_hp": 0,
-    "eng_name": "Gun mount"
-  },
-  {
-    "id": "0cf8fdd0",
-    "category": "Простреливаемые",
-    "title": "Днище багги малое",
-    "power": 28,
-    "durability": 8,
-    "weight": 9,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Small buggy floor"
-  },
-  {
-    "id": "8c654916",
-    "category": "Простреливаемые",
-    "title": "Днище багги",
-    "power": 56,
-    "durability": 16,
-    "weight": 18,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Buggy floor"
-  },
-  {
-    "id": "ecbd0a84",
-    "category": "Простреливаемые",
-    "title": "Защита двигателя багги",
-    "power": 14,
-    "durability": 5,
-    "weight": 5,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Buggy engine cover"
-  },
-  {
-    "id": "c6f5170c",
-    "category": "Простреливаемые",
-    "title": "Багажник багги",
-    "power": 28,
-    "durability": 8,
-    "weight": 9,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Buggy trunk"
-  },
-  {
-    "id": "5532a6f3",
-    "category": "Простреливаемые",
-    "title": "Решетка радиатора",
-    "power": 21,
-    "durability": 7,
-    "weight": 7,
+    "power": 27,
+    "durability": 64,
+    "weight": 134,
     "maxCount": 6,
-    "build_hp": 0,
-    "eng_name": "Radiator grille"
-  },
-  {
-    "id": "9c8adbd6",
-    "category": "Простреливаемые",
-    "title": "Ампула",
-    "power": 49,
-    "durability": 21,
-    "weight": 24,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Vial"
-  },
-  {
-    "id": "2308e52b",
-    "category": "Простреливаемые",
-    "title": "Локоть левый",
-    "power": 70,
-    "durability": 29,
-    "weight": 34,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Left elbow"
-  },
-  {
-    "id": "873a8d0f",
-    "category": "Простреливаемые",
-    "title": "Локоть правый",
-    "power": 70,
-    "durability": 29,
-    "weight": 34,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Right elbow"
-  },
-  {
-    "id": "98bcfd52",
-    "category": "Простреливаемые",
-    "title": "Угол багги левый",
-    "power": 11,
-    "durability": 4,
-    "weight": 4,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Left buggy corner"
-  },
-  {
-    "id": "df8bf0c6",
-    "category": "Простреливаемые",
-    "title": "Угол багги правый",
-    "power": 11,
-    "durability": 4,
-    "weight": 4,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Right buggy corner"
-  },
-  {
-    "id": "3e35f391",
-    "category": "Простреливаемые",
-    "title": "Полозковое шасси левое",
-    "power": 42,
-    "durability": 13,
-    "weight": 14,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Left skid landing gear"
-  },
-  {
-    "id": "efaabde0",
-    "category": "Простреливаемые",
-    "title": "Полозковое шасси правое",
-    "power": 42,
-    "durability": 13,
-    "weight": 14,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Right skid landing gear"
-  },
-  {
-    "id": "a6f5b1e8",
-    "category": "Простреливаемые",
-    "title": "Тендинис левый",
-    "power": 39,
-    "durability": 16,
-    "weight": 19,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Tendinis left"
-  },
-  {
-    "id": "224bc584",
-    "category": "Простреливаемые",
-    "title": "Тендинис правый",
-    "power": 39,
-    "durability": 16,
-    "weight": 19,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Tendinis right"
-  },
-  {
-    "id": "20a189b0",
-    "category": "Простреливаемые",
-    "title": "Кронштейн",
-    "power": 56,
-    "durability": 75,
-    "weight": 99,
-    "maxCount": 4,
-    "build_hp": 38,
-    "eng_name": "Mounting bracket"
-  },
-  {
-    "id": "61a19df5",
-    "category": "Простреливаемые",
-    "title": "Пятку в пол",
-    "power": 64,
-    "durability": 90,
-    "weight": 135,
-    "maxCount": 1,
-    "build_hp": 90,
-    "eng_name": "Powerslide"
-  },
-  {
-    "id": "744d8873",
-    "category": "Простреливаемые",
-    "title": "Сая",
-    "power": 77,
-    "durability": 94,
-    "weight": 118,
-    "maxCount": 1,
-    "build_hp": 47,
-    "eng_name": "Saya"
-  },
-  {
-    "id": "785d510f",
-    "category": "Простреливаемые",
-    "title": "Плечо шагохода правое",
-    "power": 102,
-    "durability": 147,
-    "weight": 202,
-    "maxCount": 1,
-    "build_hp": 74,
-    "eng_name": "Battle walker shoulder right"
-  },
-  {
-    "id": "7d1af4e9",
-    "category": "Простреливаемые",
-    "title": "Плечо шагохода левое",
-    "power": 102,
-    "durability": 147,
-    "weight": 202,
-    "maxCount": 1,
-    "build_hp": 74,
-    "eng_name": "Battle walker shoulder left"
-  },
-  {
-    "id": "a21a6270",
-    "category": "Простреливаемые",
-    "title": "Торакс",
-    "power": 26,
-    "durability": 19,
-    "weight": 28,
-    "maxCount": 4,
-    "build_hp": 10,
-    "eng_name": "Thorax"
-  },
-  {
-    "id": "e097d2a6",
-    "category": "Простреливаемые",
-    "title": "Обзорный отсек",
-    "power": 112,
-    "durability": 182,
-    "weight": 272,
-    "maxCount": 2,
-    "build_hp": 91,
-    "eng_name": "Observation compartment"
-  },
-  {
-    "id": "7139b340",
-    "category": "Контактные",
-    "title": "Бампер Находка",
-    "power": 21,
-    "durability": 45,
-    "weight": 67,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Bumper 'Catch'"
-  },
-  {
-    "id": "b3649f56",
-    "category": "Контактные",
-    "title": "Бампер Внедорожника",
-    "power": 34,
-    "durability": 67,
-    "weight": 101,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Offroader bumper"
-  },
-  {
-    "id": "d8c47cfa",
-    "category": "Контактные",
-    "title": "Тесак",
-    "power": 22,
-    "durability": 46,
-    "weight": 59,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Hatchet"
-  },
-  {
-    "id": "7bd519ea",
-    "category": "Контактные",
-    "title": "Царь птиц",
-    "power": 67,
-    "durability": 131,
-    "weight": 168,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "King of birds"
-  },
-  {
-    "id": "94317a9f",
-    "category": "Контактные",
-    "title": "Ноздри",
-    "power": 40,
-    "durability": 76,
-    "weight": 114,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Nostrils"
-  },
-  {
-    "id": "f95db62a",
-    "category": "Контактные",
-    "title": "Бампер спорткара левый",
-    "power": 52,
-    "durability": 105,
-    "weight": 157,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Right sports car bumper"
-  },
-  {
-    "id": "ec57c621",
-    "category": "Контактные",
-    "title": "Бампер спорткара правый",
-    "power": 52,
-    "durability": 105,
-    "weight": 157,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Left sports car bumper"
-  },
-  {
-    "id": "24ea39ab",
-    "category": "Контактные",
-    "title": "Бампер багги",
-    "power": 69,
-    "durability": 91,
-    "weight": 114,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Buggy bumper"
-  },
-  {
-    "id": "66446669",
-    "category": "Контактные",
-    "title": "Бампер с шипами",
-    "power": 44,
-    "durability": 65,
-    "weight": 81,
-    "maxCount": 3,
-    "build_hp": 0,
-    "eng_name": "Bumper Spike"
-  },
-  {
-    "id": "4c25a411",
-    "category": "Контактные",
-    "title": "Кенгурятник",
-    "power": 74,
-    "durability": 90,
-    "weight": 113,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Bullbar"
-  },
-  {
-    "id": "0cef490f",
-    "category": "Контактные",
-    "title": "Силовой бампер",
-    "power": 20,
-    "durability": 26,
-    "weight": 33,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Frontal Protection System"
-  },
-  {
-    "id": "e1138621",
-    "category": "Контактные",
-    "title": "Бампер Задиры",
-    "power": 21,
-    "durability": 45,
-    "weight": 67,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "'Bully' bumper"
-  },
-  {
-    "id": "8b71dd6b",
-    "category": "Контактные",
-    "title": "Поул-позиция",
-    "power": 44,
-    "durability": 65,
-    "weight": 81,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Pole position"
-  },
-  {
-    "id": "84bccb54",
-    "category": "Контактные",
-    "title": "Стукач",
-    "power": 101,
-    "durability": 140,
-    "weight": 175,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Puncher"
-  },
-  {
-    "id": "fe044361",
-    "category": "Контактные",
-    "title": "Двойной лезвиекрыл",
-    "power": 38,
-    "durability": 76,
-    "weight": 106,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Twin BladeWing"
-  },
-  {
-    "id": "3b49e332",
-    "category": "Контактные",
-    "title": "Лезвиекрыл",
-    "power": 18,
-    "durability": 38,
-    "weight": 53,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "BladeWing"
-  },
-  {
-    "id": "e3fd0cd6",
-    "category": "Контактные",
-    "title": "Отвал малый",
-    "power": 76,
-    "durability": 166,
-    "weight": 269,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Small plow"
-  },
-  {
-    "id": "5c7c14d4",
-    "category": "Контактные",
-    "title": "Марипоса",
-    "power": 29,
-    "durability": 63,
-    "weight": 103,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Mariposa"
-  },
-  {
-    "id": "8766f3c2",
-    "category": "Контактные",
-    "title": "Авиасплиттер",
-    "power": 35,
-    "durability": 70,
-    "weight": 113,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Air splitter"
-  },
-  {
-    "id": "bf2cff94",
-    "category": "Контактные",
-    "title": "Фюзеляж",
-    "power": 131,
-    "durability": 273,
-    "weight": 444,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Fuselage"
-  },
-  {
-    "id": "da29f996",
-    "category": "Контактные",
-    "title": "Кенгурятище",
-    "power": 59,
-    "durability": 131,
-    "weight": 262,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Terribull bar"
-  },
-  {
-    "id": "72c09ec9",
-    "category": "Контактные",
-    "title": "Отвал паровоза",
-    "power": 161,
-    "durability": 403,
-    "weight": 806,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Train plow"
-  },
-  {
-    "id": "6f5575c0",
-    "category": "Контактные",
-    "title": "Вуаль",
-    "power": 48,
-    "durability": 131,
-    "weight": 262,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Veil"
-  },
-  {
-    "id": "bb2fb864",
-    "category": "Контактные",
-    "title": "Отвал поезда",
-    "power": 337,
-    "durability": 807,
-    "weight": 1613,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Freight train plow"
-  },
-  {
-    "id": "4f19d5bf",
-    "category": "Контактные",
-    "title": "Ковш",
-    "power": 68,
-    "durability": 182,
-    "weight": 363,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Plow blade"
-  },
-  {
-    "id": "76d81a57",
-    "category": "Контактные",
-    "title": "Броненос",
-    "power": 148,
-    "durability": 373,
-    "weight": 746,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Armoured nose"
-  },
-  {
-    "id": "246db109",
-    "category": "Контактные",
-    "title": "Оборонительный обвод",
-    "power": 40,
-    "durability": 116,
-    "weight": 246,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Defensive perimeter"
-  },
-  {
-    "id": "08252891",
-    "category": "Контактные",
-    "title": "Укрепленная линия",
-    "power": 29,
-    "durability": 84,
-    "weight": 179,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Defence line"
-  },
-  {
-    "id": "42a70add",
-    "category": "Контактные",
-    "title": "Сторожевая линия",
-    "power": 44,
-    "durability": 127,
-    "weight": 269,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Sentry line"
-  },
-  {
-    "id": "e06575bd",
-    "category": "Контактные",
-    "title": "Бампер БТР левый",
-    "power": 52,
-    "durability": 148,
-    "weight": 314,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Left APC bumper"
-  },
-  {
-    "id": "639e6623",
-    "category": "Контактные",
-    "title": "Бампер БТР правый",
-    "power": 52,
-    "durability": 148,
-    "weight": 314,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Right APC bumper"
-  },
-  {
-    "id": "f30a1916",
-    "category": "Контактные",
-    "title": "Трал правый",
-    "power": 42,
-    "durability": 120,
-    "weight": 218,
-    "maxCount": 3,
-    "build_hp": 0,
-    "eng_name": "Right flail"
-  },
-  {
-    "id": "8df9d1eb",
-    "category": "Контактные",
-    "title": "Трал левый",
-    "power": 42,
-    "durability": 120,
-    "weight": 218,
-    "maxCount": 3,
-    "build_hp": 0,
-    "eng_name": "Left flail"
-  },
-  {
-    "id": "d8305e7d",
-    "category": "Контактные",
-    "title": "Защитный рубеж левый",
-    "power": 60,
-    "durability": 177,
-    "weight": 384,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Left defence frontier"
-  },
-  {
-    "id": "3ddbe384",
-    "category": "Контактные",
-    "title": "Защитный рубеж правый",
-    "power": 60,
-    "durability": 177,
-    "weight": 384,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Right defence frontier"
-  },
-  {
-    "id": "ed8202f9",
-    "category": "Контактные",
-    "title": "Демпфер",
-    "power": 44,
-    "durability": 94,
-    "weight": 165,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Shock absorber"
-  },
-  {
-    "id": "0caf3467",
-    "category": "Контактные",
-    "title": "Черепная коробка",
-    "power": 32,
-    "durability": 69,
-    "weight": 121,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Cranium"
-  },
-  {
-    "id": "ed4c2d6e",
-    "category": "Контактные",
-    "title": "Скринер",
-    "power": 50,
-    "durability": 107,
-    "weight": 188,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Screener"
-  },
-  {
-    "id": "ffbc559e",
-    "category": "Контактные",
-    "title": "Резец",
-    "power": 24,
-    "durability": 53,
-    "weight": 79,
-    "maxCount": 6,
-    "build_hp": 0,
-    "eng_name": "Incisor"
-  },
-  {
-    "id": "813da6dd",
-    "category": "Контактные",
-    "title": "Ударный бампер",
-    "power": 40,
-    "durability": 91,
-    "weight": 160,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Impact bumper"
-  },
-  {
-    "id": "706aa7d8",
-    "category": "Контактные",
-    "title": "Резак",
-    "power": 11,
-    "durability": 20,
-    "weight": 35,
-    "maxCount": 4,
-    "build_hp": 0,
-    "eng_name": "Cutter"
-  },
-  {
-    "id": "46a333fb",
-    "category": "Контактные",
-    "title": "Буфер",
-    "power": 261,
-    "durability": 565,
-    "weight": 988,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Buffer"
-  },
-  {
-    "id": "71123497",
-    "category": "Контактные",
-    "title": "Зубастик",
-    "power": 29,
-    "durability": 52,
-    "weight": 72,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Nibbler"
-  },
-  {
-    "id": "8247e70a",
-    "category": "Контактные",
-    "title": "Мертвая хватка",
-    "power": 40,
-    "durability": 72,
-    "weight": 99,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Stranglehold"
-  },
-  {
-    "id": "83475b50",
-    "category": "Контактные",
-    "title": "Трубзубец",
-    "power": 21,
-    "durability": 34,
-    "weight": 40,
-    "maxCount": 6,
-    "build_hp": 0,
-    "eng_name": "Pipetooth"
-  },
-  {
-    "id": "9b6844fc",
-    "category": "Контактные",
-    "title": "Предвестие",
-    "power": 29,
-    "durability": 52,
-    "weight": 72,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "The Omen"
-  },
-  {
-    "id": "380a4a04",
-    "category": "Контактные",
-    "title": "Заноза малая",
-    "power": 7,
-    "durability": 13,
-    "weight": 15,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Small thorn"
-  },
-  {
-    "id": "a8f52d72",
-    "category": "Контактные",
-    "title": "Заноза средняя",
-    "power": 15,
-    "durability": 25,
-    "weight": 30,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Medium thorn"
-  },
-  {
-    "id": "a5d7ee31",
-    "category": "Контактные",
-    "title": "Заноза большая",
-    "power": 32,
-    "durability": 51,
-    "weight": 60,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Large thorn"
-  },
-  {
-    "id": "7e1ce90e",
-    "category": "Контактные",
-    "title": "Живодер",
-    "power": 48,
-    "durability": 84,
-    "weight": 116,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Flayer"
-  },
-  {
-    "id": "3adad527",
-    "category": "Контактные",
-    "title": "Дьявольский взгляд",
-    "power": 68,
-    "durability": 117,
-    "weight": 161,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Devil's gaze"
-  },
-  {
-    "id": "9b8f5482",
-    "category": "Контактные",
-    "title": "Бэкенд",
-    "power": 118,
-    "durability": 287,
-    "weight": 538,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Backend"
-  },
-  {
-    "id": "9459f0e3",
-    "category": "Контактные",
-    "title": "Файрвол",
-    "power": 89,
-    "durability": 220,
-    "weight": 412,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Firewall"
-  },
-  {
-    "id": "6ee0dc64",
-    "category": "Контактные",
-    "title": "Когти",
-    "power": 89,
-    "durability": 166,
-    "weight": 312,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Claws"
-  },
-  {
-    "id": "3271e368",
-    "category": "Контактные",
-    "title": "Мэнгу",
-    "power": 68,
-    "durability": 155,
-    "weight": 262,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Mengu"
-  },
-  {
-    "id": "89420dd9",
-    "category": "Контактные",
-    "title": "Хараатэ",
-    "power": 101,
-    "durability": 225,
-    "weight": 379,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Haraate"
-  },
-  {
-    "id": "12d5fac8",
-    "category": "Контактные",
-    "title": "Гэссан",
-    "power": 169,
-    "durability": 363,
-    "weight": 612,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Gessan"
-  },
-  {
-    "id": "28b2b4d6",
-    "category": "Контактные",
-    "title": "Хання",
-    "power": 85,
-    "durability": 190,
-    "weight": 320,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Hannya"
-  },
-  {
-    "id": "588cea29",
-    "category": "Контактные",
-    "title": "Дзингаса",
-    "power": 76,
-    "durability": 172,
-    "weight": 291,
-    "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Jingasa"
-  },
-  {
-    "id": "d50a4264",
-    "category": "Контактные",
-    "title": "Снегоотвал",
-    "power": 186,
-    "durability": 426,
-    "weight": 773,
-    "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Snow plow"
+    "build_hp": 64
   },
   {
     "id": "00c98c89",
     "category": "Контактные",
-    "title": "Снегорез левый",
     "power": 76,
     "durability": 185,
     "weight": 336,
     "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Snow cutter left"
+    "build_hp": 0
   },
   {
-    "id": "905b13f1",
-    "category": "Контактные",
-    "title": "Снегорез правый",
-    "power": 76,
-    "durability": 185,
-    "weight": 336,
+    "id": "02767895",
+    "category": "Конструкции",
+    "power": 30,
+    "durability": 76,
+    "weight": 171,
     "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Snow cutter right"
+    "build_hp": 76
+  },
+  {
+    "id": "03518167",
+    "category": "Конструкции",
+    "power": 21,
+    "durability": 36,
+    "weight": 59,
+    "maxCount": 8,
+    "build_hp": 36
+  },
+  {
+    "id": "03b1c6b1",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 51,
+    "weight": 102,
+    "maxCount": 1,
+    "build_hp": 51
+  },
+  {
+    "id": "03cb7fe3",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 75,
+    "weight": 157,
+    "maxCount": 8,
+    "build_hp": 75
+  },
+  {
+    "id": "06028c4e",
+    "category": "Конструкции",
+    "power": 41,
+    "durability": 58,
+    "weight": 86,
+    "maxCount": 6,
+    "build_hp": 58
+  },
+  {
+    "id": "0713daf6",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 25,
+    "weight": 37,
+    "maxCount": 1,
+    "build_hp": 25
+  },
+  {
+    "id": "0784e603",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 50,
+    "weight": 90,
+    "maxCount": 2,
+    "build_hp": 50
+  },
+  {
+    "id": "08252891",
+    "category": "Контактные",
+    "power": 29,
+    "durability": 84,
+    "weight": 179,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "09230135",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 101,
+    "weight": 219,
+    "maxCount": 2,
+    "build_hp": 101
+  },
+  {
+    "id": "09bf3851",
+    "category": "Конструкции",
+    "power": 58,
+    "durability": 130,
+    "weight": 263,
+    "maxCount": 1,
+    "build_hp": 130
+  },
+  {
+    "id": "0a777f4c",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 78,
+    "weight": 168,
+    "maxCount": 4,
+    "build_hp": 78
+  },
+  {
+    "id": "0a95bac9",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 8,
+    "weight": 11,
+    "maxCount": 8,
+    "build_hp": 8
+  },
+  {
+    "id": "0ae2edba",
+    "category": "Конструкции",
+    "power": 48,
+    "durability": 82,
+    "weight": 135,
+    "maxCount": 2,
+    "build_hp": 82
+  },
+  {
+    "id": "0bd665cb",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 115,
+    "weight": 293,
+    "maxCount": 2,
+    "build_hp": 115
+  },
+  {
+    "id": "0bec7ddf",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 39,
+    "weight": 63,
+    "maxCount": 4,
+    "build_hp": 39
+  },
+  {
+    "id": "0c5836f2",
+    "category": "Конструкции",
+    "power": 34,
+    "durability": 89,
+    "weight": 212,
+    "maxCount": 4,
+    "build_hp": 89
+  },
+  {
+    "id": "0caf3467",
+    "category": "Контактные",
+    "power": 32,
+    "durability": 69,
+    "weight": 121,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "0cef490f",
+    "category": "Контактные",
+    "power": 20,
+    "durability": 26,
+    "weight": 33,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "0cf8fdd0",
+    "category": "Простреливаемые",
+    "power": 28,
+    "durability": 8,
+    "weight": 9,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "0e84954f",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 34,
+    "weight": 81,
+    "maxCount": 8,
+    "build_hp": 34
+  },
+  {
+    "id": "0ea2fbe7",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 101,
+    "weight": 219,
+    "maxCount": 2,
+    "build_hp": 101
+  },
+  {
+    "id": "10371fc0",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 66,
+    "weight": 132,
+    "maxCount": 2,
+    "build_hp": 66
+  },
+  {
+    "id": "108140a1",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 29,
+    "weight": 51,
+    "maxCount": 8,
+    "build_hp": 29
+  },
+  {
+    "id": "11fb1b72",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 32,
+    "weight": 61,
+    "maxCount": 2,
+    "build_hp": 32
+  },
+  {
+    "id": "12060cc3",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 25,
+    "weight": 62,
+    "maxCount": 2,
+    "build_hp": 25
+  },
+  {
+    "id": "12d5fac8",
+    "category": "Контактные",
+    "power": 169,
+    "durability": 363,
+    "weight": 612,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "12e5345c",
+    "category": "Конструкции",
+    "power": 45,
+    "durability": 97,
+    "weight": 189,
+    "maxCount": 4,
+    "build_hp": 97
+  },
+  {
+    "id": "1357f61e",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 44,
+    "weight": 79,
+    "maxCount": 1,
+    "build_hp": 44
+  },
+  {
+    "id": "147069c8",
+    "category": "Конструкции",
+    "power": 31,
+    "durability": 67,
+    "weight": 130,
+    "maxCount": 4,
+    "build_hp": 67
+  },
+  {
+    "id": "14bc090c",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 26,
+    "weight": 61,
+    "maxCount": 6,
+    "build_hp": 26
+  },
+  {
+    "id": "180b9213",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 28,
+    "weight": 41,
+    "maxCount": 2,
+    "build_hp": 28
+  },
+  {
+    "id": "186f005c",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 75,
+    "weight": 135,
+    "maxCount": 6,
+    "build_hp": 75
+  },
+  {
+    "id": "18f21764",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 36,
+    "weight": 81,
+    "maxCount": 4,
+    "build_hp": 36
+  },
+  {
+    "id": "193baada",
+    "category": "Конструкции",
+    "power": 40,
+    "durability": 105,
+    "weight": 252,
+    "maxCount": 1,
+    "build_hp": 105
+  },
+  {
+    "id": "1ac54a25",
+    "category": "Конструкции",
+    "power": 25,
+    "durability": 20,
+    "weight": 51,
+    "maxCount": 4,
+    "build_hp": 20
+  },
+  {
+    "id": "1e2a9f30",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 106,
+    "weight": 269,
+    "maxCount": 2,
+    "build_hp": 106
+  },
+  {
+    "id": "1e2e3afc",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 12,
+    "weight": 24,
+    "maxCount": 8,
+    "build_hp": 12
+  },
+  {
+    "id": "1ea069b1",
+    "category": "Конструкции",
+    "power": 8,
+    "durability": 22,
+    "weight": 51,
+    "maxCount": 4,
+    "build_hp": 22
+  },
+  {
+    "id": "1f695058",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 31,
+    "weight": 79,
+    "maxCount": 2,
+    "build_hp": 31
+  },
+  {
+    "id": "20a189b0",
+    "category": "Простреливаемые",
+    "power": 56,
+    "durability": 75,
+    "weight": 99,
+    "maxCount": 4,
+    "build_hp": 38
+  },
+  {
+    "id": "21bc9ddb",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 13,
+    "weight": 31,
+    "maxCount": 12,
+    "build_hp": 13
+  },
+  {
+    "id": "224bc584",
+    "category": "Простреливаемые",
+    "power": 39,
+    "durability": 16,
+    "weight": 19,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "22de8da5",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 69,
+    "weight": 124,
+    "maxCount": 2,
+    "build_hp": 69
+  },
+  {
+    "id": "2308e52b",
+    "category": "Простреливаемые",
+    "power": 70,
+    "durability": 29,
+    "weight": 34,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "23af0145",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 27,
+    "weight": 68,
+    "maxCount": 9,
+    "build_hp": 27
+  },
+  {
+    "id": "246db109",
+    "category": "Контактные",
+    "power": 40,
+    "durability": 116,
+    "weight": 246,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "24ea39ab",
+    "category": "Контактные",
+    "power": 69,
+    "durability": 91,
+    "weight": 114,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "2521b43f",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 62,
+    "weight": 157,
+    "maxCount": 4,
+    "build_hp": 62
+  },
+  {
+    "id": "25b94394",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 26,
+    "weight": 61,
+    "maxCount": 4,
+    "build_hp": 26
+  },
+  {
+    "id": "27a337b9",
+    "category": "Конструкции",
+    "power": 4,
+    "durability": 10,
+    "weight": 19,
+    "maxCount": 6,
+    "build_hp": 10
+  },
+  {
+    "id": "2832fa2b",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 19,
+    "weight": 37,
+    "maxCount": 10,
+    "build_hp": 19
+  },
+  {
+    "id": "28addf6e",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 68,
+    "weight": 142,
+    "maxCount": 1,
+    "build_hp": 68
+  },
+  {
+    "id": "28b2b4d6",
+    "category": "Контактные",
+    "power": 85,
+    "durability": 190,
+    "weight": 320,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "28da11c0",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 28,
+    "weight": 45,
+    "maxCount": 6,
+    "build_hp": 28
+  },
+  {
+    "id": "29a8c154",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 32,
+    "weight": 61,
+    "maxCount": 2,
+    "build_hp": 32
+  },
+  {
+    "id": "2ac214ad",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 22,
+    "maxCount": 2,
+    "build_hp": 11
+  },
+  {
+    "id": "2aeff4f1",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 32,
+    "weight": 72,
+    "maxCount": 4,
+    "build_hp": 32
+  },
+  {
+    "id": "2b4e63f3",
+    "category": "Конструкции",
+    "power": 28,
+    "durability": 22,
+    "weight": 56,
+    "maxCount": 2,
+    "build_hp": 22
+  },
+  {
+    "id": "2bfbc191",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 10,
+    "weight": 23,
+    "maxCount": 6,
+    "build_hp": 10
+  },
+  {
+    "id": "2d1f46cc",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 21,
+    "maxCount": 2,
+    "build_hp": 11
+  },
+  {
+    "id": "2d302a18",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 14,
+    "weight": 27,
+    "maxCount": 2,
+    "build_hp": 14
+  },
+  {
+    "id": "313737a1",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 53,
+    "weight": 135,
+    "maxCount": 1,
+    "build_hp": 53
+  },
+  {
+    "id": "31783861",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 88,
+    "weight": 198,
+    "maxCount": 4,
+    "build_hp": 88
+  },
+  {
+    "id": "31994e96",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 23,
+    "weight": 48,
+    "maxCount": 8,
+    "build_hp": 23
+  },
+  {
+    "id": "31d60269",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 19,
+    "weight": 34,
+    "maxCount": 1,
+    "build_hp": 19
+  },
+  {
+    "id": "3222739e",
+    "category": "Простреливаемые",
+    "power": 28,
+    "durability": 35,
+    "weight": 44,
+    "maxCount": 2,
+    "build_hp": 18
+  },
+  {
+    "id": "323374fb",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 25,
+    "weight": 48,
+    "maxCount": 2,
+    "build_hp": 25
+  },
+  {
+    "id": "3271e368",
+    "category": "Контактные",
+    "power": 68,
+    "durability": 155,
+    "weight": 262,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "33094798",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 53,
+    "weight": 135,
+    "maxCount": 1,
+    "build_hp": 53
+  },
+  {
+    "id": "35cab0f1",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 88,
+    "weight": 224,
+    "maxCount": 2,
+    "build_hp": 88
+  },
+  {
+    "id": "362a925f",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 44,
+    "weight": 99,
+    "maxCount": 5,
+    "build_hp": 44
+  },
+  {
+    "id": "3690f584",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 47,
+    "weight": 101,
+    "maxCount": 4,
+    "build_hp": 47
+  },
+  {
+    "id": "3733a92a",
+    "category": "Конструкции",
+    "power": 2,
+    "durability": 4,
+    "weight": 8,
+    "maxCount": 10,
+    "build_hp": 4
+  },
+  {
+    "id": "380a4a04",
+    "category": "Контактные",
+    "power": 7,
+    "durability": 13,
+    "weight": 15,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "3990fc0e",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 51,
+    "weight": 121,
+    "maxCount": 4,
+    "build_hp": 51
+  },
+  {
+    "id": "39c6f53d",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 22,
+    "weight": 44,
+    "maxCount": 1,
+    "build_hp": 22
+  },
+  {
+    "id": "3adad527",
+    "category": "Контактные",
+    "power": 68,
+    "durability": 117,
+    "weight": 161,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "3b49e332",
+    "category": "Контактные",
+    "power": 18,
+    "durability": 38,
+    "weight": 53,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "3c036a4c",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 23,
+    "weight": 48,
+    "maxCount": 1,
+    "build_hp": 23
+  },
+  {
+    "id": "3d521974",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 8,
+    "weight": 11,
+    "maxCount": 4,
+    "build_hp": 8
+  },
+  {
+    "id": "3db30e53",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 80,
+    "weight": 161,
+    "maxCount": 1,
+    "build_hp": 80
+  },
+  {
+    "id": "3ddbe384",
+    "category": "Контактные",
+    "power": 60,
+    "durability": 177,
+    "weight": 384,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "3e35f391",
+    "category": "Простреливаемые",
+    "power": 42,
+    "durability": 13,
+    "weight": 14,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "3e628579",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 63,
+    "weight": 121,
+    "maxCount": 1,
+    "build_hp": 63
+  },
+  {
+    "id": "3e893baf",
+    "category": "Конструкции",
+    "power": 34,
+    "durability": 58,
+    "weight": 95,
+    "maxCount": 4,
+    "build_hp": 58
+  },
+  {
+    "id": "3f8db275",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 23,
+    "weight": 44,
+    "maxCount": 10,
+    "build_hp": 23
+  },
+  {
+    "id": "42a70add",
+    "category": "Контактные",
+    "power": 44,
+    "durability": 127,
+    "weight": 269,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "43c6a853",
+    "category": "Конструкции",
+    "power": 61,
+    "durability": 112,
+    "weight": 192,
+    "maxCount": 2,
+    "build_hp": 112
+  },
+  {
+    "id": "444c0f94",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 16,
+    "weight": 24,
+    "maxCount": 1,
+    "build_hp": 16
+  },
+  {
+    "id": "446d0ad8",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 101,
+    "weight": 242,
+    "maxCount": 2,
+    "build_hp": 101
+  },
+  {
+    "id": "44f02650",
+    "category": "Конструкции",
+    "power": 7,
+    "durability": 16,
+    "weight": 31,
+    "maxCount": 12,
+    "build_hp": 16
+  },
+  {
+    "id": "46a333fb",
+    "category": "Контактные",
+    "power": 261,
+    "durability": 565,
+    "weight": 988,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "4707cd28",
+    "category": "Конструкции",
+    "power": 8,
+    "durability": 19,
+    "weight": 37,
+    "maxCount": 2,
+    "build_hp": 19
+  },
+  {
+    "id": "48d2800d",
+    "category": "Конструкции",
+    "power": 34,
+    "durability": 48,
+    "weight": 71,
+    "maxCount": 4,
+    "build_hp": 48
+  },
+  {
+    "id": "4941596b",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 38,
+    "weight": 79,
+    "maxCount": 4,
+    "build_hp": 38
+  },
+  {
+    "id": "49d8641e",
+    "category": "Конструкции",
+    "power": 58,
+    "durability": 144,
+    "weight": 323,
+    "maxCount": 4,
+    "build_hp": 144
+  },
+  {
+    "id": "4bf01297",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 8,
+    "weight": 12,
+    "maxCount": 1,
+    "build_hp": 8
+  },
+  {
+    "id": "4c25a411",
+    "category": "Контактные",
+    "power": 74,
+    "durability": 90,
+    "weight": 113,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "4cd32032",
+    "category": "Конструкции",
+    "power": 30,
+    "durability": 66,
+    "weight": 128,
+    "maxCount": 4,
+    "build_hp": 66
+  },
+  {
+    "id": "4d37ec68",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 19,
+    "weight": 34,
+    "maxCount": 1,
+    "build_hp": 19
+  },
+  {
+    "id": "4e592323",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 66,
+    "weight": 148,
+    "maxCount": 4,
+    "build_hp": 66
+  },
+  {
+    "id": "4f19d5bf",
+    "category": "Контактные",
+    "power": 68,
+    "durability": 182,
+    "weight": 363,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "4f1b0c82",
+    "category": "Конструкции",
+    "power": 24,
+    "durability": 47,
+    "weight": 84,
+    "maxCount": 4,
+    "build_hp": 47
+  },
+  {
+    "id": "4f5fd821",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 55,
+    "weight": 118,
+    "maxCount": 4,
+    "build_hp": 55
+  },
+  {
+    "id": "4f7079e9",
+    "category": "Конструкции",
+    "power": 62,
+    "durability": 88,
+    "weight": 132,
+    "maxCount": 1,
+    "build_hp": 88
   },
   {
     "id": "4fab6958",
     "category": "Контактные",
-    "title": "Ледолом",
     "power": 288,
     "durability": 639,
     "weight": 1159,
     "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Icebreaker"
+    "build_hp": 0
   },
   {
-    "id": "dc009a0d",
-    "category": "Контактные",
-    "title": "Личина",
-    "power": 68,
-    "durability": 126,
-    "weight": 181,
+    "id": "50515368",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 58,
+    "weight": 137,
+    "maxCount": 3,
+    "build_hp": 58
+  },
+  {
+    "id": "5177cc8d",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 33,
+    "weight": 56,
     "maxCount": 2,
-    "build_hp": 0,
-    "eng_name": "Facade"
+    "build_hp": 33
+  },
+  {
+    "id": "526c4dfd",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 16,
+    "weight": 34,
+    "maxCount": 1,
+    "build_hp": 16
+  },
+  {
+    "id": "53e8c81d",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 110,
+    "weight": 263,
+    "maxCount": 6,
+    "build_hp": 110
+  },
+  {
+    "id": "53f480c3",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 42,
+    "weight": 81,
+    "maxCount": 1,
+    "build_hp": 42
+  },
+  {
+    "id": "54045edb",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 18,
+    "weight": 41,
+    "maxCount": 4,
+    "build_hp": 18
+  },
+  {
+    "id": "5532a6f3",
+    "category": "Простреливаемые",
+    "power": 21,
+    "durability": 7,
+    "weight": 7,
+    "maxCount": 6,
+    "build_hp": 0
+  },
+  {
+    "id": "555a1740",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 7,
+    "weight": 12,
+    "maxCount": 14,
+    "build_hp": 7
+  },
+  {
+    "id": "56cd288f",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 20,
+    "weight": 32,
+    "maxCount": 1,
+    "build_hp": 20
+  },
+  {
+    "id": "5740bf58",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 104,
+    "weight": 233,
+    "maxCount": 4,
+    "build_hp": 104
+  },
+  {
+    "id": "5831c2dc",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 38,
+    "weight": 79,
+    "maxCount": 6,
+    "build_hp": 38
+  },
+  {
+    "id": "586c4b52",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 32,
+    "weight": 56,
+    "maxCount": 14,
+    "build_hp": 32
+  },
+  {
+    "id": "588cea29",
+    "category": "Контактные",
+    "power": 76,
+    "durability": 172,
+    "weight": 291,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "5a056ff5",
+    "category": "Конструкции",
+    "power": 66,
+    "durability": 52,
+    "weight": 135,
+    "maxCount": 2,
+    "build_hp": 52
+  },
+  {
+    "id": "5a18a775",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 33,
+    "weight": 54,
+    "maxCount": 2,
+    "build_hp": 33
+  },
+  {
+    "id": "5a93f40d",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 23,
+    "weight": 34,
+    "maxCount": 1,
+    "build_hp": 23
+  },
+  {
+    "id": "5abc7ecb",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 14,
+    "weight": 21,
+    "maxCount": 1,
+    "build_hp": 14
+  },
+  {
+    "id": "5af638cb",
+    "category": "Конструкции",
+    "power": 51,
+    "durability": 141,
+    "weight": 359,
+    "maxCount": 6,
+    "build_hp": 141
+  },
+  {
+    "id": "5bbe1709",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 27,
+    "weight": 68,
+    "maxCount": 6,
+    "build_hp": 27
+  },
+  {
+    "id": "5c7c14d4",
+    "category": "Контактные",
+    "power": 29,
+    "durability": 63,
+    "weight": 103,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "6074334d",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 14,
+    "weight": 32,
+    "maxCount": 10,
+    "build_hp": 14
+  },
+  {
+    "id": "61a19df5",
+    "category": "Простреливаемые",
+    "power": 64,
+    "durability": 90,
+    "weight": 135,
+    "maxCount": 1,
+    "build_hp": 90
+  },
+  {
+    "id": "629cb8a1",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 5,
+    "weight": 7,
+    "maxCount": 12,
+    "build_hp": 5
+  },
+  {
+    "id": "63370593",
+    "category": "Конструкции",
+    "power": 27,
+    "durability": 62,
+    "weight": 124,
+    "maxCount": 3,
+    "build_hp": 62
+  },
+  {
+    "id": "638de49e",
+    "category": "Конструкции",
+    "power": 53,
+    "durability": 103,
+    "weight": 185,
+    "maxCount": 2,
+    "build_hp": 103
+  },
+  {
+    "id": "639e6623",
+    "category": "Контактные",
+    "power": 52,
+    "durability": 148,
+    "weight": 314,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "64951338",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 71,
+    "weight": 180,
+    "maxCount": 1,
+    "build_hp": 71
+  },
+  {
+    "id": "65572d75",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 15,
+    "weight": 30,
+    "maxCount": 3,
+    "build_hp": 15
+  },
+  {
+    "id": "66446669",
+    "category": "Контактные",
+    "power": 44,
+    "durability": 65,
+    "weight": 81,
+    "maxCount": 3,
+    "build_hp": 0
+  },
+  {
+    "id": "6658ab70",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 18,
+    "weight": 27,
+    "maxCount": 6,
+    "build_hp": 18
+  },
+  {
+    "id": "6675c03c",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 22,
+    "maxCount": 2,
+    "build_hp": 11
+  },
+  {
+    "id": "668eee29",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 16,
+    "weight": 36,
+    "maxCount": 4,
+    "build_hp": 16
+  },
+  {
+    "id": "66f233e1",
+    "category": "Конструкции",
+    "power": 28,
+    "durability": 52,
+    "weight": 89,
+    "maxCount": 2,
+    "build_hp": 52
+  },
+  {
+    "id": "671c0b56",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 101,
+    "weight": 242,
+    "maxCount": 2,
+    "build_hp": 101
   },
   {
     "id": "6804daee",
     "category": "Контактные",
-    "title": "Псалия левая",
     "power": 76,
     "durability": 141,
     "weight": 202,
     "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Left psalia"
+    "build_hp": 0
   },
   {
-    "id": "c2bafcbb",
-    "category": "Контактные",
-    "title": "Псалия правая",
-    "power": 76,
-    "durability": 141,
-    "weight": 202,
+    "id": "6a62c659",
+    "category": "Конструкции",
+    "power": 58,
+    "durability": 144,
+    "weight": 323,
+    "maxCount": 4,
+    "build_hp": 144
+  },
+  {
+    "id": "6aca82eb",
+    "category": "Конструкции",
+    "power": 21,
+    "durability": 47,
+    "weight": 95,
     "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Right psalia"
+    "build_hp": 47
   },
   {
-    "id": "d2173d25",
+    "id": "6d8eeb17",
+    "category": "Простреливаемые",
+    "power": 133,
+    "durability": 38,
+    "weight": 43,
+    "maxCount": 3,
+    "build_hp": 0
+  },
+  {
+    "id": "6ddbc9ed",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 34,
+    "weight": 71,
+    "maxCount": 6,
+    "build_hp": 34
+  },
+  {
+    "id": "6df7aebb",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 50,
+    "weight": 74,
+    "maxCount": 1,
+    "build_hp": 50
+  },
+  {
+    "id": "6e7f4910",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 70,
+    "weight": 157,
+    "maxCount": 4,
+    "build_hp": 70
+  },
+  {
+    "id": "6ecc8243",
+    "category": "Конструкции",
+    "power": 21,
+    "durability": 46,
+    "weight": 88,
+    "maxCount": 4,
+    "build_hp": 46
+  },
+  {
+    "id": "6ee0dc64",
     "category": "Контактные",
-    "title": "Оплот левый",
     "power": 89,
-    "durability": 161,
-    "weight": 232,
+    "durability": 166,
+    "weight": 312,
     "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Left bulwark"
+    "build_hp": 0
+  },
+  {
+    "id": "6f5575c0",
+    "category": "Контактные",
+    "power": 48,
+    "durability": 131,
+    "weight": 262,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "6feeace5",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 13,
+    "weight": 19,
+    "maxCount": 10,
+    "build_hp": 13
+  },
+  {
+    "id": "703a8cdd",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 18,
+    "weight": 41,
+    "maxCount": 8,
+    "build_hp": 18
+  },
+  {
+    "id": "706782a7",
+    "category": "Конструкции",
+    "power": 45,
+    "durability": 124,
+    "weight": 314,
+    "maxCount": 2,
+    "build_hp": 124
+  },
+  {
+    "id": "706aa7d8",
+    "category": "Контактные",
+    "power": 11,
+    "durability": 20,
+    "weight": 35,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "70b41a12",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 58,
+    "weight": 117,
+    "maxCount": 1,
+    "build_hp": 58
+  },
+  {
+    "id": "71123497",
+    "category": "Контактные",
+    "power": 29,
+    "durability": 52,
+    "weight": 72,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "7139b340",
+    "category": "Контактные",
+    "power": 21,
+    "durability": 45,
+    "weight": 67,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "722f9883",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 38,
+    "weight": 74,
+    "maxCount": 2,
+    "build_hp": 38
+  },
+  {
+    "id": "728a7012",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 22,
+    "weight": 41,
+    "maxCount": 2,
+    "build_hp": 22
+  },
+  {
+    "id": "72c09ec9",
+    "category": "Контактные",
+    "power": 161,
+    "durability": 403,
+    "weight": 806,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "739f3c5f",
+    "category": "Конструкции",
+    "power": 40,
+    "durability": 105,
+    "weight": 252,
+    "maxCount": 1,
+    "build_hp": 105
+  },
+  {
+    "id": "744d8873",
+    "category": "Простреливаемые",
+    "power": 77,
+    "durability": 94,
+    "weight": 118,
+    "maxCount": 1,
+    "build_hp": 47
+  },
+  {
+    "id": "7526cf2d",
+    "category": "Конструкции",
+    "power": 34,
+    "durability": 84,
+    "weight": 189,
+    "maxCount": 4,
+    "build_hp": 84
+  },
+  {
+    "id": "759ebd6b",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 70,
+    "weight": 135,
+    "maxCount": 2,
+    "build_hp": 70
+  },
+  {
+    "id": "76173c2b",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 44,
+    "weight": 112,
+    "maxCount": 1,
+    "build_hp": 44
+  },
+  {
+    "id": "76d81a57",
+    "category": "Контактные",
+    "power": 148,
+    "durability": 373,
+    "weight": 746,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "771f52de",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 36,
+    "weight": 81,
+    "maxCount": 4,
+    "build_hp": 36
+  },
+  {
+    "id": "785d510f",
+    "category": "Простреливаемые",
+    "power": 102,
+    "durability": 147,
+    "weight": 202,
+    "maxCount": 1,
+    "build_hp": 74
+  },
+  {
+    "id": "787c5f8e",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 14,
+    "weight": 21,
+    "maxCount": 1,
+    "build_hp": 14
+  },
+  {
+    "id": "795be61e",
+    "category": "Конструкции",
+    "power": 12,
+    "durability": 27,
+    "weight": 51,
+    "maxCount": 1,
+    "build_hp": 27
+  },
+  {
+    "id": "79f9e055",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 18,
+    "weight": 27,
+    "maxCount": 4,
+    "build_hp": 18
+  },
+  {
+    "id": "7bd519ea",
+    "category": "Контактные",
+    "power": 67,
+    "durability": 131,
+    "weight": 168,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "7be439c4",
+    "category": "Конструкции",
+    "power": 96,
+    "durability": 76,
+    "weight": 196,
+    "maxCount": 1,
+    "build_hp": 76
+  },
+  {
+    "id": "7d1af4e9",
+    "category": "Простреливаемые",
+    "power": 102,
+    "durability": 147,
+    "weight": 202,
+    "maxCount": 1,
+    "build_hp": 74
+  },
+  {
+    "id": "7d824a23",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 23,
+    "weight": 48,
+    "maxCount": 1,
+    "build_hp": 23
+  },
+  {
+    "id": "7e1ce90e",
+    "category": "Контактные",
+    "power": 48,
+    "durability": 84,
+    "weight": 116,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "7e907786",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 43,
+    "weight": 101,
+    "maxCount": 8,
+    "build_hp": 43
+  },
+  {
+    "id": "7e95bde9",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 14,
+    "weight": 27,
+    "maxCount": 4,
+    "build_hp": 14
+  },
+  {
+    "id": "7ea04869",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 28,
+    "weight": 54,
+    "maxCount": 1,
+    "build_hp": 28
+  },
+  {
+    "id": "7f019bb6",
+    "category": "Конструкции",
+    "power": 58,
+    "durability": 99,
+    "weight": 162,
+    "maxCount": 1,
+    "build_hp": 99
+  },
+  {
+    "id": "7fefbb5e",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 22,
+    "weight": 36,
+    "maxCount": 6,
+    "build_hp": 22
+  },
+  {
+    "id": "80e49cd7",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 34,
+    "weight": 71,
+    "maxCount": 10,
+    "build_hp": 34
+  },
+  {
+    "id": "811b25f7",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 24,
+    "weight": 54,
+    "maxCount": 4,
+    "build_hp": 24
+  },
+  {
+    "id": "813da6dd",
+    "category": "Контактные",
+    "power": 40,
+    "durability": 91,
+    "weight": 160,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "81832192",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 8,
+    "weight": 11,
+    "maxCount": 3,
+    "build_hp": 8
+  },
+  {
+    "id": "8247e70a",
+    "category": "Контактные",
+    "power": 40,
+    "durability": 72,
+    "weight": 99,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "8259f064",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 23,
+    "weight": 34,
+    "maxCount": 1,
+    "build_hp": 23
+  },
+  {
+    "id": "83475b50",
+    "category": "Контактные",
+    "power": 21,
+    "durability": 34,
+    "weight": 40,
+    "maxCount": 6,
+    "build_hp": 0
+  },
+  {
+    "id": "8445c7ca",
+    "category": "Конструкции",
+    "power": 12,
+    "durability": 27,
+    "weight": 51,
+    "maxCount": 1,
+    "build_hp": 27
+  },
+  {
+    "id": "84bccb54",
+    "category": "Контактные",
+    "power": 101,
+    "durability": 140,
+    "weight": 175,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "86ae3dd8",
+    "category": "Конструкции",
+    "power": 30,
+    "durability": 69,
+    "weight": 139,
+    "maxCount": 1,
+    "build_hp": 69
+  },
+  {
+    "id": "873a8d0f",
+    "category": "Простреливаемые",
+    "power": 70,
+    "durability": 29,
+    "weight": 34,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "8766f3c2",
+    "category": "Контактные",
+    "power": 35,
+    "durability": 70,
+    "weight": 113,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "879f996b",
+    "category": "Конструкции",
+    "power": 34,
+    "durability": 84,
+    "weight": 189,
+    "maxCount": 4,
+    "build_hp": 84
+  },
+  {
+    "id": "88bdd163",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 38,
+    "weight": 79,
+    "maxCount": 4,
+    "build_hp": 38
+  },
+  {
+    "id": "89420dd9",
+    "category": "Контактные",
+    "power": 101,
+    "durability": 225,
+    "weight": 379,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "89c19857",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 28,
+    "weight": 41,
+    "maxCount": 4,
+    "build_hp": 28
+  },
+  {
+    "id": "89ed33c7",
+    "category": "Конструкции",
+    "power": 59,
+    "durability": 109,
+    "weight": 187,
+    "maxCount": 2,
+    "build_hp": 109
+  },
+  {
+    "id": "89f300ad",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 35,
+    "weight": 62,
+    "maxCount": 2,
+    "build_hp": 35
+  },
+  {
+    "id": "8a9f155a",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 8,
+    "weight": 11,
+    "maxCount": 4,
+    "build_hp": 8
+  },
+  {
+    "id": "8b0f199a",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 25,
+    "weight": 48,
+    "maxCount": 1,
+    "build_hp": 25
+  },
+  {
+    "id": "8b6c4b18",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 41,
+    "weight": 61,
+    "maxCount": 1,
+    "build_hp": 41
+  },
+  {
+    "id": "8b71dd6b",
+    "category": "Контактные",
+    "power": 44,
+    "durability": 65,
+    "weight": 81,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "8c654916",
+    "category": "Простреливаемые",
+    "power": 56,
+    "durability": 16,
+    "weight": 18,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "8ca81ec0",
+    "category": "Конструкции",
+    "power": 24,
+    "durability": 47,
+    "weight": 84,
+    "maxCount": 2,
+    "build_hp": 47
+  },
+  {
+    "id": "8cc70636",
+    "category": "Конструкции",
+    "power": 8,
+    "durability": 16,
+    "weight": 28,
+    "maxCount": 14,
+    "build_hp": 16
+  },
+  {
+    "id": "8d2dcc5d",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 13,
+    "weight": 19,
+    "maxCount": 10,
+    "build_hp": 13
+  },
+  {
+    "id": "8ddf61c2",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 44,
+    "weight": 112,
+    "maxCount": 1,
+    "build_hp": 44
+  },
+  {
+    "id": "8df9d1eb",
+    "category": "Контактные",
+    "power": 42,
+    "durability": 120,
+    "weight": 218,
+    "maxCount": 3,
+    "build_hp": 0
+  },
+  {
+    "id": "8e9ae32e",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 51,
+    "weight": 102,
+    "maxCount": 2,
+    "build_hp": 51
+  },
+  {
+    "id": "8edc1816",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 28,
+    "weight": 45,
+    "maxCount": 10,
+    "build_hp": 28
+  },
+  {
+    "id": "8f99df41",
+    "category": "Конструкции",
+    "power": 12,
+    "durability": 24,
+    "weight": 42,
+    "maxCount": 1,
+    "build_hp": 24
+  },
+  {
+    "id": "905b13f1",
+    "category": "Контактные",
+    "power": 76,
+    "durability": 185,
+    "weight": 336,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "90f3993d",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 26,
+    "weight": 61,
+    "maxCount": 4,
+    "build_hp": 26
+  },
+  {
+    "id": "918b0fda",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 83,
+    "weight": 173,
+    "maxCount": 1,
+    "build_hp": 83
+  },
+  {
+    "id": "92f9bd87",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 38,
+    "weight": 74,
+    "maxCount": 4,
+    "build_hp": 38
+  },
+  {
+    "id": "94317a9f",
+    "category": "Контактные",
+    "power": 40,
+    "durability": 76,
+    "weight": 114,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "9459f0e3",
+    "category": "Контактные",
+    "power": 89,
+    "durability": 220,
+    "weight": 412,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "94a0c1ba",
+    "category": "Конструкции",
+    "power": 28,
+    "durability": 22,
+    "weight": 56,
+    "maxCount": 2,
+    "build_hp": 22
+  },
+  {
+    "id": "95745c61",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 32,
+    "weight": 61,
+    "maxCount": 2,
+    "build_hp": 32
+  },
+  {
+    "id": "9661689d",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 28,
+    "weight": 63,
+    "maxCount": 4,
+    "build_hp": 28
+  },
+  {
+    "id": "9797eaab",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 25,
+    "weight": 62,
+    "maxCount": 2,
+    "build_hp": 25
+  },
+  {
+    "id": "98147562",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 13,
+    "weight": 19,
+    "maxCount": 6,
+    "build_hp": 13
+  },
+  {
+    "id": "9898849b",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 25,
+    "weight": 48,
+    "maxCount": 1,
+    "build_hp": 25
+  },
+  {
+    "id": "98bcfd52",
+    "category": "Простреливаемые",
+    "power": 11,
+    "durability": 4,
+    "weight": 4,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "98d6639b",
+    "category": "Конструкции",
+    "power": 20,
+    "durability": 44,
+    "weight": 85,
+    "maxCount": 1,
+    "build_hp": 44
+  },
+  {
+    "id": "9a20999c",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 28,
+    "weight": 45,
+    "maxCount": 6,
+    "build_hp": 28
+  },
+  {
+    "id": "9a875386",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 31,
+    "weight": 79,
+    "maxCount": 2,
+    "build_hp": 31
+  },
+  {
+    "id": "9b04d75b",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 63,
+    "weight": 121,
+    "maxCount": 10,
+    "build_hp": 63
+  },
+  {
+    "id": "9b6844fc",
+    "category": "Контактные",
+    "power": 29,
+    "durability": 52,
+    "weight": 72,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "9b8f5482",
+    "category": "Контактные",
+    "power": 118,
+    "durability": 287,
+    "weight": 538,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "9c8adbd6",
+    "category": "Простреливаемые",
+    "power": 49,
+    "durability": 21,
+    "weight": 24,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "9d308330",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 8,
+    "weight": 12,
+    "maxCount": 1,
+    "build_hp": 8
+  },
+  {
+    "id": "9d97cad4",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 66,
+    "weight": 108,
+    "maxCount": 4,
+    "build_hp": 66
+  },
+  {
+    "id": "9ff79390",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 32,
+    "weight": 56,
+    "maxCount": 6,
+    "build_hp": 32
+  },
+  {
+    "id": "a205acf3",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 28,
+    "weight": 54,
+    "maxCount": 8,
+    "build_hp": 28
+  },
+  {
+    "id": "a21a6270",
+    "category": "Простреливаемые",
+    "power": 26,
+    "durability": 19,
+    "weight": 28,
+    "maxCount": 4,
+    "build_hp": 10
+  },
+  {
+    "id": "a27c9c4b",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 14,
+    "weight": 34,
+    "maxCount": 4,
+    "build_hp": 14
+  },
+  {
+    "id": "a3b5f3d2",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 68,
+    "weight": 162,
+    "maxCount": 6,
+    "build_hp": 68
+  },
+  {
+    "id": "a4b94ee9",
+    "category": "Простреливаемые",
+    "power": 38,
+    "durability": 59,
+    "weight": 84,
+    "maxCount": 2,
+    "build_hp": 30
+  },
+  {
+    "id": "a5ce4692",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 75,
+    "weight": 157,
+    "maxCount": 6,
+    "build_hp": 75
+  },
+  {
+    "id": "a5d7ee31",
+    "category": "Контактные",
+    "power": 32,
+    "durability": 51,
+    "weight": 60,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "a6875eaf",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 90,
+    "weight": 189,
+    "maxCount": 4,
+    "build_hp": 90
+  },
+  {
+    "id": "a6f5b1e8",
+    "category": "Простреливаемые",
+    "power": 39,
+    "durability": 16,
+    "weight": 19,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "a8f52d72",
+    "category": "Контактные",
+    "power": 15,
+    "durability": 25,
+    "weight": 30,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "a93de74d",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 55,
+    "weight": 118,
+    "maxCount": 1,
+    "build_hp": 55
   },
   {
     "id": "aaa72f60",
     "category": "Контактные",
-    "title": "Оплот правый",
     "power": 89,
     "durability": 161,
     "weight": 232,
     "maxCount": 1,
-    "build_hp": 0,
-    "eng_name": "Right bulwark"
+    "build_hp": 0
+  },
+  {
+    "id": "aadb1d89",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 88,
+    "weight": 224,
+    "maxCount": 6,
+    "build_hp": 88
+  },
+  {
+    "id": "ab1038f2",
+    "category": "Конструкции",
+    "power": 51,
+    "durability": 135,
+    "weight": 323,
+    "maxCount": 2,
+    "build_hp": 135
+  },
+  {
+    "id": "ab5c1ecd",
+    "category": "Конструкции",
+    "power": 30,
+    "durability": 66,
+    "weight": 128,
+    "maxCount": 4,
+    "build_hp": 66
+  },
+  {
+    "id": "adfb2152",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 63,
+    "weight": 135,
+    "maxCount": 4,
+    "build_hp": 63
+  },
+  {
+    "id": "ae30ee08",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 36,
+    "weight": 54,
+    "maxCount": 6,
+    "build_hp": 36
+  },
+  {
+    "id": "af0f8c9e",
+    "category": "Конструкции",
+    "power": 51,
+    "durability": 120,
+    "weight": 251,
+    "maxCount": 2,
+    "build_hp": 120
+  },
+  {
+    "id": "af24bc10",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 71,
+    "weight": 180,
+    "maxCount": 6,
+    "build_hp": 71
+  },
+  {
+    "id": "af4d9d1e",
+    "category": "Простреливаемые",
+    "power": 28,
+    "durability": 35,
+    "weight": 44,
+    "maxCount": 2,
+    "build_hp": 18
+  },
+  {
+    "id": "af91f5df",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 56,
+    "weight": 108,
+    "maxCount": 6,
+    "build_hp": 56
+  },
+  {
+    "id": "b08ba9f4",
+    "category": "Конструкции",
+    "power": 45,
+    "durability": 124,
+    "weight": 314,
+    "maxCount": 1,
+    "build_hp": 124
+  },
+  {
+    "id": "b14a18cf",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 9,
+    "weight": 21,
+    "maxCount": 10,
+    "build_hp": 9
+  },
+  {
+    "id": "b14ebc7a",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 49,
+    "weight": 184,
+    "maxCount": 2,
+    "build_hp": 93
+  },
+  {
+    "id": "b1a292c6",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 70,
+    "weight": 135,
+    "maxCount": 1,
+    "build_hp": 70
+  },
+  {
+    "id": "b24c565f",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 35,
+    "weight": 62,
+    "maxCount": 2,
+    "build_hp": 35
+  },
+  {
+    "id": "b2e72f1b",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 10,
+    "weight": 16,
+    "maxCount": 2,
+    "build_hp": 10
+  },
+  {
+    "id": "b3649f56",
+    "category": "Контактные",
+    "power": 34,
+    "durability": 67,
+    "weight": 101,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "b3b7ae0f",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 18,
+    "weight": 27,
+    "maxCount": 1,
+    "build_hp": 18
+  },
+  {
+    "id": "b3f6a7ec",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 70,
+    "weight": 135,
+    "maxCount": 2,
+    "build_hp": 70
+  },
+  {
+    "id": "b5aa973a",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 12,
+    "weight": 22,
+    "maxCount": 4,
+    "build_hp": 12
+  },
+  {
+    "id": "b6e13369",
+    "category": "Конструкции",
+    "power": 30,
+    "durability": 76,
+    "weight": 171,
+    "maxCount": 2,
+    "build_hp": 76
+  },
+  {
+    "id": "b939e4d5",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 66,
+    "weight": 132,
+    "maxCount": 2,
+    "build_hp": 66
+  },
+  {
+    "id": "b9fc98cc",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 25,
+    "weight": 48,
+    "maxCount": 7,
+    "build_hp": 25
+  },
+  {
+    "id": "ba0a6e3f",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 36,
+    "weight": 90,
+    "maxCount": 1,
+    "build_hp": 36
+  },
+  {
+    "id": "ba1bd3de",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 115,
+    "weight": 292,
+    "maxCount": 4,
+    "build_hp": 115
+  },
+  {
+    "id": "baa7e9c1",
+    "category": "Конструкции",
+    "power": 40,
+    "durability": 110,
+    "weight": 280,
+    "maxCount": 4,
+    "build_hp": 110
+  },
+  {
+    "id": "bb0ea501",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 54,
+    "weight": 80,
+    "maxCount": 9,
+    "build_hp": 54
+  },
+  {
+    "id": "bb2fb864",
+    "category": "Контактные",
+    "power": 337,
+    "durability": 807,
+    "weight": 1613,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "bb6e17de",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 8,
+    "weight": 16,
+    "maxCount": 1,
+    "build_hp": 8
+  },
+  {
+    "id": "bc1a9b87",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 20,
+    "weight": 32,
+    "maxCount": 1,
+    "build_hp": 20
+  },
+  {
+    "id": "bc4af42c",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 8,
+    "weight": 11,
+    "maxCount": 3,
+    "build_hp": 8
+  },
+  {
+    "id": "bc62ee80",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 40,
+    "weight": 101,
+    "maxCount": 3,
+    "build_hp": 40
+  },
+  {
+    "id": "bcf59838",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 18,
+    "weight": 27,
+    "maxCount": 1,
+    "build_hp": 18
+  },
+  {
+    "id": "be5eeb69",
+    "category": "Конструкции",
+    "power": 58,
+    "durability": 140,
+    "weight": 303,
+    "maxCount": 1,
+    "build_hp": 140
+  },
+  {
+    "id": "bf2cff94",
+    "category": "Контактные",
+    "power": 131,
+    "durability": 273,
+    "weight": 444,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "bf45fc6f",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 34,
+    "weight": 81,
+    "maxCount": 4,
+    "build_hp": 34
+  },
+  {
+    "id": "c0c66270",
+    "category": "Конструкции",
+    "power": 61,
+    "durability": 112,
+    "weight": 192,
+    "maxCount": 2,
+    "build_hp": 112
+  },
+  {
+    "id": "c219f40e",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 41,
+    "weight": 61,
+    "maxCount": 1,
+    "build_hp": 41
+  },
+  {
+    "id": "c21e95c1",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 33,
+    "weight": 56,
+    "maxCount": 2,
+    "build_hp": 33
+  },
+  {
+    "id": "c2bafcbb",
+    "category": "Контактные",
+    "power": 76,
+    "durability": 141,
+    "weight": 202,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "c3414489",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 53,
+    "weight": 135,
+    "maxCount": 8,
+    "build_hp": 53
+  },
+  {
+    "id": "c6521912",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 16,
+    "weight": 40,
+    "maxCount": 1,
+    "build_hp": 16
+  },
+  {
+    "id": "c6d496a7",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 44,
+    "weight": 88,
+    "maxCount": 2,
+    "build_hp": 44
+  },
+  {
+    "id": "c6f5170c",
+    "category": "Простреливаемые",
+    "power": 28,
+    "durability": 8,
+    "weight": 9,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "c7ec2f3e",
+    "category": "Конструкции",
+    "power": 27,
+    "durability": 62,
+    "weight": 124,
+    "maxCount": 3,
+    "build_hp": 62
+  },
+  {
+    "id": "c935ce6d",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 62,
+    "weight": 157,
+    "maxCount": 4,
+    "build_hp": 62
+  },
+  {
+    "id": "c9a3d396",
+    "category": "Конструкции",
+    "power": 26,
+    "durability": 64,
+    "weight": 144,
+    "maxCount": 4,
+    "build_hp": 64
+  },
+  {
+    "id": "ca50c1c8",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 50,
+    "weight": 74,
+    "maxCount": 1,
+    "build_hp": 50
+  },
+  {
+    "id": "cb2abfa1",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 13,
+    "weight": 24,
+    "maxCount": 12,
+    "build_hp": 13
+  },
+  {
+    "id": "cb5571ec",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 22,
+    "weight": 36,
+    "maxCount": 1,
+    "build_hp": 22
+  },
+  {
+    "id": "cb8af0ef",
+    "category": "Конструкции",
+    "power": 32,
+    "durability": 70,
+    "weight": 135,
+    "maxCount": 4,
+    "build_hp": 70
+  },
+  {
+    "id": "cbcf90fa",
+    "category": "Конструкции",
+    "power": 12,
+    "durability": 24,
+    "weight": 42,
+    "maxCount": 1,
+    "build_hp": 24
+  },
+  {
+    "id": "cc12fd91",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 10,
+    "weight": 16,
+    "maxCount": 2,
+    "build_hp": 10
+  },
+  {
+    "id": "cc280978",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 25,
+    "weight": 45,
+    "maxCount": 7,
+    "build_hp": 25
+  },
+  {
+    "id": "cc632f98",
+    "category": "Простреливаемые",
+    "power": 7,
+    "durability": 4,
+    "weight": 4,
+    "maxCount": 3,
+    "build_hp": 0
+  },
+  {
+    "id": "cc918a22",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 32,
+    "weight": 48,
+    "maxCount": 1,
+    "build_hp": 32
+  },
+  {
+    "id": "ccaae31f",
+    "category": "Конструкции",
+    "power": 8,
+    "durability": 22,
+    "weight": 51,
+    "maxCount": 4,
+    "build_hp": 22
+  },
+  {
+    "id": "cdab66e9",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 15,
+    "weight": 30,
+    "maxCount": 3,
+    "build_hp": 15
+  },
+  {
+    "id": "cef2b9a9",
+    "category": "Конструкции",
+    "power": 18,
+    "durability": 25,
+    "weight": 37,
+    "maxCount": 1,
+    "build_hp": 25
+  },
+  {
+    "id": "d17bc3ff",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 24,
+    "weight": 54,
+    "maxCount": 4,
+    "build_hp": 24
+  },
+  {
+    "id": "d21192f8",
+    "category": "Конструкции",
+    "power": 48,
+    "durability": 113,
+    "weight": 236,
+    "maxCount": 4,
+    "build_hp": 113
+  },
+  {
+    "id": "d2173d25",
+    "category": "Контактные",
+    "power": 89,
+    "durability": 161,
+    "weight": 232,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "d2a11dc6",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 7,
+    "weight": 12,
+    "maxCount": 14,
+    "build_hp": 7
+  },
+  {
+    "id": "d339f74d",
+    "category": "Конструкции",
+    "power": 58,
+    "durability": 130,
+    "weight": 263,
+    "maxCount": 1,
+    "build_hp": 130
+  },
+  {
+    "id": "d370d95d",
+    "category": "Конструкции",
+    "power": 28,
+    "durability": 52,
+    "weight": 89,
+    "maxCount": 2,
+    "build_hp": 52
+  },
+  {
+    "id": "d42c18bb",
+    "category": "Конструкции",
+    "power": 16,
+    "durability": 32,
+    "weight": 56,
+    "maxCount": 2,
+    "build_hp": 32
+  },
+  {
+    "id": "d4548f6b",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 16,
+    "weight": 36,
+    "maxCount": 4,
+    "build_hp": 16
+  },
+  {
+    "id": "d50a4264",
+    "category": "Контактные",
+    "power": 186,
+    "durability": 426,
+    "weight": 773,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "d5288cf1",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 20,
+    "weight": 32,
+    "maxCount": 4,
+    "build_hp": 20
+  },
+  {
+    "id": "d532a5d4",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 14,
+    "weight": 27,
+    "maxCount": 2,
+    "build_hp": 14
+  },
+  {
+    "id": "d555e4a1",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 28,
+    "weight": 66,
+    "maxCount": 4,
+    "build_hp": 28
+  },
+  {
+    "id": "d695a1dd",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 21,
+    "maxCount": 4,
+    "build_hp": 11
+  },
+  {
+    "id": "d7591b10",
+    "category": "Конструкции",
+    "power": 21,
+    "durability": 58,
+    "weight": 146,
+    "maxCount": 6,
+    "build_hp": 58
+  },
+  {
+    "id": "d8305e7d",
+    "category": "Контактные",
+    "power": 60,
+    "durability": 177,
+    "weight": 384,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "d882b657",
+    "category": "Конструкции",
+    "power": 56,
+    "durability": 109,
+    "weight": 196,
+    "maxCount": 3,
+    "build_hp": 109
+  },
+  {
+    "id": "d8c47cfa",
+    "category": "Контактные",
+    "power": 22,
+    "durability": 46,
+    "weight": 59,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "d8fbea8d",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 20,
+    "weight": 32,
+    "maxCount": 4,
+    "build_hp": 20
+  },
+  {
+    "id": "d940fa60",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 22,
+    "maxCount": 2,
+    "build_hp": 11
+  },
+  {
+    "id": "d96b9fa5",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 18,
+    "weight": 27,
+    "maxCount": 1,
+    "build_hp": 18
+  },
+  {
+    "id": "da29f996",
+    "category": "Контактные",
+    "power": 59,
+    "durability": 131,
+    "weight": 262,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "daadeef0",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 19,
+    "weight": 34,
+    "maxCount": 6,
+    "build_hp": 19
+  },
+  {
+    "id": "dc009a0d",
+    "category": "Контактные",
+    "power": 68,
+    "durability": 126,
+    "weight": 181,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "dd72ca5a",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 27,
+    "weight": 68,
+    "maxCount": 6,
+    "build_hp": 27
+  },
+  {
+    "id": "dd8b7afa",
+    "category": "Конструкции",
+    "power": 39,
+    "durability": 101,
+    "weight": 242,
+    "maxCount": 4,
+    "build_hp": 101
+  },
+  {
+    "id": "df8bf0c6",
+    "category": "Простреливаемые",
+    "power": 11,
+    "durability": 4,
+    "weight": 4,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "e06575bd",
+    "category": "Контактные",
+    "power": 52,
+    "durability": 148,
+    "weight": 314,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "e07b4c7a",
+    "category": "Конструкции",
+    "power": 27,
+    "durability": 54,
+    "weight": 172,
+    "maxCount": 2,
+    "build_hp": 85
+  },
+  {
+    "id": "e097d2a6",
+    "category": "Простреливаемые",
+    "power": 112,
+    "durability": 182,
+    "weight": 272,
+    "maxCount": 2,
+    "build_hp": 91
+  },
+  {
+    "id": "e0ff9897",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 8,
+    "weight": 16,
+    "maxCount": 1,
+    "build_hp": 8
+  },
+  {
+    "id": "e1138621",
+    "category": "Контактные",
+    "power": 40,
+    "durability": 59,
+    "weight": 74,
+    "maxCount": 1,
+    "build_hp": 0
+  },
+  {
+    "id": "e18084e0",
+    "category": "Конструкции",
+    "power": 35,
+    "durability": 60,
+    "weight": 99,
+    "maxCount": 6,
+    "build_hp": 60
+  },
+  {
+    "id": "e19a933a",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 10,
+    "weight": 14,
+    "maxCount": 10,
+    "build_hp": 10
+  },
+  {
+    "id": "e1e7463b",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 28,
+    "weight": 41,
+    "maxCount": 2,
+    "build_hp": 28
+  },
+  {
+    "id": "e2c01304",
+    "category": "Конструкции",
+    "power": 14,
+    "durability": 40,
+    "weight": 101,
+    "maxCount": 3,
+    "build_hp": 40
+  },
+  {
+    "id": "e33bf8d1",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 32,
+    "weight": 72,
+    "maxCount": 4,
+    "build_hp": 32
+  },
+  {
+    "id": "e3fd0cd6",
+    "category": "Контактные",
+    "power": 76,
+    "durability": 166,
+    "weight": 269,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "e608d052",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 21,
+    "maxCount": 4,
+    "build_hp": 11
+  },
+  {
+    "id": "e9a2b7a0",
+    "category": "Простреливаемые",
+    "power": 7,
+    "durability": 4,
+    "weight": 4,
+    "maxCount": 3,
+    "build_hp": 0
+  },
+  {
+    "id": "ea908d81",
+    "category": "Конструкции",
+    "power": 4,
+    "durability": 10,
+    "weight": 23,
+    "maxCount": 10,
+    "build_hp": 10
+  },
+  {
+    "id": "ebb76649",
+    "category": "Конструкции",
+    "power": 29,
+    "durability": 68,
+    "weight": 142,
+    "maxCount": 1,
+    "build_hp": 68
+  },
+  {
+    "id": "ebfea34b",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 17,
+    "weight": 27,
+    "maxCount": 4,
+    "build_hp": 17
+  },
+  {
+    "id": "ec511280",
+    "category": "Конструкции",
+    "power": 9,
+    "durability": 18,
+    "weight": 31,
+    "maxCount": 2,
+    "build_hp": 18
+  },
+  {
+    "id": "ec57c621",
+    "category": "Контактные",
+    "power": 52,
+    "durability": 105,
+    "weight": 157,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "ec8d481b",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 8,
+    "weight": 17,
+    "maxCount": 1,
+    "build_hp": 8
+  },
+  {
+    "id": "ecbd0a84",
+    "category": "Простреливаемые",
+    "power": 14,
+    "durability": 5,
+    "weight": 5,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "ed39c39d",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 22,
+    "weight": 44,
+    "maxCount": 1,
+    "build_hp": 22
+  },
+  {
+    "id": "ed4c2d6e",
+    "category": "Контактные",
+    "power": 50,
+    "durability": 107,
+    "weight": 188,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "ed8202f9",
+    "category": "Контактные",
+    "power": 44,
+    "durability": 94,
+    "weight": 165,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "ed8b06de",
+    "category": "Конструкции",
+    "power": 51,
+    "durability": 135,
+    "weight": 323,
+    "maxCount": 4,
+    "build_hp": 135
+  },
+  {
+    "id": "ed9e743a",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 25,
+    "weight": 48,
+    "maxCount": 2,
+    "build_hp": 25
+  },
+  {
+    "id": "ee692be9",
+    "category": "Простреливаемые",
+    "power": 38,
+    "durability": 59,
+    "weight": 84,
+    "maxCount": 2,
+    "build_hp": 30
+  },
+  {
+    "id": "ee81074b",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 7,
+    "weight": 12,
+    "maxCount": 8,
+    "build_hp": 7
+  },
+  {
+    "id": "ef1e75be",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 17,
+    "weight": 27,
+    "maxCount": 4,
+    "build_hp": 17
+  },
+  {
+    "id": "efaabde0",
+    "category": "Простреливаемые",
+    "power": 42,
+    "durability": 13,
+    "weight": 14,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "f054efdb",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 16,
+    "weight": 34,
+    "maxCount": 1,
+    "build_hp": 16
+  },
+  {
+    "id": "f0851847",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 23,
+    "weight": 40,
+    "maxCount": 4,
+    "build_hp": 23
+  },
+  {
+    "id": "f0bea34c",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 26,
+    "weight": 61,
+    "maxCount": 4,
+    "build_hp": 26
+  },
+  {
+    "id": "f1c3e607",
+    "category": "Конструкции",
+    "power": 22,
+    "durability": 51,
+    "weight": 102,
+    "maxCount": 2,
+    "build_hp": 51
+  },
+  {
+    "id": "f20e3ae3",
+    "category": "Конструкции",
+    "power": 8,
+    "durability": 19,
+    "weight": 37,
+    "maxCount": 2,
+    "build_hp": 19
+  },
+  {
+    "id": "f2aad4ea",
+    "category": "Конструкции",
+    "power": 38,
+    "durability": 101,
+    "weight": 242,
+    "maxCount": 4,
+    "build_hp": 101
+  },
+  {
+    "id": "f30a1916",
+    "category": "Контактные",
+    "power": 42,
+    "durability": 120,
+    "weight": 218,
+    "maxCount": 3,
+    "build_hp": 0
+  },
+  {
+    "id": "f33d16c8",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 44,
+    "weight": 88,
+    "maxCount": 2,
+    "build_hp": 44
+  },
+  {
+    "id": "f3fecbc7",
+    "category": "Конструкции",
+    "power": 11,
+    "durability": 16,
+    "weight": 24,
+    "maxCount": 1,
+    "build_hp": 16
+  },
+  {
+    "id": "f5adc733",
+    "category": "Конструкции",
+    "power": 3,
+    "durability": 8,
+    "weight": 17,
+    "maxCount": 1,
+    "build_hp": 8
+  },
+  {
+    "id": "f9141b2e",
+    "category": "Конструкции",
+    "power": 19,
+    "durability": 42,
+    "weight": 81,
+    "maxCount": 1,
+    "build_hp": 42
+  },
+  {
+    "id": "f95db62a",
+    "category": "Контактные",
+    "power": 52,
+    "durability": 105,
+    "weight": 157,
+    "maxCount": 2,
+    "build_hp": 0
+  },
+  {
+    "id": "f9ec4d99",
+    "category": "Конструкции",
+    "power": 61,
+    "durability": 119,
+    "weight": 213,
+    "maxCount": 3,
+    "build_hp": 119
+  },
+  {
+    "id": "faeed7c1",
+    "category": "Конструкции",
+    "power": 6,
+    "durability": 16,
+    "weight": 40,
+    "maxCount": 1,
+    "build_hp": 16
+  },
+  {
+    "id": "fd443a78",
+    "category": "Конструкции",
+    "power": 42,
+    "durability": 59,
+    "weight": 88,
+    "maxCount": 1,
+    "build_hp": 59
+  },
+  {
+    "id": "fdc6b71a",
+    "category": "Конструкции",
+    "power": 13,
+    "durability": 32,
+    "weight": 72,
+    "maxCount": 4,
+    "build_hp": 32
+  },
+  {
+    "id": "fe044361",
+    "category": "Контактные",
+    "power": 38,
+    "durability": 76,
+    "weight": 106,
+    "maxCount": 4,
+    "build_hp": 0
+  },
+  {
+    "id": "fe7858cd",
+    "category": "Конструкции",
+    "power": 10,
+    "durability": 22,
+    "weight": 44,
+    "maxCount": 4,
+    "build_hp": 22
+  },
+  {
+    "id": "fe8a9df6",
+    "category": "Конструкции",
+    "power": 5,
+    "durability": 11,
+    "weight": 22,
+    "maxCount": 2,
+    "build_hp": 11
+  },
+  {
+    "id": "ffbc559e",
+    "category": "Контактные",
+    "power": 24,
+    "durability": 53,
+    "weight": 79,
+    "maxCount": 6,
+    "build_hp": 0
   }
 ]
