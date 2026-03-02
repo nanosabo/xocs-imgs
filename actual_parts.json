@@ -446,7 +446,7 @@
     "power": 8,
     "durability": 22,
     "weight": 51,
-    "maxCount": 4,
+    "maxCount": 2,
     "build_hp": 22,
     "eng_name": "Battle walker right stand"
   },
@@ -3361,7 +3361,7 @@
     "power": 8,
     "durability": 22,
     "weight": 51,
-    "maxCount": 4,
+    "maxCount": 2,
     "build_hp": 22,
     "eng_name": "Battle walker left stand"
   },
