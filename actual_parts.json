@@ -11,6 +11,17 @@
     "eng_name": "Horo"
   },
   {
+    "id": "e265ac5e",
+    "category": "Конструкции",
+    "name": "Пламенный заслон",
+    "power": 43,
+    "durability": 74,
+    "weight": 121,
+    "maxCount": 2,
+    "build_hp": 74,
+    "eng_name": "Flaming barrier"
+  },
+  {
     "id": "00442b77",
     "category": "Конструкции",
     "name": "Корма",
