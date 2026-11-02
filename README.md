@@ -31,6 +31,9 @@ Category 2 (`Рамы`) is excluded from `actual_parts.json`, matching the previ
 contents of the repository and the solver's behaviour. Set `INCLUDE_FRAMES=1` to
 include frames as well.
 
+Parts whose names end in `СХ` (Cyrillic) or `CX` (Latin) are never published:
+they are skipped both in `actual_parts.json` and in the part-image sync.
+
 ## Manual usage
 
 Requires Node.js 20 or newer. There are no dependencies to install.

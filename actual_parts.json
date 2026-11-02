@@ -418,17 +418,6 @@
     "eng_name": "Left phantom fender"
   },
   {
-    "id": "1ac54a25",
-    "category": "Конструкции",
-    "name": "Окно фургона СХ",
-    "power": 14,
-    "durability": 29,
-    "weight": 51,
-    "maxCount": 4,
-    "build_hp": 20,
-    "eng_name": "Van window CX"
-  },
-  {
     "id": "1e2a9f30",
     "category": "Конструкции",
     "name": "Панель БТР большая",
@@ -669,17 +658,6 @@
     "maxCount": 4,
     "build_hp": 32,
     "eng_name": "Left truck fender"
-  },
-  {
-    "id": "2b4e63f3",
-    "category": "Конструкции",
-    "name": "Борт минивэна СХ",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 22,
-    "eng_name": "Minivan sideboard CX"
   },
   {
     "id": "2bfbc191",
@@ -1353,17 +1331,6 @@
     "eng_name": "Jingasa"
   },
   {
-    "id": "5a056ff5",
-    "category": "Конструкции",
-    "name": "Крыша СХ",
-    "power": 38,
-    "durability": 75,
-    "weight": 135,
-    "maxCount": 2,
-    "build_hp": 52,
-    "eng_name": "Roof CX"
-  },
-  {
     "id": "5a18a775",
     "category": "Конструкции",
     "name": "Перевязка",
@@ -1936,17 +1903,6 @@
     "eng_name": "King of birds"
   },
   {
-    "id": "7be439c4",
-    "category": "Конструкции",
-    "name": "Задняя дверь СХ",
-    "power": 56,
-    "durability": 109,
-    "weight": 196,
-    "maxCount": 1,
-    "build_hp": 76,
-    "eng_name": "Rear door CX"
-  },
-  {
     "id": "7d1af4e9",
     "category": "Простреливаемые",
     "name": "Плечо шагохода левое",
@@ -2440,17 +2396,6 @@
     "maxCount": 2,
     "build_hp": 0,
     "eng_name": "Firewall"
-  },
-  {
-    "id": "94a0c1ba",
-    "category": "Конструкции",
-    "name": "Крыло СХ",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 2,
-    "build_hp": 22,
-    "eng_name": "Fender CX"
   },
   {
     "id": "95745c61",
@@ -4257,17 +4202,6 @@
     "eng_name": "Right flame fender"
   },
   {
-    "id": "19013852",
-    "category": "Конструкции",
-    "name": "Крыша CX",
-    "power": 38,
-    "durability": 75,
-    "weight": 135,
-    "maxCount": 0,
-    "build_hp": 0,
-    "eng_name": "Roof CX"
-  },
-  {
     "id": "1986920a",
     "category": "Конструкции",
     "name": "Угол стенки",
@@ -4332,28 +4266,6 @@
     "maxCount": 0,
     "build_hp": 0,
     "eng_name": "Pioneers bumper"
-  },
-  {
-    "id": "50fb7ec6",
-    "category": "Конструкции",
-    "name": "Борт минивэна CX",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 0,
-    "build_hp": 0,
-    "eng_name": "Minivan sideboard CX"
-  },
-  {
-    "id": "6584bd99",
-    "category": "Конструкции",
-    "name": "Окно фургона CX",
-    "power": 14,
-    "durability": 29,
-    "weight": 51,
-    "maxCount": 0,
-    "build_hp": 0,
-    "eng_name": "Van window CX"
   },
   {
     "id": "72e3dbfc",
@@ -4433,17 +4345,6 @@
     "eng_name": "Left shard"
   },
   {
-    "id": "bf0ab984",
-    "category": "Конструкции",
-    "name": "Задняя дверь CX",
-    "power": 56,
-    "durability": 109,
-    "weight": 196,
-    "maxCount": 0,
-    "build_hp": 0,
-    "eng_name": "Rear door CX"
-  },
-  {
     "id": "c907ce43",
     "category": "Конструкции",
     "name": "Пламенное крыло левое",
@@ -4464,17 +4365,6 @@
     "maxCount": 4,
     "build_hp": 56,
     "eng_name": "Left slate"
-  },
-  {
-    "id": "db2eb1a9",
-    "category": "Конструкции",
-    "name": "Крыло CX",
-    "power": 16,
-    "durability": 32,
-    "weight": 56,
-    "maxCount": 0,
-    "build_hp": 0,
-    "eng_name": "Fender CX"
   },
   {
     "id": "f5a50cba",

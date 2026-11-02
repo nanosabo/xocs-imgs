@@ -52,9 +52,18 @@ const PARTS_DIR = path.join(ROOT, "images", "parts");
 const PARTS_JSON = path.join(ROOT, "actual_parts.json");
 
 const stats = {
-  parts: { site: 0, repo: 0, result: 0, added: [], removed: [], changed: [], unchanged: 0 },
-  items: { site: 0, repo: 0, added: [], updated: [], unchanged: 0, notFound: [], invalid: [], extra: [] },
-  partImages: { site: 0, repo: 0, added: [], updated: [], unchanged: 0, notFound: [], invalid: [], extra: [] },
+  parts: {
+    site: 0,
+    repo: 0,
+    result: 0,
+    added: [],
+    removed: [],
+    changed: [],
+    excluded: [],
+    unchanged: 0,
+  },
+  items: { site: 0, repo: 0, added: [], updated: [], unchanged: 0, notFound: [], invalid: [], extra: [], pruned: 0 },
+  partImages: { site: 0, repo: 0, added: [], updated: [], unchanged: 0, notFound: [], invalid: [], extra: [], pruned: 0 },
 };
 
 /* ------------------------------------------------------------------ utils */
@@ -275,8 +284,18 @@ const toRepoPart = (part) => ({
   eng_name: part.name_en,
 });
 
+/**
+ * The site publishes parts whose names end in "СХ" (Cyrillic) or "CX" (Latin).
+ * They are not wanted in actual_parts.json at all, so they are skipped both
+ * when rebuilding the list and when syncing part images.
+ */
+const isExcludedByName = (part) => /(?:^|\s)(?:СХ|CX)$/iu.test(part.name_ru ?? "");
+
+const isAllowedPart = (part) =>
+  (INCLUDE_FRAMES || part.category !== 2) && !isExcludedByName(part);
+
 const buildPartsJson = (siteParts, existing) => {
-  const allowed = siteParts.filter((part) => INCLUDE_FRAMES || part.category !== 2);
+  const allowed = siteParts.filter(isAllowedPart);
   const siteById = new Map(allowed.map((part) => [part.id, part]));
 
   const existingById = new Map(existing.map((part) => [part.id, part]));
@@ -320,6 +339,9 @@ const buildPartsJson = (siteParts, existing) => {
   stats.parts.site = siteParts.length;
   stats.parts.repo = existing.length;
   stats.parts.result = result.length;
+  stats.parts.excluded = siteParts
+    .filter(isExcludedByName)
+    .map((part) => `${part.id} (${part.name_ru})`);
 
   return result;
 };
@@ -402,6 +424,8 @@ const syncImages = async ({ kind, ids, dir, extension, accept, label }) => {
     for (const id of state.extra) {
       await fs.rm(path.join(dir, `${id}.${extension}`), { force: true });
     }
+    state.pruned = state.extra.length;
+    state.extra = [];
   }
 };
 
@@ -449,9 +473,7 @@ const main = async () => {
     label: "items",
   });
 
-  const partIds = siteParts
-    .filter((part) => INCLUDE_FRAMES || part.category !== 2)
-    .map((part) => part.id);
+  const partIds = siteParts.filter(isAllowedPart).map((part) => part.id);
 
   console.log("\nSyncing part images…");
   await syncImages({
@@ -470,11 +492,14 @@ const main = async () => {
     `site ${stats.parts.site} | repo ${stats.parts.repo} | result ${stats.parts.result}`,
   );
   console.log(
-    `new ${stats.parts.added.length} | removed ${stats.parts.removed.length} | changed ${stats.parts.changed.length} | unchanged ${stats.parts.unchanged}`,
+    `new ${stats.parts.added.length} | removed ${stats.parts.removed.length} | changed ${stats.parts.changed.length} | excluded ${stats.parts.excluded.length} | unchanged ${stats.parts.unchanged}`,
   );
   if (stats.parts.added.length) console.log(`  new:     ${shortList(stats.parts.added, 10)}`);
   if (stats.parts.removed.length) console.log(`  removed: ${shortList(stats.parts.removed, 10)}`);
   if (stats.parts.changed.length) console.log(`  changed: ${shortList(stats.parts.changed, 5)}`);
+  if (stats.parts.excluded.length) {
+    console.log(`  excluded by name (СХ/CX): ${shortList(stats.parts.excluded, 10)}`);
+  }
 
   for (const [title, state] of [
     ["ITEM IMAGES", stats.items],
@@ -483,7 +508,7 @@ const main = async () => {
     console.log(`\n================= ${title} =================`);
     console.log(`site ${state.site} | repo ${state.repo}`);
     console.log(
-      `add ${state.added.length} | update ${state.updated.length} | unchanged ${state.unchanged} | 404 ${state.notFound.length} | invalid ${state.invalid.length} | extra ${state.extra.length}`,
+      `add ${state.added.length} | update ${state.updated.length} | unchanged ${state.unchanged} | 404 ${state.notFound.length} | invalid ${state.invalid.length} | extra ${state.extra.length}${state.pruned ? ` | pruned ${state.pruned}` : ""}`,
     );
     if (state.added.length) console.log(`  add:     ${shortList(state.added, 10)}`);
     if (state.updated.length) console.log(`  update:  ${shortList(state.updated, 10)}`);
