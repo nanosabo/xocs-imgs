@@ -19,6 +19,14 @@ The workflow runs `scripts/sync.mjs`, which:
 3. Downloads missing or changed item/part images.
 4. Commits and pushes only when something actually changed.
 
+Commits made with the built-in `GITHUB_TOKEN` do not trigger the automatic
+`pages build and deployment` workflow, so after a sync commit the workflow
+explicitly requests a Pages rebuild (`POST /repos/{owner}/{repo}/pages/builds`)
+and waits for it to finish. That is why the workflow declares `pages: write`.
+
+The workflow also runs when `scripts/**` or `.github/workflows/sync.yml` is
+pushed, which makes it possible to test changes to the automation itself.
+
 Category 2 (`Рамы`) is excluded from `actual_parts.json`, matching the previous
 contents of the repository and the solver's behaviour. Set `INCLUDE_FRAMES=1` to
 include frames as well.
