@@ -1,0 +1,54 @@
+name: Sync with crossoutcore.ru
+
+on:
+  schedule:
+    # Daily at 03:17 UTC
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-images
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync images and parts
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sync
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/sync.mjs | tee "$RUNNER_TEMP/sync-report.txt"
+
+      - name: Add report to summary
+        if: always()
+        run: |
+          {
+            echo '```'
+            cat "$RUNNER_TEMP/sync-report.txt" 2>/dev/null || echo "No report"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "🔄SYNC: update images and parts"
+          git push
