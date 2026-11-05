@@ -34,6 +34,51 @@ include frames as well.
 Parts whose names end in `СХ` (Cyrillic) or `CX` (Latin) are never published:
 they are skipped both in `actual_parts.json` and in the part-image sync.
 
+## Manual corrections (overrides)
+
+The site sometimes has wrong data or broken images. Manual fixes must survive the
+daily sync, so they live in `overrides/` and are applied **after** the site data.
+Nothing under `overrides/` is ever downloaded or overwritten by the sync.
+
+### Fixed values in `actual_parts.json`
+
+`overrides/parts.json` maps a part id to the fields that should always win over
+the site:
+
+```json
+{
+  "100f624e": {
+    "maxCount": 12,
+    "build_hp": 32
+  }
+}
+```
+
+Rules:
+
+- only fields that already exist on the part can be overridden; a typo fails the
+  sync instead of silently doing nothing;
+- the value type must match the field type (`number` for `maxCount`, `string`
+  for `name`, and so on);
+- `id` cannot be overridden;
+- overrides for parts that no longer exist on the site are reported as
+  `overrides for missing parts` so stale entries can be cleaned up.
+
+### Pinned images
+
+Put the correct file in `overrides/images/parts/<id>.png` or
+`overrides/images/items/<id>.webp`. While a pinned file exists:
+
+- it always wins over the site, even with `--force`;
+- the site copy in `images/` is replaced by the pinned file;
+- the id is protected from `PRUNE`.
+
+The same extensions and formats as the normal images are required (WebP or PNG
+for parts, WebP for items); an invalid pinned file fails the sync.
+
+To go back to the site version, delete the file from `overrides/images/…` and run
+the sync again.
+
 ## Manual usage
 
 Requires Node.js 20 or newer. There are no dependencies to install.
@@ -65,7 +110,9 @@ node scripts/sync.mjs --force
 `node scripts/sync.mjs --check` prints a summary of:
 
 - new / removed / changed parts in `actual_parts.json`;
+- pinned part fields taken from `overrides/parts.json`;
 - added / updated / unchanged images;
+- pinned images taken from `overrides/images/…`;
 - images that return 404 on the site;
 - invalid image files;
 - extra local images that are no longer on the site.

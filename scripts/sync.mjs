@@ -6,6 +6,12 @@
  *                                bytes for parts, the app already expects that)
  *   - actual_parts.json       <- /building/ (initialPartsData)
  *
+ * Manual corrections live in overrides/ and are applied after the site data,
+ * so a bad value on the site cannot overwrite them:
+ *   - overrides/parts.json          field overrides keyed by part id
+ *   - overrides/images/parts/<id>.png
+ *   - overrides/images/items/<id>.webp
+ *
  * Usage:
  *   node scripts/sync.mjs           # apply changes
  *   node scripts/sync.mjs --check   # only report what would change
@@ -51,6 +57,11 @@ const ITEMS_DIR = path.join(ROOT, "images", "items");
 const PARTS_DIR = path.join(ROOT, "images", "parts");
 const PARTS_JSON = path.join(ROOT, "actual_parts.json");
 
+const OVERRIDES_DIR = path.join(ROOT, "overrides");
+const PARTS_OVERRIDES = path.join(OVERRIDES_DIR, "parts.json");
+const OVERRIDE_PARTS_DIR = path.join(OVERRIDES_DIR, "images", "parts");
+const OVERRIDE_ITEMS_DIR = path.join(OVERRIDES_DIR, "images", "items");
+
 const stats = {
   parts: {
     site: 0,
@@ -60,10 +71,36 @@ const stats = {
     removed: [],
     changed: [],
     excluded: [],
+    pinned: [],
+    orphanedOverrides: [],
     unchanged: 0,
   },
-  items: { site: 0, repo: 0, added: [], updated: [], unchanged: 0, notFound: [], invalid: [], extra: [], pruned: 0 },
-  partImages: { site: 0, repo: 0, added: [], updated: [], unchanged: 0, notFound: [], invalid: [], extra: [], pruned: 0 },
+  items: {
+    site: 0,
+    repo: 0,
+    added: [],
+    updated: [],
+    unchanged: 0,
+    notFound: [],
+    invalid: [],
+    extra: [],
+    pruned: 0,
+    pinned: [],
+    pinnedApplied: [],
+  },
+  partImages: {
+    site: 0,
+    repo: 0,
+    added: [],
+    updated: [],
+    unchanged: 0,
+    notFound: [],
+    invalid: [],
+    extra: [],
+    pruned: 0,
+    pinned: [],
+    pinnedApplied: [],
+  },
 };
 
 /* ------------------------------------------------------------------ utils */
@@ -294,7 +331,25 @@ const isExcludedByName = (part) => /(?:^|\s)(?:СХ|CX)$/iu.test(part.name_ru ??
 const isAllowedPart = (part) =>
   (INCLUDE_FRAMES || part.category !== 2) && !isExcludedByName(part);
 
-const buildPartsJson = (siteParts, existing) => {
+const loadPartOverrides = async () => {
+  const buffer = await readFile(PARTS_OVERRIDES);
+  if (!buffer) return {};
+
+  let parsed;
+  try {
+    parsed = JSON.parse(buffer.toString("utf8"));
+  } catch (error) {
+    throw new Error(`Invalid overrides/parts.json: ${error.message}`);
+  }
+
+  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+    throw new Error("overrides/parts.json must contain an object keyed by part id");
+  }
+
+  return parsed;
+};
+
+const buildPartsJson = (siteParts, existing, partOverrides = {}) => {
   const allowed = siteParts.filter(isAllowedPart);
   const siteById = new Map(allowed.map((part) => [part.id, part]));
 
@@ -316,6 +371,38 @@ const buildPartsJson = (siteParts, existing) => {
   }
 
   const result = orderedIds.map((id) => toRepoPart(siteById.get(id)));
+
+  // Manual corrections win over whatever the site currently reports.
+  for (const part of result) {
+    const override = partOverrides[part.id];
+    if (!override) continue;
+
+    const fields = Object.keys(override).filter((key) => key !== "id");
+    if (fields.length === 0) continue;
+
+    for (const key of fields) {
+      if (!(key in part)) {
+        throw new Error(
+          `overrides/parts.json: unknown field "${key}" for part ${part.id}`,
+        );
+      }
+
+      if (typeof override[key] !== typeof part[key]) {
+        throw new Error(
+          `overrides/parts.json: field "${key}" for part ${part.id} must be ` +
+            `${typeof part[key]}, got ${typeof override[key]}`,
+        );
+      }
+
+      part[key] = override[key];
+    }
+
+    stats.parts.pinned.push(`${part.id} (${fields.join(", ")})`);
+  }
+
+  for (const id of Object.keys(partOverrides)) {
+    if (!siteById.has(id)) stats.parts.orphanedOverrides.push(id);
+  }
 
   for (const part of result) {
     const previous = existingById.get(part.id);
@@ -348,7 +435,7 @@ const buildPartsJson = (siteParts, existing) => {
 
 /* --------------------------------------------------------------- image sync */
 
-const syncImages = async ({ kind, ids, dir, extension, accept, label }) => {
+const syncImages = async ({ kind, ids, dir, extension, accept, label, overridesDir }) => {
   const state = kind === "items" ? stats.items : stats.partImages;
   const localFiles = await listFiles(dir);
   const localIds = new Set(
@@ -357,14 +444,53 @@ const syncImages = async ({ kind, ids, dir, extension, accept, label }) => {
       .filter(Boolean),
   );
 
+  const overrideFiles = overridesDir ? await listFiles(overridesDir) : new Set();
+  const pinnedIds = new Set(
+    Array.from(overrideFiles)
+      .map((name) => name.match(new RegExp(`^([0-9a-f]+)\\.${extension}$`))?.[1])
+      .filter(Boolean),
+  );
+
   state.site = ids.length;
   state.repo = localIds.size;
+  state.pinned = Array.from(pinnedIds).sort();
 
   let processed = 0;
 
   await mapLimit(ids, CONCURRENCY, async (id) => {
-    const urlPath = kind === "items" ? `/images/items/${id}.webp` : `/images/parts/${id}.png`;
     const file = path.join(dir, `${id}.${extension}`);
+
+    // A pinned image always wins over the site. This is how manual fixes to
+    // broken site assets survive the daily sync.
+    if (pinnedIds.has(id)) {
+      const override = await readFile(path.join(overridesDir, `${id}.${extension}`));
+
+      if (!override) {
+        throw new Error(`${label}: override file for ${id} is missing`);
+      }
+
+      if (!accept(override)) {
+        throw new Error(`${label}: override for ${id} is not a valid image`);
+      }
+
+      const previous = await readFile(file);
+
+      if (previous && sha256(previous) === sha256(override)) {
+        state.unchanged++;
+        return;
+      }
+
+      if (!CHECK) {
+        await fs.mkdir(dir, { recursive: true });
+        await fs.writeFile(file, override);
+      }
+
+      state.pinnedApplied.push(id);
+      processed++;
+      return;
+    }
+
+    const urlPath = kind === "items" ? `/images/items/${id}.webp` : `/images/parts/${id}.png`;
 
     let response;
 
@@ -418,7 +544,9 @@ const syncImages = async ({ kind, ids, dir, extension, accept, label }) => {
     }
   });
 
-  state.extra = Array.from(localIds).filter((id) => !ids.includes(id));
+  state.extra = Array.from(localIds).filter(
+    (id) => !ids.includes(id) && !pinnedIds.has(id),
+  );
 
   if (PRUNE && !CHECK) {
     for (const id of state.extra) {
@@ -449,7 +577,10 @@ const main = async () => {
     existingParts = [];
   }
 
-  const partsJson = buildPartsJson(siteParts, existingParts);
+  const partOverrides = await loadPartOverrides();
+  console.log(`  overrides: ${Object.keys(partOverrides).length} part(s)`);
+
+  const partsJson = buildPartsJson(siteParts, existingParts, partOverrides);
   const partsText = JSON.stringify(partsJson, null, 2);
 
   if (previousPartsText !== partsText) {
@@ -471,6 +602,7 @@ const main = async () => {
     extension: "webp",
     accept: isWebp,
     label: "items",
+    overridesDir: OVERRIDE_ITEMS_DIR,
   });
 
   const partIds = siteParts.filter(isAllowedPart).map((part) => part.id);
@@ -483,6 +615,7 @@ const main = async () => {
     extension: "png",
     accept: (buffer) => isWebp(buffer) || isPng(buffer),
     label: "parts",
+    overridesDir: OVERRIDE_PARTS_DIR,
   });
 
   /* --------------------------------------------------------------- report */
@@ -492,11 +625,17 @@ const main = async () => {
     `site ${stats.parts.site} | repo ${stats.parts.repo} | result ${stats.parts.result}`,
   );
   console.log(
-    `new ${stats.parts.added.length} | removed ${stats.parts.removed.length} | changed ${stats.parts.changed.length} | excluded ${stats.parts.excluded.length} | unchanged ${stats.parts.unchanged}`,
+    `new ${stats.parts.added.length} | removed ${stats.parts.removed.length} | changed ${stats.parts.changed.length} | excluded ${stats.parts.excluded.length} | pinned ${stats.parts.pinned.length} | unchanged ${stats.parts.unchanged}`,
   );
   if (stats.parts.added.length) console.log(`  new:     ${shortList(stats.parts.added, 10)}`);
   if (stats.parts.removed.length) console.log(`  removed: ${shortList(stats.parts.removed, 10)}`);
   if (stats.parts.changed.length) console.log(`  changed: ${shortList(stats.parts.changed, 5)}`);
+  if (stats.parts.pinned.length) console.log(`  pinned:  ${shortList(stats.parts.pinned, 10)}`);
+  if (stats.parts.orphanedOverrides.length) {
+    console.log(
+      `  overrides for missing parts: ${shortList(stats.parts.orphanedOverrides, 10)}`,
+    );
+  }
   if (stats.parts.excluded.length) {
     console.log(`  excluded by name (СХ/CX): ${shortList(stats.parts.excluded, 10)}`);
   }
@@ -508,10 +647,14 @@ const main = async () => {
     console.log(`\n================= ${title} =================`);
     console.log(`site ${state.site} | repo ${state.repo}`);
     console.log(
-      `add ${state.added.length} | update ${state.updated.length} | unchanged ${state.unchanged} | 404 ${state.notFound.length} | invalid ${state.invalid.length} | extra ${state.extra.length}${state.pruned ? ` | pruned ${state.pruned}` : ""}`,
+      `add ${state.added.length} | update ${state.updated.length} | unchanged ${state.unchanged} | pinned ${state.pinned.length} | 404 ${state.notFound.length} | invalid ${state.invalid.length} | extra ${state.extra.length}${state.pruned ? ` | pruned ${state.pruned}` : ""}`,
     );
     if (state.added.length) console.log(`  add:     ${shortList(state.added, 10)}`);
     if (state.updated.length) console.log(`  update:  ${shortList(state.updated, 10)}`);
+    if (state.pinnedApplied.length) {
+      console.log(`  pinned applied: ${shortList(state.pinnedApplied, 10)}`);
+    }
+    if (state.pinned.length) console.log(`  pinned:  ${shortList(state.pinned, 10)}`);
     if (state.notFound.length) console.log(`  404:     ${shortList(state.notFound, 10)}`);
     if (state.invalid.length) console.log(`  invalid: ${shortList(state.invalid, 10)}`);
     if (state.extra.length) console.log(`  extra:   ${shortList(state.extra, 10)}`);

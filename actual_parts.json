@@ -4175,8 +4175,8 @@
     "power": 16,
     "durability": 32,
     "weight": 56,
-    "maxCount": 0,
-    "build_hp": 0,
+    "maxCount": 12,
+    "build_hp": 32,
     "eng_name": "Fender"
   },
   {
