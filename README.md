@@ -5,6 +5,8 @@ Images and part data for [XO Craft Solution](https://github.com/nanosabo/XO-Craf
 - `images/items/<id>.webp` — item icons from `crossoutcore.ru`
 - `images/parts/<id>.png` — part icons (the site serves WebP bytes under the `.png` name, which browsers handle fine)
 - `actual_parts.json` — part stats used by the crafting solver and required-parts picker
+- `market_items.json` — market catalogue (Russian names) used when the site itself is unreachable
+- `market_items_en.json` — the same catalogue with English names
 
 ## Automatic sync
 
@@ -15,9 +17,15 @@ and can be triggered manually from the **Actions** tab.
 The workflow runs `scripts/sync.mjs`, which:
 
 1. Loads the full parts list from `/building/` (`initialPartsData`) and regenerates `actual_parts.json`.
-2. Loads item ids from `/sitemap.xml`.
-3. Downloads missing or changed item/part images.
-4. Commits and pushes only when something actually changed.
+2. Loads the market catalogues from `/market/` and `/en/market/` (`initialData`) and regenerates `market_items.json` and `market_items_en.json`.
+3. Loads item ids from `/sitemap.xml`.
+4. Downloads missing or changed item/part images.
+5. Commits and pushes only when something actually changed.
+
+The market catalogues intentionally contain no prices: they change every few
+minutes and would make every sync produce a commit. The desktop app fetches the
+current price table through the site's `checkUpdateStatus` server action, which
+is fast even when the full market page is not reachable.
 
 Commits made with the built-in `GITHUB_TOKEN` do not trigger the automatic
 `pages build and deployment` workflow, so after a sync commit the workflow
@@ -104,6 +112,7 @@ node scripts/sync.mjs --force
 | `PRUNE` | `0` | `1` to delete images that no longer exist on the site |
 | `CONCURRENCY` | `8` | Parallel image downloads |
 | `TIMEOUT_MS` | `20000` | Per-request timeout |
+| `MARKET_TIMEOUT_MS` | `120000` | Timeout for the market page (it is much slower than static files) |
 
 ## Integrity report
 

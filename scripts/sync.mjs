@@ -5,6 +5,12 @@
  *   - images/parts/<id>.png   <- /images/parts/<id>.png (the site serves WebP
  *                                bytes for parts, the app already expects that)
  *   - actual_parts.json       <- /building/ (initialPartsData)
+ *   - market_items.json       <- /market/ (initialData, Russian names)
+ *   - market_items_en.json    <- /en/market/ (initialData, English names)
+ *
+ * The market catalogues let the desktop app work on networks where only the
+ * GitHub Pages mirror is reachable: the site page is too slow there, while the
+ * price table still comes from the checkUpdateStatus server action.
  *
  * Manual corrections live in overrides/ and are applied after the site data,
  * so a bad value on the site cannot overwrite them:
@@ -24,6 +30,7 @@
  *   PRUNE           1 to delete images that no longer exist on the site
  *   CONCURRENCY     parallel image downloads (default 8)
  *   TIMEOUT_MS      per-request timeout (default 20000)
+ *   MARKET_TIMEOUT_MS  timeout for the market page (default 120000)
  */
 
 import crypto from "node:crypto";
@@ -42,6 +49,10 @@ const INCLUDE_FRAMES = process.env.INCLUDE_FRAMES === "1";
 const PRUNE = process.env.PRUNE === "1";
 const CONCURRENCY = Math.max(1, Number(process.env.CONCURRENCY || 8));
 const TIMEOUT_MS = Math.max(1000, Number(process.env.TIMEOUT_MS || 20000));
+const MARKET_TIMEOUT_MS = Math.max(
+  1000,
+  Number(process.env.MARKET_TIMEOUT_MS || 120000),
+);
 
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
@@ -56,6 +67,8 @@ const CATEGORY_NAMES = {
 const ITEMS_DIR = path.join(ROOT, "images", "items");
 const PARTS_DIR = path.join(ROOT, "images", "parts");
 const PARTS_JSON = path.join(ROOT, "actual_parts.json");
+const MARKET_JSON = path.join(ROOT, "market_items.json");
+const MARKET_JSON_EN = path.join(ROOT, "market_items_en.json");
 
 const OVERRIDES_DIR = path.join(ROOT, "overrides");
 const PARTS_OVERRIDES = path.join(OVERRIDES_DIR, "parts.json");
@@ -101,13 +114,19 @@ const stats = {
     pinned: [],
     pinnedApplied: [],
   },
+  market: {
+    site: 0,
+    updated: false,
+    unchanged: false,
+    error: null,
+  },
 };
 
 /* ------------------------------------------------------------------ utils */
 
-const fetchWithTimeout = async (url, options = {}) => {
+const fetchWithTimeout = async (url, options = {}, timeoutMs = TIMEOUT_MS) => {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
     return await fetch(url, {
@@ -123,12 +142,17 @@ const fetchWithTimeout = async (url, options = {}) => {
   }
 };
 
-const fetchWithRetry = async (url, options = {}, attempts = 2) => {
+const fetchWithRetry = async (
+  url,
+  options = {},
+  attempts = 2,
+  timeoutMs = TIMEOUT_MS,
+) => {
   let lastError;
 
   for (let attempt = 0; attempt < attempts; attempt++) {
     try {
-      const response = await fetchWithTimeout(url, options);
+      const response = await fetchWithTimeout(url, options, timeoutMs);
 
       if (response.status >= 500 && attempt < attempts - 1) {
         lastError = new Error(`HTTP ${response.status}`);
@@ -153,9 +177,18 @@ const fetchWithRetry = async (url, options = {}, attempts = 2) => {
  * errors / timeouts / 5xx / blocking responses. 404 responses are returned as-is
  * (e.g. images that do not exist on the site).
  */
-const fetchPath = async (urlPath, options = {}) => {
+const fetchPath = async (
+  urlPath,
+  options = {},
+  { timeoutMs = TIMEOUT_MS, attempts = 2 } = {},
+) => {
   try {
-    const response = await fetchWithRetry(SITE + urlPath, options);
+    const response = await fetchWithRetry(
+      SITE + urlPath,
+      options,
+      attempts,
+      timeoutMs,
+    );
 
     if (
       response.status < 500 &&
@@ -171,7 +204,7 @@ const fetchPath = async (urlPath, options = {}) => {
     if (!MIRROR) throw error;
   }
 
-  return fetchWithRetry(MIRROR + urlPath, options);
+  return fetchWithRetry(MIRROR + urlPath, options, attempts, timeoutMs);
 };
 
 const sha256 = (buffer) => crypto.createHash("sha256").update(buffer).digest("hex");
@@ -273,6 +306,146 @@ const extractJsonArray = (text, key) => {
   }
 
   throw new Error(`Unterminated JSON array for ${key}`);
+};
+
+/**
+ * Extracts a JSON object/array that follows `key` in a React Server Component
+ * payload. Brace matching is string-aware, so braces inside recipes/names do
+ * not confuse it.
+ */
+const extractJsonValue = (text, key, from = 0) => {
+  const index = text.indexOf(key, from);
+  if (index === -1) throw new Error(`Key ${key} not found in page payload`);
+
+  let start = index + key.length;
+  while (start < text.length && /\s/.test(text[start])) start++;
+
+  const open = text[start];
+  if (open !== "{" && open !== "[") {
+    throw new Error(`Unexpected value for ${key}`);
+  }
+
+  const close = open === "{" ? "}" : "]";
+  let depth = 0;
+  let inString = false;
+
+  for (let i = start; i < text.length; i++) {
+    const char = text[i];
+
+    if (inString) {
+      if (char === "\\") i++;
+      else if (char === '"') inString = false;
+      continue;
+    }
+
+    if (char === '"') {
+      inString = true;
+    } else if (char === open) {
+      depth++;
+    } else if (char === close) {
+      depth--;
+      if (depth === 0) return JSON.parse(text.slice(start, i + 1));
+    }
+  }
+
+  throw new Error(`Unterminated JSON value for ${key}`);
+};
+
+const extractInitialData = (text) => {
+  const key = '"initialData":';
+  let from = 0;
+
+  while (true) {
+    const index = text.indexOf(key, from);
+    if (index === -1) throw new Error("initialData not found in page payload");
+
+    try {
+      return extractJsonValue(text, key, index);
+    } catch {
+      from = index + key.length;
+    }
+  }
+};
+
+/**
+ * Fetches /market/ and returns only the static catalogue parts. Prices are
+ * intentionally excluded: they change every few minutes and are fetched by the
+ * app through checkUpdateStatus, which keeps the committed file stable.
+ */
+const fetchMarketCatalog = async (urlPath, locale) => {
+  const response = await fetchPath(
+    urlPath,
+    {
+      headers: {
+        RSC: "1",
+        Cookie: `NEXT_LOCALE=${locale}`,
+        Accept: "*/*",
+      },
+    },
+    { timeoutMs: MARKET_TIMEOUT_MS, attempts: 1 },
+  );
+
+  if (!response.ok) {
+    throw new Error(`Failed to load ${urlPath}: HTTP ${response.status}`);
+  }
+
+  const text = await response.text();
+
+  let data;
+  try {
+    data = extractInitialData(text);
+  } catch {
+    data = extractInitialData(decodeRscPayload(text));
+  }
+
+  const catalog = {};
+  for (const key of [
+    "items",
+    "rarities",
+    "factions",
+    "categories",
+    "types",
+    "subtypes",
+  ]) {
+    if (data[key] !== undefined) catalog[key] = data[key];
+  }
+
+  if (!Array.isArray(catalog.items) || catalog.items.length === 0) {
+    throw new Error(`${urlPath} did not contain any items`);
+  }
+
+  return catalog;
+};
+
+const syncMarketCatalog = async (urlPath, locale, file) => {
+  let catalog;
+
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      catalog = await fetchMarketCatalog(urlPath, locale);
+      break;
+    } catch (error) {
+      if (attempt === 1) throw error;
+      console.log(`  ${urlPath}: ${error.message}, retrying…`);
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+    }
+  }
+
+  const text = JSON.stringify(catalog);
+  const previous = (await readFile(file))?.toString("utf8");
+
+  stats.market.site = catalog.items.length;
+
+  if (previous !== text) {
+    if (!CHECK) await fs.writeFile(file, text, "utf8");
+    stats.market.updated = true;
+    console.log(
+      `  ${path.basename(file)} will be updated (${catalog.items.length} items)`,
+    );
+  } else {
+    stats.market.unchanged = true;
+    console.log(`  ${path.basename(file)} is up to date (${catalog.items.length} items)`);
+  }
 };
 
 const fetchSiteParts = async () => {
@@ -590,6 +763,24 @@ const main = async () => {
     console.log("  actual_parts.json is up to date");
   }
 
+  console.log("\nLoading market catalogues…");
+  try {
+    await syncMarketCatalog("/market/", "ru", MARKET_JSON);
+    await syncMarketCatalog("/en/market/", "en", MARKET_JSON_EN);
+  } catch (error) {
+    stats.market.error = error.message;
+
+    // The catalogues are what makes the app usable on networks where only the
+    // GitHub Pages mirror works, so the first generation must not be skipped.
+    // Once they exist, a transient failure should not block image updates.
+    const hasRussian = Boolean(await readFile(MARKET_JSON));
+    const hasEnglish = Boolean(await readFile(MARKET_JSON_EN));
+
+    if (!hasRussian || !hasEnglish) throw error;
+
+    console.log(`  market catalogue failed: ${error.message}`);
+  }
+
   console.log("\nLoading item ids from /sitemap.xml…");
   const itemIds = await fetchItemIds();
   console.log(`  items on site: ${itemIds.length}`);
@@ -638,6 +829,14 @@ const main = async () => {
   }
   if (stats.parts.excluded.length) {
     console.log(`  excluded by name (СХ/CX): ${shortList(stats.parts.excluded, 10)}`);
+  }
+
+  console.log("\n================ MARKET CATALOG ================");
+  console.log(
+    `items ${stats.market.site} | ${stats.market.updated ? "updated" : stats.market.unchanged ? "up to date" : "not fetched"}`,
+  );
+  if (stats.market.error) {
+    console.log(`  error: ${stats.market.error}`);
   }
 
   for (const [title, state] of [
