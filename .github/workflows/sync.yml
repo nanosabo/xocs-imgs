@@ -39,6 +39,10 @@ jobs:
 
       - name: Sync
         shell: bash
+        # The mirror URL is optional and kept out of the repository; add it as
+        # the XOCS_MIRROR repository secret if a fallback is needed.
+        env:
+          XOCS_MIRROR: ${{ secrets.XOCS_MIRROR }}
         run: |
           set -o pipefail
           node scripts/sync.mjs | tee "$RUNNER_TEMP/sync-report.txt"

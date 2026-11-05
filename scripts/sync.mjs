@@ -19,7 +19,7 @@
  *
  * Environment:
  *   XOCS_SITE       primary site (default https://crossoutcore.ru)
- *   XOCS_MIRROR     fallback mirror (default https://cross.vas-matrizza.workers.dev)
+ *   XOCS_MIRROR     optional fallback mirror, used on network errors / 5xx
  *   INCLUDE_FRAMES  1 to also sync category 2 ("Рамы"), default excluded
  *   PRUNE           1 to delete images that no longer exist on the site
  *   CONCURRENCY     parallel image downloads (default 8)
@@ -34,7 +34,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const SITE = (process.env.XOCS_SITE || "https://crossoutcore.ru").replace(/\/$/, "");
-const MIRROR = (process.env.XOCS_MIRROR || "https://cross.vas-matrizza.workers.dev").replace(/\/$/, "");
+const MIRROR = (process.env.XOCS_MIRROR || "").replace(/\/$/, "");
 
 const CHECK = process.argv.includes("--check");
 const FORCE = process.argv.includes("--force");

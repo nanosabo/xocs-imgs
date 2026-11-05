@@ -99,7 +99,7 @@ node scripts/sync.mjs --force
 | Variable | Default | Description |
 | --- | --- | --- |
 | `XOCS_SITE` | `https://crossoutcore.ru` | Primary source |
-| `XOCS_MIRROR` | `https://cross.vas-matrizza.workers.dev` | Fallback mirror used on network errors / 5xx |
+| `XOCS_MIRROR` | — | Optional fallback mirror used on network errors / 5xx |
 | `INCLUDE_FRAMES` | `0` | `1` to sync category 2 (`Рамы`) |
 | `PRUNE` | `0` | `1` to delete images that no longer exist on the site |
 | `CONCURRENCY` | `8` | Parallel image downloads |
