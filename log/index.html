@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>XO Craft Solution</title>
+    <meta
+      name="description"
+      content="Открыть статистику боя в XO Craft Solution"
+    />
+    <meta property="og:title" content="XO Craft Solution" />
+    <meta
+      property="og:description"
+      content="Открыть статистику боя в приложении"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #111316;
+        --card: #16191b;
+        --text: #ffffff;
+        --muted: #89898a;
+        --primary: #0077ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(440px, calc(100% - 32px));
+        padding: 28px;
+        border-radius: 24px;
+        background: var(--card);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      a {
+        display: inline-flex;
+        margin-top: 20px;
+        padding: 12px 18px;
+        border-radius: 12px;
+        background: var(--primary);
+        color: var(--text);
+        font-size: 16px;
+        text-decoration: none;
+      }
+
+      a.quiet {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        background: none;
+        color: var(--primary);
+      }
+
+      #error {
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">XO Craft</h1>
+      <p id="text">Открываем статистику в приложении.</p>
+      <a id="open" hidden>Открыть в приложении</a>
+    </main>
+    <script>
+      const LOG_ID = /^[A-Za-z0-9_-]{4,64}$/;
+      const LOG_TYPE = /^[a-z0-9_-]{1,32}$/;
+      const english = (navigator.language || "").toLowerCase().startsWith("en");
+      const title = document.getElementById("title");
+      const text = document.getElementById("text");
+      const open = document.getElementById("open");
+      const params = new URLSearchParams(location.search);
+      const logId = params.get("id") || "";
+      const type = (params.get("type") || "").trim().toLowerCase();
+
+      const copy = english
+        ? {
+            missing: "This link has no log.",
+            opening: "Opening the battle stats in the app.",
+            button: "Open in the app",
+            fallback:
+              'If nothing happened, install <a class="quiet" href="https://github.com/nanosabo/XO-Craft-Solution/releases">XO Craft Solution</a> and click the button again.',
+          }
+        : {
+            missing: "В ссылке нет лога.",
+            opening: "Открываем статистику в приложении.",
+            button: "Открыть в приложении",
+            fallback:
+              'Если ничего не произошло, установите <a class="quiet" href="https://github.com/nanosabo/XO-Craft-Solution/releases">XO Craft Solution</a> и нажмите кнопку ещё раз.',
+          };
+
+      if (!LOG_ID.test(logId)) {
+        text.id = "error";
+        text.textContent = copy.missing;
+      } else {
+        let target = "xocraft://logs/" + encodeURIComponent(logId);
+
+        if (LOG_TYPE.test(type)) {
+          target += "?type=" + encodeURIComponent(type);
+        }
+
+        open.hidden = false;
+        open.href = target;
+        open.textContent = copy.button;
+        text.textContent = copy.opening;
+        location.href = target;
+        setTimeout(() => {
+          text.innerHTML = copy.fallback;
+        }, 1500);
+      }
+    </script>
+  </body>
+</html>
