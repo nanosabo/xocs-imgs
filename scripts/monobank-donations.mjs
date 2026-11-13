@@ -11,7 +11,8 @@
  *
  * Environment:
  *   MONOBANK_TOKEN   personal token from https://api.monobank.ua/ (required)
- *   MONOBANK_JAR_ID  jar sendId or account id, required when the token has
+ *   MONOBANK_JAR_ID  sendId, the part after /jar/ in the share link, or the
+ *                    whole send.monobank.ua URL. Required when the token has
  *                    more than one jar
  */
 
@@ -80,11 +81,28 @@ const monoGet = async (pathname) => {
 
 const iso = (unixSeconds) => new Date(unixSeconds * 1000).toISOString();
 
+// client-info returns a jar sendId like "jar/abcd", while the share link is
+// https://send.monobank.ua/jar/abcd. Accept the raw id, the sendId, and the URL.
+const jarKey = (value) => {
+  const text = value.trim();
+  let path = text;
+  try {
+    path = new URL(text).pathname;
+  } catch {
+    // A bare id or sendId, not a URL.
+  }
+  const parts = path.split("/").filter(Boolean);
+  return parts.at(-1) ?? text;
+};
+
 const selectJar = (jars) => {
   const list = jars.map((jar) => `${jar.title} [${jar.sendId}]`).join(", ");
 
   if (wantedJar) {
-    const found = jars.find((jar) => jar.id === wantedJar || jar.sendId === wantedJar);
+    const wantedKey = jarKey(wantedJar);
+    const found = jars.find(
+      (jar) => jarKey(jar.id) === wantedKey || jarKey(jar.sendId) === wantedKey,
+    );
     if (!found) {
       throw new Error(
         `MONOBANK_JAR_ID does not match a jar on this token. Available: ${list || "none"}`,
