@@ -3898,7 +3898,7 @@
     "power": 58,
     "durability": 140,
     "weight": 303,
-    "maxCount": 1,
+    "maxCount": 6,
     "build_hp": 140,
     "eng_name": "Bulb",
     "size_x": 6,
