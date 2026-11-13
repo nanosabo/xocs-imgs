@@ -1,0 +1,115 @@
+name: Sync Monobank donations
+
+on:
+  schedule:
+    # Daily at 04:47 UTC, clear of the crossoutcore sync at 03:17.
+    - cron: "47 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  # GITHUB_TOKEN pushes do not trigger the Pages workflow, so the job
+  # requests a rebuild itself after a commit.
+  pages: write
+
+concurrency:
+  group: monobank-donations
+  cancel-in-progress: false
+
+jobs:
+  donations:
+    name: Fetch jar donations
+    runs-on: ubuntu-latest
+    # client-info and the statement each take a slot in the one-request-per-minute limit.
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch donations
+        shell: bash
+        env:
+          MONOBANK_TOKEN: ${{ secrets.MONOBANK_TOKEN }}
+          MONOBANK_JAR_ID: ${{ secrets.MONOBANK_JAR_ID }}
+        run: |
+          set -o pipefail
+          node scripts/monobank-donations.mjs | tee "$RUNNER_TEMP/monobank-report.txt"
+
+      - name: Add report to summary
+        if: always()
+        run: |
+          {
+            echo '```'
+            cat "$RUNNER_TEMP/monobank-report.txt" 2>/dev/null || echo "No report"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git add donations.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "🔄SYNC: update monobank donations"
+          git push
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Request GitHub Pages rebuild
+        id: pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          response=$(curl -fsS \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds")
+
+          echo "$response" | jq .
+          echo "build_url=$(echo "$response" | jq -r '.url')" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_URL: ${{ steps.pages.outputs.build_url }}
+        run: |
+          for attempt in $(seq 1 120); do
+            response=$(curl -fsS \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$BUILD_URL")
+
+            status=$(echo "$response" | jq -r '.status')
+            echo "Pages build status: $status"
+
+            case "$status" in
+              built)
+                exit 0
+                ;;
+              errored)
+                echo "$response" | jq .
+                echo "::error::GitHub Pages build failed"
+                exit 1
+                ;;
+            esac
+
+            sleep 5
+          done
+
+          echo "::error::Timed out waiting for the GitHub Pages build"
+          exit 1
