@@ -4,7 +4,7 @@ Images and part data for [XO Craft Solution](https://github.com/nanosabo/XO-Craf
 
 - `images/items/<id>.webp` — item icons from `crossoutcore.ru`
 - `images/parts/<id>.png` — part icons (the site serves WebP bytes under the `.png` name, which browsers handle fine)
-- `actual_parts.json` — part stats used by the crafting solver and required-parts picker
+- `actual_parts.json` — part stats used by the crafting solver and required-parts picker, including `size_x`, `size_y` and `size_z`
 - `market_items.json` — market catalogue (Russian names) used when the site itself is unreachable
 - `market_items_en.json` — the same catalogue with English names
 

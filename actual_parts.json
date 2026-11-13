@@ -8,7 +8,10 @@
     "weight": 619,
     "maxCount": 1,
     "build_hp": 306,
-    "eng_name": "Horo"
+    "eng_name": "Horo",
+    "size_x": 5,
+    "size_y": 6,
+    "size_z": 4
   },
   {
     "id": "e265ac5e",
@@ -19,7 +22,10 @@
     "weight": 121,
     "maxCount": 2,
     "build_hp": 74,
-    "eng_name": "Flaming barrier"
+    "eng_name": "Flaming barrier",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "00442b77",
@@ -30,7 +36,10 @@
     "weight": 134,
     "maxCount": 6,
     "build_hp": 64,
-    "eng_name": "Hull back"
+    "eng_name": "Hull back",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "00c98c89",
@@ -41,7 +50,10 @@
     "weight": 336,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Snow cutter left"
+    "eng_name": "Snow cutter left",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "02767895",
@@ -52,7 +64,10 @@
     "weight": 171,
     "maxCount": 2,
     "build_hp": 76,
-    "eng_name": "Excavator left fender"
+    "eng_name": "Excavator left fender",
+    "size_x": 3,
+    "size_y": 5,
+    "size_z": 4
   },
   {
     "id": "03518167",
@@ -63,7 +78,10 @@
     "weight": 59,
     "maxCount": 8,
     "build_hp": 36,
-    "eng_name": "Rollover"
+    "eng_name": "Rollover",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "03b1c6b1",
@@ -74,7 +92,10 @@
     "weight": 102,
     "maxCount": 1,
     "build_hp": 51,
-    "eng_name": "Tanko"
+    "eng_name": "Tanko",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "03cb7fe3",
@@ -85,7 +106,10 @@
     "weight": 157,
     "maxCount": 8,
     "build_hp": 75,
-    "eng_name": "Cooling system"
+    "eng_name": "Cooling system",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "06028c4e",
@@ -96,7 +120,10 @@
     "weight": 86,
     "maxCount": 6,
     "build_hp": 58,
-    "eng_name": "Buggy rear"
+    "eng_name": "Buggy rear",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 4
   },
   {
     "id": "0713daf6",
@@ -107,7 +134,10 @@
     "weight": 37,
     "maxCount": 1,
     "build_hp": 25,
-    "eng_name": "Right rib"
+    "eng_name": "Right rib",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "0784e603",
@@ -118,7 +148,10 @@
     "weight": 90,
     "maxCount": 2,
     "build_hp": 50,
-    "eng_name": "Torino nosecut"
+    "eng_name": "Torino nosecut",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "08252891",
@@ -129,7 +162,10 @@
     "weight": 179,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Defence line"
+    "eng_name": "Defence line",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "09230135",
@@ -140,7 +176,10 @@
     "weight": 219,
     "maxCount": 2,
     "build_hp": 101,
-    "eng_name": "Cast right corner"
+    "eng_name": "Cast right corner",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "09bf3851",
@@ -151,7 +190,10 @@
     "weight": 263,
     "maxCount": 1,
     "build_hp": 130,
-    "eng_name": "Mempo"
+    "eng_name": "Mempo",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "0a777f4c",
@@ -162,7 +204,10 @@
     "weight": 168,
     "maxCount": 4,
     "build_hp": 78,
-    "eng_name": "Ventillation outlet"
+    "eng_name": "Ventillation outlet",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "0a95bac9",
@@ -173,7 +218,10 @@
     "weight": 11,
     "maxCount": 8,
     "build_hp": 8,
-    "eng_name": "Grater"
+    "eng_name": "Grater",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "0ae2edba",
@@ -184,7 +232,10 @@
     "weight": 135,
     "maxCount": 2,
     "build_hp": 82,
-    "eng_name": "Minivan panel"
+    "eng_name": "Minivan panel",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "0bd665cb",
@@ -195,7 +246,10 @@
     "weight": 293,
     "maxCount": 2,
     "build_hp": 115,
-    "eng_name": "Armored hatch"
+    "eng_name": "Armored hatch",
+    "size_x": 6,
+    "size_y": 6,
+    "size_z": 1
   },
   {
     "id": "0bec7ddf",
@@ -206,7 +260,10 @@
     "weight": 63,
     "maxCount": 4,
     "build_hp": 39,
-    "eng_name": "Devilry"
+    "eng_name": "Devilry",
+    "size_x": 3,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "0c5836f2",
@@ -217,7 +274,10 @@
     "weight": 212,
     "maxCount": 4,
     "build_hp": 89,
-    "eng_name": "Tram car doors"
+    "eng_name": "Tram car doors",
+    "size_x": 7,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "0caf3467",
@@ -228,7 +288,10 @@
     "weight": 121,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Cranium"
+    "eng_name": "Cranium",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "0cef490f",
@@ -239,7 +302,10 @@
     "weight": 33,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Frontal Protection System"
+    "eng_name": "Frontal Protection System",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "0cf8fdd0",
@@ -250,7 +316,10 @@
     "weight": 9,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Small buggy floor"
+    "eng_name": "Small buggy floor",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "0e84954f",
@@ -261,7 +330,10 @@
     "weight": 81,
     "maxCount": 8,
     "build_hp": 34,
-    "eng_name": "Quarter wall"
+    "eng_name": "Quarter wall",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 4
   },
   {
     "id": "0ea2fbe7",
@@ -272,7 +344,10 @@
     "weight": 219,
     "maxCount": 2,
     "build_hp": 101,
-    "eng_name": "Cast left corner"
+    "eng_name": "Cast left corner",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "10371fc0",
@@ -283,7 +358,10 @@
     "weight": 132,
     "maxCount": 2,
     "build_hp": 66,
-    "eng_name": "Right paw"
+    "eng_name": "Right paw",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "108140a1",
@@ -294,7 +372,10 @@
     "weight": 51,
     "maxCount": 8,
     "build_hp": 29,
-    "eng_name": "Van window"
+    "eng_name": "Van window",
+    "size_x": 1,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "11fb1b72",
@@ -305,7 +386,10 @@
     "weight": 61,
     "maxCount": 2,
     "build_hp": 32,
-    "eng_name": "Left fairing top"
+    "eng_name": "Left fairing top",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "12060cc3",
@@ -316,7 +400,10 @@
     "weight": 62,
     "maxCount": 2,
     "build_hp": 25,
-    "eng_name": "APC fender left"
+    "eng_name": "APC fender left",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "12d5fac8",
@@ -327,7 +414,10 @@
     "weight": 612,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Gessan"
+    "eng_name": "Gessan",
+    "size_x": 3,
+    "size_y": 8,
+    "size_z": 3
   },
   {
     "id": "12e5345c",
@@ -338,7 +428,10 @@
     "weight": 189,
     "maxCount": 4,
     "build_hp": 97,
-    "eng_name": "Airplane interior"
+    "eng_name": "Airplane interior",
+    "size_x": 7,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "1357f61e",
@@ -349,7 +442,10 @@
     "weight": 79,
     "maxCount": 1,
     "build_hp": 44,
-    "eng_name": "Furia nosecut"
+    "eng_name": "Furia nosecut",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "147069c8",
@@ -360,7 +456,10 @@
     "weight": 130,
     "maxCount": 4,
     "build_hp": 67,
-    "eng_name": "Avia double slope"
+    "eng_name": "Avia double slope",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "14bc090c",
@@ -371,7 +470,10 @@
     "weight": 61,
     "maxCount": 6,
     "build_hp": 26,
-    "eng_name": "Twin slope"
+    "eng_name": "Twin slope",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "180b9213",
@@ -382,7 +484,10 @@
     "weight": 41,
     "maxCount": 2,
     "build_hp": 28,
-    "eng_name": "Left shoulder rest"
+    "eng_name": "Left shoulder rest",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "186f005c",
@@ -393,7 +498,10 @@
     "weight": 135,
     "maxCount": 6,
     "build_hp": 75,
-    "eng_name": "Canvas roof"
+    "eng_name": "Canvas roof",
+    "size_x": 4,
+    "size_y": 6,
+    "size_z": 1
   },
   {
     "id": "18f21764",
@@ -404,7 +512,10 @@
     "weight": 81,
     "maxCount": 4,
     "build_hp": 36,
-    "eng_name": "Crane hull left"
+    "eng_name": "Crane hull left",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "193baada",
@@ -415,7 +526,10 @@
     "weight": 252,
     "maxCount": 1,
     "build_hp": 105,
-    "eng_name": "Left phantom fender"
+    "eng_name": "Left phantom fender",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "1e2a9f30",
@@ -426,7 +540,10 @@
     "weight": 269,
     "maxCount": 2,
     "build_hp": 106,
-    "eng_name": "Large APC panel"
+    "eng_name": "Large APC panel",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "1e2e3afc",
@@ -437,7 +554,10 @@
     "weight": 24,
     "maxCount": 8,
     "build_hp": 12,
-    "eng_name": "Hull part"
+    "eng_name": "Hull part",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "1ea069b1",
@@ -448,7 +568,10 @@
     "weight": 51,
     "maxCount": 4,
     "build_hp": 22,
-    "eng_name": "Battle walker right stand"
+    "eng_name": "Battle walker right stand",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "1f695058",
@@ -459,7 +582,10 @@
     "weight": 79,
     "maxCount": 2,
     "build_hp": 31,
-    "eng_name": "Turret vault left"
+    "eng_name": "Turret vault left",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "20a189b0",
@@ -470,7 +596,10 @@
     "weight": 99,
     "maxCount": 4,
     "build_hp": 38,
-    "eng_name": "Mounting bracket"
+    "eng_name": "Mounting bracket",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "21bc9ddb",
@@ -481,7 +610,10 @@
     "weight": 31,
     "maxCount": 12,
     "build_hp": 13,
-    "eng_name": "Truck slope"
+    "eng_name": "Truck slope",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "224bc584",
@@ -492,7 +624,10 @@
     "weight": 19,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Tendinis right"
+    "eng_name": "Tendinis right",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "22de8da5",
@@ -503,7 +638,10 @@
     "weight": 124,
     "maxCount": 2,
     "build_hp": 69,
-    "eng_name": "Sports car hull back"
+    "eng_name": "Sports car hull back",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "2308e52b",
@@ -514,7 +652,10 @@
     "weight": 34,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left elbow"
+    "eng_name": "Left elbow",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "23af0145",
@@ -525,7 +666,10 @@
     "weight": 68,
     "maxCount": 9,
     "build_hp": 27,
-    "eng_name": "Small APC roof part"
+    "eng_name": "Small APC roof part",
+    "size_x": 1,
+    "size_y": 8,
+    "size_z": 1
   },
   {
     "id": "246db109",
@@ -536,7 +680,10 @@
     "weight": 246,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Defensive perimeter"
+    "eng_name": "Defensive perimeter",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "24ea39ab",
@@ -547,7 +694,10 @@
     "weight": 114,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Buggy bumper"
+    "eng_name": "Buggy bumper",
+    "size_x": 3,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "2521b43f",
@@ -558,7 +708,10 @@
     "weight": 157,
     "maxCount": 4,
     "build_hp": 62,
-    "eng_name": "APC fender"
+    "eng_name": "APC fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "25b94394",
@@ -569,7 +722,10 @@
     "weight": 61,
     "maxCount": 4,
     "build_hp": 26,
-    "eng_name": "Reinforced right corner"
+    "eng_name": "Reinforced right corner",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "27a337b9",
@@ -580,7 +736,10 @@
     "weight": 19,
     "maxCount": 6,
     "build_hp": 10,
-    "eng_name": "Avia strut"
+    "eng_name": "Avia strut",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "2832fa2b",
@@ -591,7 +750,10 @@
     "weight": 37,
     "maxCount": 10,
     "build_hp": 19,
-    "eng_name": "Oblique strut"
+    "eng_name": "Oblique strut",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "28addf6e",
@@ -602,7 +764,10 @@
     "weight": 142,
     "maxCount": 1,
     "build_hp": 68,
-    "eng_name": "Corrida right fender"
+    "eng_name": "Corrida right fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "28b2b4d6",
@@ -613,7 +778,10 @@
     "weight": 320,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Hannya"
+    "eng_name": "Hannya",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "28da11c0",
@@ -624,7 +792,10 @@
     "weight": 45,
     "maxCount": 6,
     "build_hp": 28,
-    "eng_name": "Flaming rakes"
+    "eng_name": "Flaming rakes",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "29a8c154",
@@ -635,7 +806,10 @@
     "weight": 61,
     "maxCount": 2,
     "build_hp": 32,
-    "eng_name": "Frame corner"
+    "eng_name": "Frame corner",
+    "size_x": 3,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "2ac214ad",
@@ -646,7 +820,10 @@
     "weight": 22,
     "maxCount": 2,
     "build_hp": 11,
-    "eng_name": "Left keiko"
+    "eng_name": "Left keiko",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "2aeff4f1",
@@ -657,7 +834,10 @@
     "weight": 72,
     "maxCount": 4,
     "build_hp": 32,
-    "eng_name": "Left truck fender"
+    "eng_name": "Left truck fender",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "2bfbc191",
@@ -668,7 +848,10 @@
     "weight": 23,
     "maxCount": 6,
     "build_hp": 10,
-    "eng_name": "Thin strike plate"
+    "eng_name": "Thin strike plate",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "2d1f46cc",
@@ -679,7 +862,10 @@
     "weight": 21,
     "maxCount": 2,
     "build_hp": 11,
-    "eng_name": "Narrow fuselage slope"
+    "eng_name": "Narrow fuselage slope",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "2d302a18",
@@ -690,7 +876,10 @@
     "weight": 27,
     "maxCount": 2,
     "build_hp": 14,
-    "eng_name": "Right fairing bottom"
+    "eng_name": "Right fairing bottom",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "313737a1",
@@ -701,7 +890,10 @@
     "weight": 135,
     "maxCount": 1,
     "build_hp": 53,
-    "eng_name": "Eastern front"
+    "eng_name": "Eastern front",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "31783861",
@@ -712,7 +904,10 @@
     "weight": 198,
     "maxCount": 4,
     "build_hp": 88,
-    "eng_name": "Excavator hood"
+    "eng_name": "Excavator hood",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "31994e96",
@@ -723,7 +918,10 @@
     "weight": 48,
     "maxCount": 8,
     "build_hp": 23,
-    "eng_name": "Broken radiator"
+    "eng_name": "Broken radiator",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "31d60269",
@@ -734,7 +932,10 @@
     "weight": 34,
     "maxCount": 1,
     "build_hp": 19,
-    "eng_name": "Right Furia fender"
+    "eng_name": "Right Furia fender",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "3222739e",
@@ -745,7 +946,10 @@
     "weight": 44,
     "maxCount": 2,
     "build_hp": 18,
-    "eng_name": "Right helicopter wing"
+    "eng_name": "Right helicopter wing",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "323374fb",
@@ -756,7 +960,10 @@
     "weight": 48,
     "maxCount": 2,
     "build_hp": 25,
-    "eng_name": "Right fuselage vault"
+    "eng_name": "Right fuselage vault",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "3271e368",
@@ -767,7 +974,10 @@
     "weight": 262,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Mengu"
+    "eng_name": "Mengu",
+    "size_x": 2,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "33094798",
@@ -778,7 +988,10 @@
     "weight": 135,
     "maxCount": 1,
     "build_hp": 53,
-    "eng_name": "Western front"
+    "eng_name": "Western front",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "35cab0f1",
@@ -789,7 +1002,10 @@
     "weight": 224,
     "maxCount": 2,
     "build_hp": 88,
-    "eng_name": "Line of defence"
+    "eng_name": "Line of defence",
+    "size_x": 11,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "362a925f",
@@ -800,7 +1016,10 @@
     "weight": 99,
     "maxCount": 5,
     "build_hp": 44,
-    "eng_name": "Small digger side"
+    "eng_name": "Small digger side",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "3690f584",
@@ -811,7 +1030,10 @@
     "weight": 101,
     "maxCount": 4,
     "build_hp": 47,
-    "eng_name": "Cast side part"
+    "eng_name": "Cast side part",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "3733a92a",
@@ -822,7 +1044,10 @@
     "weight": 8,
     "maxCount": 10,
     "build_hp": 4,
-    "eng_name": "Air intake"
+    "eng_name": "Air intake",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "380a4a04",
@@ -833,7 +1058,10 @@
     "weight": 15,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Small thorn"
+    "eng_name": "Small thorn",
+    "size_x": 1,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "3990fc0e",
@@ -844,7 +1072,10 @@
     "weight": 121,
     "maxCount": 4,
     "build_hp": 51,
-    "eng_name": "Long pipe shield"
+    "eng_name": "Long pipe shield",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "39c6f53d",
@@ -855,7 +1086,10 @@
     "weight": 44,
     "maxCount": 1,
     "build_hp": 22,
-    "eng_name": "Left kusazuri"
+    "eng_name": "Left kusazuri",
+    "size_x": 6,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "3adad527",
@@ -866,7 +1100,10 @@
     "weight": 161,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Devil's gaze"
+    "eng_name": "Devil's gaze",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "3b49e332",
@@ -877,7 +1114,10 @@
     "weight": 53,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "BladeWing"
+    "eng_name": "BladeWing",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "3c036a4c",
@@ -888,7 +1128,10 @@
     "weight": 48,
     "maxCount": 1,
     "build_hp": 23,
-    "eng_name": "Left Death fender"
+    "eng_name": "Left Death fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "3d521974",
@@ -899,7 +1142,10 @@
     "weight": 11,
     "maxCount": 4,
     "build_hp": 8,
-    "eng_name": "Left armrest"
+    "eng_name": "Left armrest",
+    "size_x": 3,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "3db30e53",
@@ -910,7 +1156,10 @@
     "weight": 161,
     "maxCount": 1,
     "build_hp": 80,
-    "eng_name": "Tsuri"
+    "eng_name": "Tsuri",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "3ddbe384",
@@ -921,7 +1170,10 @@
     "weight": 384,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right defence frontier"
+    "eng_name": "Right defence frontier",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "3e35f391",
@@ -932,7 +1184,10 @@
     "weight": 14,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left skid landing gear"
+    "eng_name": "Left skid landing gear",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "3e628579",
@@ -943,7 +1198,10 @@
     "weight": 121,
     "maxCount": 1,
     "build_hp": 63,
-    "eng_name": "\"Hot Rod\" hood"
+    "eng_name": "\"Hot Rod\" hood",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "3e893baf",
@@ -954,7 +1212,10 @@
     "weight": 95,
     "maxCount": 4,
     "build_hp": 58,
-    "eng_name": "Boar"
+    "eng_name": "Boar",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "3f8db275",
@@ -965,7 +1226,10 @@
     "weight": 44,
     "maxCount": 10,
     "build_hp": 23,
-    "eng_name": "Oblique slope"
+    "eng_name": "Oblique slope",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "42a70add",
@@ -976,7 +1240,10 @@
     "weight": 269,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Sentry line"
+    "eng_name": "Sentry line",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "43c6a853",
@@ -987,7 +1254,10 @@
     "weight": 192,
     "maxCount": 2,
     "build_hp": 112,
-    "eng_name": "Manica left"
+    "eng_name": "Manica left",
+    "size_x": 7,
+    "size_y": 3,
+    "size_z": 4
   },
   {
     "id": "444c0f94",
@@ -998,7 +1268,10 @@
     "weight": 24,
     "maxCount": 1,
     "build_hp": 16,
-    "eng_name": "Right phalanx"
+    "eng_name": "Right phalanx",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "446d0ad8",
@@ -1009,7 +1282,10 @@
     "weight": 242,
     "maxCount": 2,
     "build_hp": 101,
-    "eng_name": "Corner platform right"
+    "eng_name": "Corner platform right",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "44f02650",
@@ -1020,7 +1296,10 @@
     "weight": 31,
     "maxCount": 12,
     "build_hp": 16,
-    "eng_name": "Plane nose"
+    "eng_name": "Plane nose",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "46a333fb",
@@ -1031,7 +1310,10 @@
     "weight": 988,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Buffer"
+    "eng_name": "Buffer",
+    "size_x": 3,
+    "size_y": 8,
+    "size_z": 3
   },
   {
     "id": "4707cd28",
@@ -1042,7 +1324,10 @@
     "weight": 37,
     "maxCount": 2,
     "build_hp": 19,
-    "eng_name": "Left sode"
+    "eng_name": "Left sode",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "48d2800d",
@@ -1053,7 +1338,10 @@
     "weight": 71,
     "maxCount": 4,
     "build_hp": 48,
-    "eng_name": "Tray"
+    "eng_name": "Tray",
+    "size_x": 7,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "4941596b",
@@ -1064,7 +1352,10 @@
     "weight": 79,
     "maxCount": 4,
     "build_hp": 38,
-    "eng_name": "Right heat sink"
+    "eng_name": "Right heat sink",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "49d8641e",
@@ -1075,7 +1366,10 @@
     "weight": 323,
     "maxCount": 4,
     "build_hp": 144,
-    "eng_name": "Crane side right"
+    "eng_name": "Crane side right",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "4bf01297",
@@ -1086,7 +1380,10 @@
     "weight": 12,
     "maxCount": 1,
     "build_hp": 8,
-    "eng_name": "Right shielded fender"
+    "eng_name": "Right shielded fender",
+    "size_x": 3,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "4c25a411",
@@ -1097,7 +1394,10 @@
     "weight": 113,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Bullbar"
+    "eng_name": "Bullbar",
+    "size_x": 8,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "4cd32032",
@@ -1108,7 +1408,10 @@
     "weight": 128,
     "maxCount": 4,
     "build_hp": 66,
-    "eng_name": "Right avia fender"
+    "eng_name": "Right avia fender",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "4d37ec68",
@@ -1119,7 +1422,10 @@
     "weight": 34,
     "maxCount": 1,
     "build_hp": 19,
-    "eng_name": "Left Furia fender"
+    "eng_name": "Left Furia fender",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "4e592323",
@@ -1130,7 +1436,10 @@
     "weight": 148,
     "maxCount": 4,
     "build_hp": 66,
-    "eng_name": "Excavator trunk lid"
+    "eng_name": "Excavator trunk lid",
+    "size_x": 3,
+    "size_y": 6,
+    "size_z": 1
   },
   {
     "id": "4f19d5bf",
@@ -1141,7 +1450,10 @@
     "weight": 363,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Plow blade"
+    "eng_name": "Plow blade",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "4f1b0c82",
@@ -1152,7 +1464,10 @@
     "weight": 84,
     "maxCount": 4,
     "build_hp": 47,
-    "eng_name": "Battle walker corner"
+    "eng_name": "Battle walker corner",
+    "size_x": 3,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "4f5fd821",
@@ -1163,7 +1478,10 @@
     "weight": 118,
     "maxCount": 4,
     "build_hp": 55,
-    "eng_name": "Cast half arc"
+    "eng_name": "Cast half arc",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "4f7079e9",
@@ -1174,7 +1492,10 @@
     "weight": 132,
     "maxCount": 1,
     "build_hp": 88,
-    "eng_name": "Electric car trunk"
+    "eng_name": "Electric car trunk",
+    "size_x": 6,
+    "size_y": 5,
+    "size_z": 2
   },
   {
     "id": "4fab6958",
@@ -1185,7 +1506,10 @@
     "weight": 1159,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Icebreaker"
+    "eng_name": "Icebreaker",
+    "size_x": 5,
+    "size_y": 6,
+    "size_z": 4
   },
   {
     "id": "50515368",
@@ -1196,7 +1520,10 @@
     "weight": 137,
     "maxCount": 3,
     "build_hp": 58,
-    "eng_name": "Rear cover"
+    "eng_name": "Rear cover",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 6
   },
   {
     "id": "5177cc8d",
@@ -1207,7 +1534,10 @@
     "weight": 56,
     "maxCount": 2,
     "build_hp": 33,
-    "eng_name": "Left plumata"
+    "eng_name": "Left plumata",
+    "size_x": 3,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "526c4dfd",
@@ -1218,7 +1548,10 @@
     "weight": 34,
     "maxCount": 1,
     "build_hp": 16,
-    "eng_name": "Right nautilus"
+    "eng_name": "Right nautilus",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "53e8c81d",
@@ -1229,7 +1562,10 @@
     "weight": 263,
     "maxCount": 6,
     "build_hp": 110,
-    "eng_name": "Large fender"
+    "eng_name": "Large fender",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 4
   },
   {
     "id": "53f480c3",
@@ -1240,7 +1576,10 @@
     "weight": 81,
     "maxCount": 1,
     "build_hp": 42,
-    "eng_name": "\"Hot Rod\" left rear fender"
+    "eng_name": "\"Hot Rod\" left rear fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "54045edb",
@@ -1251,7 +1590,10 @@
     "weight": 41,
     "maxCount": 4,
     "build_hp": 18,
-    "eng_name": "Metal box"
+    "eng_name": "Metal box",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "5532a6f3",
@@ -1262,7 +1604,10 @@
     "weight": 7,
     "maxCount": 6,
     "build_hp": 0,
-    "eng_name": "Radiator grille"
+    "eng_name": "Radiator grille",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "555a1740",
@@ -1273,7 +1618,10 @@
     "weight": 12,
     "maxCount": 14,
     "build_hp": 7,
-    "eng_name": "Small strut"
+    "eng_name": "Small strut",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "56cd288f",
@@ -1284,7 +1632,10 @@
     "weight": 32,
     "maxCount": 1,
     "build_hp": 20,
-    "eng_name": "Left plaster"
+    "eng_name": "Left plaster",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "5740bf58",
@@ -1295,7 +1646,10 @@
     "weight": 233,
     "maxCount": 4,
     "build_hp": 104,
-    "eng_name": "Frontend"
+    "eng_name": "Frontend",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "5831c2dc",
@@ -1306,7 +1660,10 @@
     "weight": 79,
     "maxCount": 6,
     "build_hp": 38,
-    "eng_name": "Observation pod"
+    "eng_name": "Observation pod",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "586c4b52",
@@ -1317,7 +1674,10 @@
     "weight": 56,
     "maxCount": 14,
     "build_hp": 32,
-    "eng_name": "Minivan sideboard"
+    "eng_name": "Minivan sideboard",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "588cea29",
@@ -1328,7 +1688,10 @@
     "weight": 291,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Jingasa"
+    "eng_name": "Jingasa",
+    "size_x": 2,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "5a18a775",
@@ -1339,7 +1702,10 @@
     "weight": 54,
     "maxCount": 2,
     "build_hp": 33,
-    "eng_name": "Bandage"
+    "eng_name": "Bandage",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "5a93f40d",
@@ -1350,7 +1716,10 @@
     "weight": 34,
     "maxCount": 1,
     "build_hp": 23,
-    "eng_name": "Right backmarker"
+    "eng_name": "Right backmarker",
+    "size_x": 2,
+    "size_y": 3,
+    "size_z": 5
   },
   {
     "id": "5abc7ecb",
@@ -1361,7 +1730,10 @@
     "weight": 21,
     "maxCount": 1,
     "build_hp": 14,
-    "eng_name": "Side guard left"
+    "eng_name": "Side guard left",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "5af638cb",
@@ -1372,7 +1744,10 @@
     "weight": 359,
     "maxCount": 6,
     "build_hp": 141,
-    "eng_name": "APC roof part"
+    "eng_name": "APC roof part",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "5bbe1709",
@@ -1383,7 +1758,10 @@
     "weight": 68,
     "maxCount": 6,
     "build_hp": 27,
-    "eng_name": "Strengthened ventilated slope"
+    "eng_name": "Strengthened ventilated slope",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "5c7c14d4",
@@ -1394,7 +1772,10 @@
     "weight": 103,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Mariposa"
+    "eng_name": "Mariposa",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "6074334d",
@@ -1405,7 +1786,10 @@
     "weight": 32,
     "maxCount": 10,
     "build_hp": 14,
-    "eng_name": "Barrel quarter"
+    "eng_name": "Barrel quarter",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "61a19df5",
@@ -1416,7 +1800,10 @@
     "weight": 135,
     "maxCount": 1,
     "build_hp": 90,
-    "eng_name": "Powerslide"
+    "eng_name": "Powerslide",
+    "size_x": 6,
+    "size_y": 6,
+    "size_z": 3
   },
   {
     "id": "629cb8a1",
@@ -1427,7 +1814,10 @@
     "weight": 7,
     "maxCount": 12,
     "build_hp": 5,
-    "eng_name": "Comb"
+    "eng_name": "Comb",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "63370593",
@@ -1438,7 +1828,10 @@
     "weight": 124,
     "maxCount": 3,
     "build_hp": 62,
-    "eng_name": "Left sendan"
+    "eng_name": "Left sendan",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "638de49e",
@@ -1449,7 +1842,10 @@
     "weight": 185,
     "maxCount": 2,
     "build_hp": 103,
-    "eng_name": "Back wall"
+    "eng_name": "Back wall",
+    "size_x": 6,
+    "size_y": 6,
+    "size_z": 1
   },
   {
     "id": "639e6623",
@@ -1460,7 +1856,10 @@
     "weight": 314,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right APC bumper"
+    "eng_name": "Right APC bumper",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "64951338",
@@ -1471,7 +1870,10 @@
     "weight": 180,
     "maxCount": 1,
     "build_hp": 71,
-    "eng_name": "Wedge"
+    "eng_name": "Wedge",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "65572d75",
@@ -1482,7 +1884,10 @@
     "weight": 30,
     "maxCount": 3,
     "build_hp": 15,
-    "eng_name": "Left kote"
+    "eng_name": "Left kote",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "66446669",
@@ -1493,7 +1898,10 @@
     "weight": 81,
     "maxCount": 3,
     "build_hp": 0,
-    "eng_name": "Bumper Spike"
+    "eng_name": "Bumper Spike",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "6658ab70",
@@ -1504,7 +1912,10 @@
     "weight": 27,
     "maxCount": 6,
     "build_hp": 18,
-    "eng_name": "Brazier"
+    "eng_name": "Brazier",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "6675c03c",
@@ -1515,7 +1926,10 @@
     "weight": 22,
     "maxCount": 2,
     "build_hp": 11,
-    "eng_name": "Right keiko"
+    "eng_name": "Right keiko",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "668eee29",
@@ -1526,7 +1940,10 @@
     "weight": 36,
     "maxCount": 4,
     "build_hp": 16,
-    "eng_name": "Crane plug left"
+    "eng_name": "Crane plug left",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "66f233e1",
@@ -1537,7 +1954,10 @@
     "weight": 89,
     "maxCount": 2,
     "build_hp": 52,
-    "eng_name": "Left caliga"
+    "eng_name": "Left caliga",
+    "size_x": 5,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "671c0b56",
@@ -1548,7 +1968,10 @@
     "weight": 242,
     "maxCount": 2,
     "build_hp": 101,
-    "eng_name": "Corner platform left"
+    "eng_name": "Corner platform left",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "6804daee",
@@ -1559,7 +1982,10 @@
     "weight": 202,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Left psalia"
+    "eng_name": "Left psalia",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "6a62c659",
@@ -1570,7 +1996,10 @@
     "weight": 323,
     "maxCount": 4,
     "build_hp": 144,
-    "eng_name": "Crane side left"
+    "eng_name": "Crane side left",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "6aca82eb",
@@ -1581,7 +2010,10 @@
     "weight": 95,
     "maxCount": 1,
     "build_hp": 47,
-    "eng_name": "Haidate"
+    "eng_name": "Haidate",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "6d8eeb17",
@@ -1592,7 +2024,10 @@
     "weight": 43,
     "maxCount": 3,
     "build_hp": 0,
-    "eng_name": "Gun mount"
+    "eng_name": "Gun mount",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 4
   },
   {
     "id": "6ddbc9ed",
@@ -1603,7 +2038,10 @@
     "weight": 71,
     "maxCount": 6,
     "build_hp": 34,
-    "eng_name": "Ventilation box"
+    "eng_name": "Ventilation box",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "6df7aebb",
@@ -1614,7 +2052,10 @@
     "weight": 74,
     "maxCount": 1,
     "build_hp": 50,
-    "eng_name": "Left Kutkh wing"
+    "eng_name": "Left Kutkh wing",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "6e7f4910",
@@ -1625,7 +2066,10 @@
     "weight": 157,
     "maxCount": 4,
     "build_hp": 70,
-    "eng_name": "Digger side"
+    "eng_name": "Digger side",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "6ecc8243",
@@ -1636,7 +2080,10 @@
     "weight": 88,
     "maxCount": 4,
     "build_hp": 46,
-    "eng_name": "Oblique slope wide"
+    "eng_name": "Oblique slope wide",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "6ee0dc64",
@@ -1647,7 +2094,10 @@
     "weight": 312,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Claws"
+    "eng_name": "Claws",
+    "size_x": 5,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "6f5575c0",
@@ -1658,7 +2108,10 @@
     "weight": 262,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Veil"
+    "eng_name": "Veil",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "6feeace5",
@@ -1669,7 +2122,10 @@
     "weight": 19,
     "maxCount": 10,
     "build_hp": 13,
-    "eng_name": "Left crutch"
+    "eng_name": "Left crutch",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "703a8cdd",
@@ -1680,7 +2136,10 @@
     "weight": 41,
     "maxCount": 8,
     "build_hp": 18,
-    "eng_name": "Straight pipe"
+    "eng_name": "Straight pipe",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "706782a7",
@@ -1691,7 +2150,10 @@
     "weight": 314,
     "maxCount": 2,
     "build_hp": 124,
-    "eng_name": "APC rear"
+    "eng_name": "APC rear",
+    "size_x": 4,
+    "size_y": 8,
+    "size_z": 1
   },
   {
     "id": "706aa7d8",
@@ -1702,7 +2164,10 @@
     "weight": 35,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Cutter"
+    "eng_name": "Cutter",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "70b41a12",
@@ -1713,7 +2178,10 @@
     "weight": 117,
     "maxCount": 1,
     "build_hp": 58,
-    "eng_name": "Nodowa"
+    "eng_name": "Nodowa",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "71123497",
@@ -1724,7 +2192,10 @@
     "weight": 72,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Nibbler"
+    "eng_name": "Nibbler",
+    "size_x": 2,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "7139b340",
@@ -1735,7 +2206,10 @@
     "weight": 67,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Bumper \"Catch\""
+    "eng_name": "Bumper \"Catch\"",
+    "size_x": 6,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "722f9883",
@@ -1746,7 +2220,10 @@
     "weight": 74,
     "maxCount": 2,
     "build_hp": 38,
-    "eng_name": "Tail boom base"
+    "eng_name": "Tail boom base",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "728a7012",
@@ -1757,7 +2234,10 @@
     "weight": 41,
     "maxCount": 2,
     "build_hp": 22,
-    "eng_name": "Fuselage slope"
+    "eng_name": "Fuselage slope",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "72c09ec9",
@@ -1768,7 +2248,10 @@
     "weight": 806,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Train plow"
+    "eng_name": "Train plow",
+    "size_x": 8,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "739f3c5f",
@@ -1779,7 +2262,10 @@
     "weight": 252,
     "maxCount": 1,
     "build_hp": 105,
-    "eng_name": "Right phantom fender"
+    "eng_name": "Right phantom fender",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "744d8873",
@@ -1790,7 +2276,10 @@
     "weight": 118,
     "maxCount": 1,
     "build_hp": 47,
-    "eng_name": "Saya"
+    "eng_name": "Saya",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "7526cf2d",
@@ -1801,7 +2290,10 @@
     "weight": 189,
     "maxCount": 4,
     "build_hp": 84,
-    "eng_name": "Digger hull"
+    "eng_name": "Digger hull",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "759ebd6b",
@@ -1812,7 +2304,10 @@
     "weight": 135,
     "maxCount": 2,
     "build_hp": 70,
-    "eng_name": "Left avia air intake"
+    "eng_name": "Left avia air intake",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "76173c2b",
@@ -1823,7 +2318,10 @@
     "weight": 112,
     "maxCount": 1,
     "build_hp": 44,
-    "eng_name": "Left rampart"
+    "eng_name": "Left rampart",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "76d81a57",
@@ -1834,7 +2332,10 @@
     "weight": 746,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Armoured nose"
+    "eng_name": "Armoured nose",
+    "size_x": 8,
+    "size_y": 3,
+    "size_z": 4
   },
   {
     "id": "771f52de",
@@ -1845,7 +2346,10 @@
     "weight": 81,
     "maxCount": 4,
     "build_hp": 36,
-    "eng_name": "Crane hull right"
+    "eng_name": "Crane hull right",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "785d510f",
@@ -1856,7 +2360,10 @@
     "weight": 202,
     "maxCount": 1,
     "build_hp": 74,
-    "eng_name": "Battle walker shoulder right"
+    "eng_name": "Battle walker shoulder right",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "787c5f8e",
@@ -1867,7 +2374,10 @@
     "weight": 21,
     "maxCount": 1,
     "build_hp": 14,
-    "eng_name": "Side guard right"
+    "eng_name": "Side guard right",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "795be61e",
@@ -1878,7 +2388,10 @@
     "weight": 51,
     "maxCount": 1,
     "build_hp": 27,
-    "eng_name": "\"Hot Rod\" right fender"
+    "eng_name": "\"Hot Rod\" right fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "79f9e055",
@@ -1889,7 +2402,10 @@
     "weight": 27,
     "maxCount": 4,
     "build_hp": 18,
-    "eng_name": "Dipper"
+    "eng_name": "Dipper",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "7bd519ea",
@@ -1900,7 +2416,10 @@
     "weight": 168,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "King of birds"
+    "eng_name": "King of birds",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "7d1af4e9",
@@ -1911,7 +2430,10 @@
     "weight": 202,
     "maxCount": 1,
     "build_hp": 74,
-    "eng_name": "Battle walker shoulder left"
+    "eng_name": "Battle walker shoulder left",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "7d824a23",
@@ -1922,7 +2444,10 @@
     "weight": 48,
     "maxCount": 1,
     "build_hp": 23,
-    "eng_name": "Right Death fender"
+    "eng_name": "Right Death fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "7e1ce90e",
@@ -1933,7 +2458,10 @@
     "weight": 116,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Flayer"
+    "eng_name": "Flayer",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "7e907786",
@@ -1944,7 +2472,10 @@
     "weight": 101,
     "maxCount": 8,
     "build_hp": 43,
-    "eng_name": "Large slope"
+    "eng_name": "Large slope",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "7e95bde9",
@@ -1955,7 +2486,10 @@
     "weight": 27,
     "maxCount": 4,
     "build_hp": 14,
-    "eng_name": "Avia panel small"
+    "eng_name": "Avia panel small",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "7ea04869",
@@ -1966,7 +2500,10 @@
     "weight": 54,
     "maxCount": 1,
     "build_hp": 28,
-    "eng_name": "\"Hot Rod\" grille"
+    "eng_name": "\"Hot Rod\" grille",
+    "size_x": 3,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "7f019bb6",
@@ -1977,7 +2514,10 @@
     "weight": 162,
     "maxCount": 1,
     "build_hp": 99,
-    "eng_name": "\"Flaming one\" trunk"
+    "eng_name": "\"Flaming one\" trunk",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "7fefbb5e",
@@ -1988,7 +2528,10 @@
     "weight": 36,
     "maxCount": 6,
     "build_hp": 22,
-    "eng_name": "Peaky blinder"
+    "eng_name": "Peaky blinder",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "80e49cd7",
@@ -1999,7 +2542,10 @@
     "weight": 71,
     "maxCount": 10,
     "build_hp": 34,
-    "eng_name": "Control module"
+    "eng_name": "Control module",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "811b25f7",
@@ -2010,7 +2556,10 @@
     "weight": 54,
     "maxCount": 4,
     "build_hp": 24,
-    "eng_name": "Excavator plating left"
+    "eng_name": "Excavator plating left",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "813da6dd",
@@ -2021,7 +2570,10 @@
     "weight": 160,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Impact bumper"
+    "eng_name": "Impact bumper",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "81832192",
@@ -2032,7 +2584,10 @@
     "weight": 11,
     "maxCount": 3,
     "build_hp": 8,
-    "eng_name": "Buggy fender left"
+    "eng_name": "Buggy fender left",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "8247e70a",
@@ -2043,7 +2598,10 @@
     "weight": 99,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Stranglehold"
+    "eng_name": "Stranglehold",
+    "size_x": 2,
+    "size_y": 6,
+    "size_z": 1
   },
   {
     "id": "8259f064",
@@ -2054,7 +2612,10 @@
     "weight": 34,
     "maxCount": 1,
     "build_hp": 23,
-    "eng_name": "Left backmarker"
+    "eng_name": "Left backmarker",
+    "size_x": 2,
+    "size_y": 3,
+    "size_z": 5
   },
   {
     "id": "83475b50",
@@ -2065,7 +2626,10 @@
     "weight": 40,
     "maxCount": 6,
     "build_hp": 0,
-    "eng_name": "Pipetooth"
+    "eng_name": "Pipetooth",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "8445c7ca",
@@ -2076,7 +2640,10 @@
     "weight": 51,
     "maxCount": 1,
     "build_hp": 27,
-    "eng_name": "\"Hot Rod\" left fender"
+    "eng_name": "\"Hot Rod\" left fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "84bccb54",
@@ -2087,7 +2654,10 @@
     "weight": 175,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Puncher"
+    "eng_name": "Puncher",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "86ae3dd8",
@@ -2098,7 +2668,10 @@
     "weight": 139,
     "maxCount": 1,
     "build_hp": 69,
-    "eng_name": "Haramaki"
+    "eng_name": "Haramaki",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "873a8d0f",
@@ -2109,7 +2682,10 @@
     "weight": 34,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right elbow"
+    "eng_name": "Right elbow",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "8766f3c2",
@@ -2120,7 +2696,10 @@
     "weight": 113,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Air splitter"
+    "eng_name": "Air splitter",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "879f996b",
@@ -2131,7 +2710,10 @@
     "weight": 189,
     "maxCount": 4,
     "build_hp": 84,
-    "eng_name": "Excavator side cover"
+    "eng_name": "Excavator side cover",
+    "size_x": 7,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "88bdd163",
@@ -2142,7 +2724,10 @@
     "weight": 79,
     "maxCount": 4,
     "build_hp": 38,
-    "eng_name": "Left heat sink"
+    "eng_name": "Left heat sink",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "89420dd9",
@@ -2153,7 +2738,10 @@
     "weight": 379,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Haraate"
+    "eng_name": "Haraate",
+    "size_x": 1,
+    "size_y": 8,
+    "size_z": 4
   },
   {
     "id": "89c19857",
@@ -2164,7 +2752,10 @@
     "weight": 41,
     "maxCount": 4,
     "build_hp": 28,
-    "eng_name": "Step rail"
+    "eng_name": "Step rail",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "89ed33c7",
@@ -2175,7 +2766,10 @@
     "weight": 187,
     "maxCount": 2,
     "build_hp": 109,
-    "eng_name": "Montefortino"
+    "eng_name": "Montefortino",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "89f300ad",
@@ -2186,7 +2780,10 @@
     "weight": 62,
     "maxCount": 2,
     "build_hp": 35,
-    "eng_name": "Right offroader corner"
+    "eng_name": "Right offroader corner",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "8a9f155a",
@@ -2197,7 +2794,10 @@
     "weight": 11,
     "maxCount": 4,
     "build_hp": 8,
-    "eng_name": "Right armrest"
+    "eng_name": "Right armrest",
+    "size_x": 3,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "8b0f199a",
@@ -2208,7 +2808,10 @@
     "weight": 48,
     "maxCount": 1,
     "build_hp": 25,
-    "eng_name": "Left side air intake"
+    "eng_name": "Left side air intake",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "8b6c4b18",
@@ -2219,7 +2822,10 @@
     "weight": 61,
     "maxCount": 1,
     "build_hp": 41,
-    "eng_name": "Left Kutkh foot"
+    "eng_name": "Left Kutkh foot",
+    "size_x": 7,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "8b71dd6b",
@@ -2230,7 +2836,10 @@
     "weight": 81,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Pole position"
+    "eng_name": "Pole position",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "8c654916",
@@ -2241,7 +2850,10 @@
     "weight": 18,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Buggy floor"
+    "eng_name": "Buggy floor",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "8ca81ec0",
@@ -2252,7 +2864,10 @@
     "weight": 84,
     "maxCount": 2,
     "build_hp": 47,
-    "eng_name": "Offroader side"
+    "eng_name": "Offroader side",
+    "size_x": 3,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "8cc70636",
@@ -2263,7 +2878,10 @@
     "weight": 28,
     "maxCount": 14,
     "build_hp": 16,
-    "eng_name": "Medium strut"
+    "eng_name": "Medium strut",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "8d2dcc5d",
@@ -2274,7 +2892,10 @@
     "weight": 19,
     "maxCount": 10,
     "build_hp": 13,
-    "eng_name": "Right crutch"
+    "eng_name": "Right crutch",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "8ddf61c2",
@@ -2285,7 +2906,10 @@
     "weight": 112,
     "maxCount": 1,
     "build_hp": 44,
-    "eng_name": "Right rampart"
+    "eng_name": "Right rampart",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "8df9d1eb",
@@ -2296,7 +2920,10 @@
     "weight": 218,
     "maxCount": 3,
     "build_hp": 0,
-    "eng_name": "Left flail"
+    "eng_name": "Left flail",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "8e9ae32e",
@@ -2307,7 +2934,10 @@
     "weight": 102,
     "maxCount": 2,
     "build_hp": 51,
-    "eng_name": "Left suneate"
+    "eng_name": "Left suneate",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "8edc1816",
@@ -2318,7 +2948,10 @@
     "weight": 45,
     "maxCount": 10,
     "build_hp": 28,
-    "eng_name": "Downstream"
+    "eng_name": "Downstream",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "8f99df41",
@@ -2329,7 +2962,10 @@
     "weight": 42,
     "maxCount": 1,
     "build_hp": 24,
-    "eng_name": "Left vintage fender"
+    "eng_name": "Left vintage fender",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "905b13f1",
@@ -2340,7 +2976,10 @@
     "weight": 336,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Snow cutter right"
+    "eng_name": "Snow cutter right",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "90f3993d",
@@ -2351,7 +2990,10 @@
     "weight": 61,
     "maxCount": 4,
     "build_hp": 26,
-    "eng_name": "Reinforced left corner"
+    "eng_name": "Reinforced left corner",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "918b0fda",
@@ -2362,7 +3004,10 @@
     "weight": 173,
     "maxCount": 1,
     "build_hp": 83,
-    "eng_name": "Corrida nosecut"
+    "eng_name": "Corrida nosecut",
+    "size_x": 3,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "92f9bd87",
@@ -2373,7 +3018,10 @@
     "weight": 74,
     "maxCount": 4,
     "build_hp": 38,
-    "eng_name": "Plane air intake"
+    "eng_name": "Plane air intake",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "94317a9f",
@@ -2384,7 +3032,10 @@
     "weight": 114,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Nostrils"
+    "eng_name": "Nostrils",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "9459f0e3",
@@ -2395,7 +3046,10 @@
     "weight": 412,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Firewall"
+    "eng_name": "Firewall",
+    "size_x": 2,
+    "size_y": 8,
+    "size_z": 3
   },
   {
     "id": "95745c61",
@@ -2406,7 +3060,10 @@
     "weight": 61,
     "maxCount": 2,
     "build_hp": 32,
-    "eng_name": "Right fairing top"
+    "eng_name": "Right fairing top",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "9661689d",
@@ -2417,7 +3074,10 @@
     "weight": 63,
     "maxCount": 4,
     "build_hp": 28,
-    "eng_name": "Sloped platform"
+    "eng_name": "Sloped platform",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "9797eaab",
@@ -2428,7 +3088,10 @@
     "weight": 62,
     "maxCount": 2,
     "build_hp": 25,
-    "eng_name": "APC fender right"
+    "eng_name": "APC fender right",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "98147562",
@@ -2439,7 +3102,10 @@
     "weight": 19,
     "maxCount": 6,
     "build_hp": 13,
-    "eng_name": "Dryer"
+    "eng_name": "Dryer",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "9898849b",
@@ -2450,7 +3116,10 @@
     "weight": 48,
     "maxCount": 1,
     "build_hp": 25,
-    "eng_name": "Right side air intake"
+    "eng_name": "Right side air intake",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "98bcfd52",
@@ -2461,7 +3130,10 @@
     "weight": 4,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Left buggy corner"
+    "eng_name": "Left buggy corner",
+    "size_x": 3,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "98d6639b",
@@ -2472,7 +3144,10 @@
     "weight": 85,
     "maxCount": 1,
     "build_hp": 44,
-    "eng_name": "\"Hot Rod\" trunk"
+    "eng_name": "\"Hot Rod\" trunk",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "9a20999c",
@@ -2483,7 +3158,10 @@
     "weight": 45,
     "maxCount": 6,
     "build_hp": 28,
-    "eng_name": "Aura"
+    "eng_name": "Aura",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "9a875386",
@@ -2494,7 +3172,10 @@
     "weight": 79,
     "maxCount": 2,
     "build_hp": 31,
-    "eng_name": "Turret vault right"
+    "eng_name": "Turret vault right",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "9b04d75b",
@@ -2505,7 +3186,10 @@
     "weight": 121,
     "maxCount": 10,
     "build_hp": 63,
-    "eng_name": "Narrow wing"
+    "eng_name": "Narrow wing",
+    "size_x": 8,
+    "size_y": 1,
+    "size_z": 3
   },
   {
     "id": "9b6844fc",
@@ -2516,7 +3200,10 @@
     "weight": 72,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "The Omen"
+    "eng_name": "The Omen",
+    "size_x": 1,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "9b8f5482",
@@ -2527,7 +3214,10 @@
     "weight": 538,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Backend"
+    "eng_name": "Backend",
+    "size_x": 2,
+    "size_y": 8,
+    "size_z": 2
   },
   {
     "id": "9c8adbd6",
@@ -2538,7 +3228,10 @@
     "weight": 24,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Vial"
+    "eng_name": "Vial",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "9d308330",
@@ -2549,7 +3242,10 @@
     "weight": 12,
     "maxCount": 1,
     "build_hp": 8,
-    "eng_name": "Left shielded fender"
+    "eng_name": "Left shielded fender",
+    "size_x": 3,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "9d97cad4",
@@ -2560,7 +3256,10 @@
     "weight": 108,
     "maxCount": 4,
     "build_hp": 66,
-    "eng_name": "Bus panel"
+    "eng_name": "Bus panel",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "9ff79390",
@@ -2571,7 +3270,10 @@
     "weight": 56,
     "maxCount": 6,
     "build_hp": 32,
-    "eng_name": "Torino fender"
+    "eng_name": "Torino fender",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "a205acf3",
@@ -2582,7 +3284,10 @@
     "weight": 54,
     "maxCount": 8,
     "build_hp": 28,
-    "eng_name": "Avia panel"
+    "eng_name": "Avia panel",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "a21a6270",
@@ -2593,7 +3298,10 @@
     "weight": 28,
     "maxCount": 4,
     "build_hp": 10,
-    "eng_name": "Thorax"
+    "eng_name": "Thorax",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "a27c9c4b",
@@ -2604,7 +3312,10 @@
     "weight": 34,
     "maxCount": 4,
     "build_hp": 14,
-    "eng_name": "Strengthened twin slope"
+    "eng_name": "Strengthened twin slope",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "a3b5f3d2",
@@ -2615,7 +3326,10 @@
     "weight": 162,
     "maxCount": 6,
     "build_hp": 68,
-    "eng_name": "Half-wall"
+    "eng_name": "Half-wall",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "a4b94ee9",
@@ -2626,7 +3340,10 @@
     "weight": 84,
     "maxCount": 2,
     "build_hp": 30,
-    "eng_name": "Left radiator bonnet"
+    "eng_name": "Left radiator bonnet",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "a5ce4692",
@@ -2637,7 +3354,10 @@
     "weight": 63,
     "maxCount": 6,
     "build_hp": 30,
-    "eng_name": "Reflector"
+    "eng_name": "Reflector",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "a5d7ee31",
@@ -2648,7 +3368,10 @@
     "weight": 60,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Large thorn"
+    "eng_name": "Large thorn",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "a6875eaf",
@@ -2659,7 +3382,10 @@
     "weight": 189,
     "maxCount": 4,
     "build_hp": 90,
-    "eng_name": "Small assembly section"
+    "eng_name": "Small assembly section",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "a6f5b1e8",
@@ -2670,7 +3396,10 @@
     "weight": 19,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Tendinis left"
+    "eng_name": "Tendinis left",
+    "size_x": 3,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "a8f52d72",
@@ -2681,7 +3410,10 @@
     "weight": 30,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Medium thorn"
+    "eng_name": "Medium thorn",
+    "size_x": 1,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "a93de74d",
@@ -2692,7 +3424,10 @@
     "weight": 118,
     "maxCount": 1,
     "build_hp": 55,
-    "eng_name": "Deck"
+    "eng_name": "Deck",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "aaa72f60",
@@ -2703,7 +3438,10 @@
     "weight": 232,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Right bulwark"
+    "eng_name": "Right bulwark",
+    "size_x": 3,
+    "size_y": 5,
+    "size_z": 4
   },
   {
     "id": "aadb1d89",
@@ -2714,7 +3452,10 @@
     "weight": 224,
     "maxCount": 6,
     "build_hp": 88,
-    "eng_name": "Bartizan"
+    "eng_name": "Bartizan",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "ab1038f2",
@@ -2725,7 +3466,10 @@
     "weight": 323,
     "maxCount": 2,
     "build_hp": 135,
-    "eng_name": "Container wall"
+    "eng_name": "Container wall",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "ab5c1ecd",
@@ -2736,7 +3480,10 @@
     "weight": 128,
     "maxCount": 4,
     "build_hp": 66,
-    "eng_name": "Left avia fender"
+    "eng_name": "Left avia fender",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "adfb2152",
@@ -2747,7 +3494,10 @@
     "weight": 135,
     "maxCount": 4,
     "build_hp": 63,
-    "eng_name": "Captain is bridge"
+    "eng_name": "Captain is bridge",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "ae30ee08",
@@ -2758,7 +3508,10 @@
     "weight": 54,
     "maxCount": 6,
     "build_hp": 36,
-    "eng_name": "Fryer"
+    "eng_name": "Fryer",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "af0f8c9e",
@@ -2769,7 +3522,10 @@
     "weight": 251,
     "maxCount": 2,
     "build_hp": 120,
-    "eng_name": "Large assembly section"
+    "eng_name": "Large assembly section",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "af24bc10",
@@ -2780,7 +3536,10 @@
     "weight": 180,
     "maxCount": 6,
     "build_hp": 71,
-    "eng_name": "APC side part"
+    "eng_name": "APC side part",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "af4d9d1e",
@@ -2791,7 +3550,10 @@
     "weight": 44,
     "maxCount": 2,
     "build_hp": 18,
-    "eng_name": "Left helicopter wing"
+    "eng_name": "Left helicopter wing",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "af91f5df",
@@ -2802,7 +3564,10 @@
     "weight": 108,
     "maxCount": 6,
     "build_hp": 56,
-    "eng_name": "Avia panel large"
+    "eng_name": "Avia panel large",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "b08ba9f4",
@@ -2813,7 +3578,10 @@
     "weight": 314,
     "maxCount": 1,
     "build_hp": 124,
-    "eng_name": "Home front"
+    "eng_name": "Home front",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "b14a18cf",
@@ -2824,7 +3592,10 @@
     "weight": 21,
     "maxCount": 10,
     "build_hp": 9,
-    "eng_name": "T-pipe"
+    "eng_name": "T-pipe",
+    "size_x": 1,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "b14ebc7a",
@@ -2835,7 +3606,10 @@
     "weight": 184,
     "maxCount": 2,
     "build_hp": 93,
-    "eng_name": "Armour slab"
+    "eng_name": "Armour slab",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "b1a292c6",
@@ -2846,7 +3620,10 @@
     "weight": 135,
     "maxCount": 1,
     "build_hp": 70,
-    "eng_name": "Finale"
+    "eng_name": "Finale",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "b24c565f",
@@ -2857,7 +3634,10 @@
     "weight": 62,
     "maxCount": 2,
     "build_hp": 35,
-    "eng_name": "Left offroader corner"
+    "eng_name": "Left offroader corner",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "b2e72f1b",
@@ -2868,7 +3648,10 @@
     "weight": 16,
     "maxCount": 2,
     "build_hp": 10,
-    "eng_name": "Right pteruges"
+    "eng_name": "Right pteruges",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "b3649f56",
@@ -2879,7 +3662,10 @@
     "weight": 101,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Offroader bumper"
+    "eng_name": "Offroader bumper",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "b3b7ae0f",
@@ -2890,7 +3676,10 @@
     "weight": 27,
     "maxCount": 1,
     "build_hp": 18,
-    "eng_name": "Right bend"
+    "eng_name": "Right bend",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "b3f6a7ec",
@@ -2901,7 +3690,10 @@
     "weight": 135,
     "maxCount": 2,
     "build_hp": 70,
-    "eng_name": "Right avia air intake"
+    "eng_name": "Right avia air intake",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "b5aa973a",
@@ -2912,7 +3704,10 @@
     "weight": 22,
     "maxCount": 4,
     "build_hp": 12,
-    "eng_name": "Oblique slope narrow"
+    "eng_name": "Oblique slope narrow",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "b6e13369",
@@ -2923,7 +3718,10 @@
     "weight": 171,
     "maxCount": 2,
     "build_hp": 76,
-    "eng_name": "Excavator right fender"
+    "eng_name": "Excavator right fender",
+    "size_x": 3,
+    "size_y": 5,
+    "size_z": 4
   },
   {
     "id": "b939e4d5",
@@ -2934,7 +3732,10 @@
     "weight": 132,
     "maxCount": 2,
     "build_hp": 66,
-    "eng_name": "Left paw"
+    "eng_name": "Left paw",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "b9fc98cc",
@@ -2945,7 +3746,10 @@
     "weight": 48,
     "maxCount": 7,
     "build_hp": 25,
-    "eng_name": "Avia wide slope"
+    "eng_name": "Avia wide slope",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "ba0a6e3f",
@@ -2956,7 +3760,10 @@
     "weight": 90,
     "maxCount": 1,
     "build_hp": 36,
-    "eng_name": "Vanguard"
+    "eng_name": "Vanguard",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "ba1bd3de",
@@ -2967,7 +3774,10 @@
     "weight": 292,
     "maxCount": 4,
     "build_hp": 115,
-    "eng_name": "Small APC panel"
+    "eng_name": "Small APC panel",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "baa7e9c1",
@@ -2978,7 +3788,10 @@
     "weight": 280,
     "maxCount": 4,
     "build_hp": 110,
-    "eng_name": "Hard module"
+    "eng_name": "Hard module",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "bb0ea501",
@@ -2989,7 +3802,10 @@
     "weight": 80,
     "maxCount": 9,
     "build_hp": 54,
-    "eng_name": "Whaleback"
+    "eng_name": "Whaleback",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 4
   },
   {
     "id": "bb2fb864",
@@ -3000,7 +3816,10 @@
     "weight": 1613,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Freight train plow"
+    "eng_name": "Freight train plow",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 5
   },
   {
     "id": "bb6e17de",
@@ -3011,7 +3830,10 @@
     "weight": 16,
     "maxCount": 1,
     "build_hp": 8,
-    "eng_name": "Left shoulder"
+    "eng_name": "Left shoulder",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "bc1a9b87",
@@ -3022,7 +3844,10 @@
     "weight": 32,
     "maxCount": 1,
     "build_hp": 20,
-    "eng_name": "Right plaster"
+    "eng_name": "Right plaster",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "bc4af42c",
@@ -3033,7 +3858,10 @@
     "weight": 11,
     "maxCount": 3,
     "build_hp": 8,
-    "eng_name": "Buggy fender right"
+    "eng_name": "Buggy fender right",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "bc62ee80",
@@ -3044,7 +3872,10 @@
     "weight": 101,
     "maxCount": 3,
     "build_hp": 40,
-    "eng_name": "Right military truck fender"
+    "eng_name": "Right military truck fender",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "bcf59838",
@@ -3055,7 +3886,10 @@
     "weight": 27,
     "maxCount": 1,
     "build_hp": 18,
-    "eng_name": "Left bend"
+    "eng_name": "Left bend",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 3
   },
   {
     "id": "be5eeb69",
@@ -3066,7 +3900,10 @@
     "weight": 303,
     "maxCount": 1,
     "build_hp": 140,
-    "eng_name": "Bulb"
+    "eng_name": "Bulb",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "bf2cff94",
@@ -3077,7 +3914,10 @@
     "weight": 444,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Fuselage"
+    "eng_name": "Fuselage",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "bf45fc6f",
@@ -3088,7 +3928,10 @@
     "weight": 81,
     "maxCount": 4,
     "build_hp": 34,
-    "eng_name": "Pipe shield"
+    "eng_name": "Pipe shield",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "c0c66270",
@@ -3099,7 +3942,10 @@
     "weight": 192,
     "maxCount": 2,
     "build_hp": 112,
-    "eng_name": "Manica right"
+    "eng_name": "Manica right",
+    "size_x": 7,
+    "size_y": 3,
+    "size_z": 4
   },
   {
     "id": "c219f40e",
@@ -3110,7 +3956,10 @@
     "weight": 61,
     "maxCount": 1,
     "build_hp": 41,
-    "eng_name": "Right Kutkh foot"
+    "eng_name": "Right Kutkh foot",
+    "size_x": 7,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "c21e95c1",
@@ -3121,7 +3970,10 @@
     "weight": 56,
     "maxCount": 2,
     "build_hp": 33,
-    "eng_name": "Right plumata"
+    "eng_name": "Right plumata",
+    "size_x": 3,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "c2bafcbb",
@@ -3132,7 +3984,10 @@
     "weight": 202,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Right psalia"
+    "eng_name": "Right psalia",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "c3414489",
@@ -3143,7 +3998,10 @@
     "weight": 135,
     "maxCount": 8,
     "build_hp": 53,
-    "eng_name": "Tank side part"
+    "eng_name": "Tank side part",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "c6521912",
@@ -3154,7 +4012,10 @@
     "weight": 40,
     "maxCount": 1,
     "build_hp": 16,
-    "eng_name": "Right barrier"
+    "eng_name": "Right barrier",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 4
   },
   {
     "id": "c6d496a7",
@@ -3165,7 +4026,10 @@
     "weight": 88,
     "maxCount": 2,
     "build_hp": 44,
-    "eng_name": "Right kohire"
+    "eng_name": "Right kohire",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "c6f5170c",
@@ -3176,7 +4040,10 @@
     "weight": 9,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Buggy trunk"
+    "eng_name": "Buggy trunk",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "c7ec2f3e",
@@ -3187,7 +4054,10 @@
     "weight": 124,
     "maxCount": 3,
     "build_hp": 62,
-    "eng_name": "Right sendan"
+    "eng_name": "Right sendan",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "c935ce6d",
@@ -3198,7 +4068,10 @@
     "weight": 157,
     "maxCount": 4,
     "build_hp": 62,
-    "eng_name": "APC door"
+    "eng_name": "APC door",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "c9a3d396",
@@ -3209,7 +4082,10 @@
     "weight": 144,
     "maxCount": 4,
     "build_hp": 64,
-    "eng_name": "Large platform"
+    "eng_name": "Large platform",
+    "size_x": 4,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "ca50c1c8",
@@ -3220,7 +4096,10 @@
     "weight": 74,
     "maxCount": 1,
     "build_hp": 50,
-    "eng_name": "Right Kutkh wing"
+    "eng_name": "Right Kutkh wing",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "cb2abfa1",
@@ -3231,7 +4110,10 @@
     "weight": 24,
     "maxCount": 12,
     "build_hp": 13,
-    "eng_name": "Avia slope"
+    "eng_name": "Avia slope",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "cb5571ec",
@@ -3242,7 +4124,10 @@
     "weight": 36,
     "maxCount": 1,
     "build_hp": 22,
-    "eng_name": "Pill"
+    "eng_name": "Pill",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "cb8af0ef",
@@ -3253,7 +4138,10 @@
     "weight": 135,
     "maxCount": 4,
     "build_hp": 70,
-    "eng_name": "Dual avia slope"
+    "eng_name": "Dual avia slope",
+    "size_x": 4,
+    "size_y": 6,
+    "size_z": 1
   },
   {
     "id": "cbcf90fa",
@@ -3264,7 +4152,10 @@
     "weight": 42,
     "maxCount": 1,
     "build_hp": 24,
-    "eng_name": "Right vintage fender"
+    "eng_name": "Right vintage fender",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "cc12fd91",
@@ -3275,7 +4166,10 @@
     "weight": 16,
     "maxCount": 2,
     "build_hp": 10,
-    "eng_name": "Left pteruges"
+    "eng_name": "Left pteruges",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "cc280978",
@@ -3286,7 +4180,10 @@
     "weight": 45,
     "maxCount": 7,
     "build_hp": 25,
-    "eng_name": "Van side"
+    "eng_name": "Van side",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "cc632f98",
@@ -3297,7 +4194,10 @@
     "weight": 4,
     "maxCount": 3,
     "build_hp": 0,
-    "eng_name": "Right catheter"
+    "eng_name": "Right catheter",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "cc918a22",
@@ -3308,7 +4208,10 @@
     "weight": 48,
     "maxCount": 1,
     "build_hp": 32,
-    "eng_name": "Rump"
+    "eng_name": "Rump",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "ccaae31f",
@@ -3319,7 +4222,10 @@
     "weight": 51,
     "maxCount": 4,
     "build_hp": 22,
-    "eng_name": "Battle walker left stand"
+    "eng_name": "Battle walker left stand",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "cdab66e9",
@@ -3330,7 +4236,10 @@
     "weight": 30,
     "maxCount": 3,
     "build_hp": 15,
-    "eng_name": "Right kote"
+    "eng_name": "Right kote",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "cef2b9a9",
@@ -3341,7 +4250,10 @@
     "weight": 37,
     "maxCount": 1,
     "build_hp": 25,
-    "eng_name": "Left rib"
+    "eng_name": "Left rib",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "d17bc3ff",
@@ -3352,7 +4264,10 @@
     "weight": 54,
     "maxCount": 4,
     "build_hp": 24,
-    "eng_name": "Excavator plating right"
+    "eng_name": "Excavator plating right",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "d21192f8",
@@ -3363,7 +4278,10 @@
     "weight": 236,
     "maxCount": 4,
     "build_hp": 113,
-    "eng_name": "Panel arch"
+    "eng_name": "Panel arch",
+    "size_x": 8,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "d2173d25",
@@ -3374,7 +4292,10 @@
     "weight": 232,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Left bulwark"
+    "eng_name": "Left bulwark",
+    "size_x": 3,
+    "size_y": 5,
+    "size_z": 4
   },
   {
     "id": "d2a11dc6",
@@ -3385,7 +4306,10 @@
     "weight": 12,
     "maxCount": 14,
     "build_hp": 7,
-    "eng_name": "Van ramp"
+    "eng_name": "Van ramp",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "d339f74d",
@@ -3396,7 +4320,10 @@
     "weight": 263,
     "maxCount": 1,
     "build_hp": 130,
-    "eng_name": "Sikoro"
+    "eng_name": "Sikoro",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "d370d95d",
@@ -3407,7 +4334,10 @@
     "weight": 89,
     "maxCount": 2,
     "build_hp": 52,
-    "eng_name": "Right caliga"
+    "eng_name": "Right caliga",
+    "size_x": 5,
+    "size_y": 4,
+    "size_z": 2
   },
   {
     "id": "d42c18bb",
@@ -3418,7 +4348,10 @@
     "weight": 56,
     "maxCount": 2,
     "build_hp": 32,
-    "eng_name": "Torino rear"
+    "eng_name": "Torino rear",
+    "size_x": 1,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "d4548f6b",
@@ -3429,7 +4362,10 @@
     "weight": 36,
     "maxCount": 4,
     "build_hp": 16,
-    "eng_name": "Crane plug right"
+    "eng_name": "Crane plug right",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "d50a4264",
@@ -3440,7 +4376,10 @@
     "weight": 773,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Snow plow"
+    "eng_name": "Snow plow",
+    "size_x": 2,
+    "size_y": 8,
+    "size_z": 3
   },
   {
     "id": "d5288cf1",
@@ -3451,7 +4390,10 @@
     "weight": 32,
     "maxCount": 4,
     "build_hp": 20,
-    "eng_name": "Cover your right"
+    "eng_name": "Cover your right",
+    "size_x": 7,
+    "size_y": 1,
+    "size_z": 3
   },
   {
     "id": "d532a5d4",
@@ -3462,7 +4404,10 @@
     "weight": 27,
     "maxCount": 2,
     "build_hp": 14,
-    "eng_name": "Left fairing bottom"
+    "eng_name": "Left fairing bottom",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "d555e4a1",
@@ -3473,7 +4418,10 @@
     "weight": 66,
     "maxCount": 4,
     "build_hp": 28,
-    "eng_name": "Thick pipe mudguard"
+    "eng_name": "Thick pipe mudguard",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "d695a1dd",
@@ -3484,7 +4432,10 @@
     "weight": 21,
     "maxCount": 4,
     "build_hp": 11,
-    "eng_name": "Left filter"
+    "eng_name": "Left filter",
+    "size_x": 1,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "d7591b10",
@@ -3495,7 +4446,10 @@
     "weight": 146,
     "maxCount": 6,
     "build_hp": 58,
-    "eng_name": "Strengthened slope"
+    "eng_name": "Strengthened slope",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "d8305e7d",
@@ -3506,7 +4460,10 @@
     "weight": 384,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left defence frontier"
+    "eng_name": "Left defence frontier",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "d882b657",
@@ -3517,7 +4474,10 @@
     "weight": 196,
     "maxCount": 3,
     "build_hp": 109,
-    "eng_name": "Rear door"
+    "eng_name": "Rear door",
+    "size_x": 1,
+    "size_y": 6,
+    "size_z": 6
   },
   {
     "id": "d8c47cfa",
@@ -3528,7 +4488,10 @@
     "weight": 59,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Hatchet"
+    "eng_name": "Hatchet",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "d8fbea8d",
@@ -3539,7 +4502,10 @@
     "weight": 32,
     "maxCount": 4,
     "build_hp": 20,
-    "eng_name": "Cover your left"
+    "eng_name": "Cover your left",
+    "size_x": 7,
+    "size_y": 1,
+    "size_z": 3
   },
   {
     "id": "d940fa60",
@@ -3550,7 +4516,10 @@
     "weight": 22,
     "maxCount": 2,
     "build_hp": 11,
-    "eng_name": "Left knee"
+    "eng_name": "Left knee",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "d96b9fa5",
@@ -3561,7 +4530,10 @@
     "weight": 27,
     "maxCount": 1,
     "build_hp": 18,
-    "eng_name": "\"Bully\" nosecut"
+    "eng_name": "\"Bully\" nosecut",
+    "size_x": 6,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "da29f996",
@@ -3572,7 +4544,10 @@
     "weight": 262,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Terribull bar"
+    "eng_name": "Terribull bar",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "daadeef0",
@@ -3583,7 +4558,10 @@
     "weight": 34,
     "maxCount": 6,
     "build_hp": 19,
-    "eng_name": "Running board"
+    "eng_name": "Running board",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "dc009a0d",
@@ -3594,7 +4572,10 @@
     "weight": 181,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Facade"
+    "eng_name": "Facade",
+    "size_x": 2,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "dd72ca5a",
@@ -3605,7 +4586,10 @@
     "weight": 68,
     "maxCount": 6,
     "build_hp": 27,
-    "eng_name": "Small tank side part"
+    "eng_name": "Small tank side part",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "dd8b7afa",
@@ -3616,7 +4600,10 @@
     "weight": 242,
     "maxCount": 4,
     "build_hp": 101,
-    "eng_name": "Battle walker side"
+    "eng_name": "Battle walker side",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "df8bf0c6",
@@ -3627,7 +4614,10 @@
     "weight": 4,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Right buggy corner"
+    "eng_name": "Right buggy corner",
+    "size_x": 3,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "e06575bd",
@@ -3638,7 +4628,10 @@
     "weight": 314,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left APC bumper"
+    "eng_name": "Left APC bumper",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "e07b4c7a",
@@ -3649,7 +4642,10 @@
     "weight": 172,
     "maxCount": 2,
     "build_hp": 85,
-    "eng_name": "Battle walker cover plate"
+    "eng_name": "Battle walker cover plate",
+    "size_x": 3,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "e097d2a6",
@@ -3660,7 +4656,10 @@
     "weight": 272,
     "maxCount": 2,
     "build_hp": 91,
-    "eng_name": "Observation compartment"
+    "eng_name": "Observation compartment",
+    "size_x": 6,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "e0ff9897",
@@ -3671,7 +4670,10 @@
     "weight": 16,
     "maxCount": 1,
     "build_hp": 8,
-    "eng_name": "Right shoulder"
+    "eng_name": "Right shoulder",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "e1138621",
@@ -3682,7 +4684,10 @@
     "weight": 74,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "\"Bully\" bumper"
+    "eng_name": "\"Bully\" bumper",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "e18084e0",
@@ -3693,7 +4698,10 @@
     "weight": 99,
     "maxCount": 6,
     "build_hp": 60,
-    "eng_name": "Scorched"
+    "eng_name": "Scorched",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 3
   },
   {
     "id": "e19a933a",
@@ -3704,7 +4712,10 @@
     "weight": 14,
     "maxCount": 10,
     "build_hp": 10,
-    "eng_name": "Buggy step plate"
+    "eng_name": "Buggy step plate",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "e1e7463b",
@@ -3715,7 +4726,10 @@
     "weight": 41,
     "maxCount": 2,
     "build_hp": 28,
-    "eng_name": "Right shoulder rest"
+    "eng_name": "Right shoulder rest",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "e2c01304",
@@ -3726,7 +4740,10 @@
     "weight": 101,
     "maxCount": 3,
     "build_hp": 40,
-    "eng_name": "Left military truck fender"
+    "eng_name": "Left military truck fender",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "e33bf8d1",
@@ -3737,7 +4754,10 @@
     "weight": 72,
     "maxCount": 4,
     "build_hp": 32,
-    "eng_name": "Right truck fender"
+    "eng_name": "Right truck fender",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "e3fd0cd6",
@@ -3748,7 +4768,10 @@
     "weight": 269,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Small plow"
+    "eng_name": "Small plow",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "e608d052",
@@ -3759,7 +4782,10 @@
     "weight": 21,
     "maxCount": 4,
     "build_hp": 11,
-    "eng_name": "Right filter"
+    "eng_name": "Right filter",
+    "size_x": 1,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "e9a2b7a0",
@@ -3770,7 +4796,10 @@
     "weight": 4,
     "maxCount": 3,
     "build_hp": 0,
-    "eng_name": "Left catheter"
+    "eng_name": "Left catheter",
+    "size_x": 3,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "ea908d81",
@@ -3781,7 +4810,10 @@
     "weight": 23,
     "maxCount": 10,
     "build_hp": 10,
-    "eng_name": "Curved pipe"
+    "eng_name": "Curved pipe",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "ebb76649",
@@ -3792,7 +4824,10 @@
     "weight": 142,
     "maxCount": 1,
     "build_hp": 68,
-    "eng_name": "Corrida left fender"
+    "eng_name": "Corrida left fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "ebfea34b",
@@ -3803,7 +4838,10 @@
     "weight": 27,
     "maxCount": 4,
     "build_hp": 17,
-    "eng_name": "Right thorn"
+    "eng_name": "Right thorn",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "ec511280",
@@ -3814,7 +4852,10 @@
     "weight": 31,
     "maxCount": 2,
     "build_hp": 18,
-    "eng_name": "Twin strut"
+    "eng_name": "Twin strut",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "ec57c621",
@@ -3825,7 +4866,10 @@
     "weight": 157,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left sports car bumper"
+    "eng_name": "Left sports car bumper",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "ec8d481b",
@@ -3836,7 +4880,10 @@
     "weight": 17,
     "maxCount": 1,
     "build_hp": 8,
-    "eng_name": "Left pauldron"
+    "eng_name": "Left pauldron",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "ecbd0a84",
@@ -3847,7 +4894,10 @@
     "weight": 5,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Buggy engine cover"
+    "eng_name": "Buggy engine cover",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "ed39c39d",
@@ -3858,7 +4908,10 @@
     "weight": 44,
     "maxCount": 1,
     "build_hp": 22,
-    "eng_name": "Right kusazuri"
+    "eng_name": "Right kusazuri",
+    "size_x": 6,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "ed4c2d6e",
@@ -3869,7 +4922,10 @@
     "weight": 188,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Screener"
+    "eng_name": "Screener",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "ed8202f9",
@@ -3880,7 +4936,10 @@
     "weight": 165,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Shock absorber"
+    "eng_name": "Shock absorber",
+    "size_x": 8,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "ed8b06de",
@@ -3891,7 +4950,10 @@
     "weight": 323,
     "maxCount": 4,
     "build_hp": 135,
-    "eng_name": "Truck door"
+    "eng_name": "Truck door",
+    "size_x": 8,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "ed9e743a",
@@ -3902,7 +4964,10 @@
     "weight": 48,
     "maxCount": 2,
     "build_hp": 25,
-    "eng_name": "Left fuselage vault"
+    "eng_name": "Left fuselage vault",
+    "size_x": 4,
+    "size_y": 1,
+    "size_z": 2
   },
   {
     "id": "ee692be9",
@@ -3913,7 +4978,10 @@
     "weight": 84,
     "maxCount": 2,
     "build_hp": 30,
-    "eng_name": "Right radiator bonnet"
+    "eng_name": "Right radiator bonnet",
+    "size_x": 4,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "ee81074b",
@@ -3924,7 +4992,10 @@
     "weight": 12,
     "maxCount": 8,
     "build_hp": 7,
-    "eng_name": "Avia narrow slope"
+    "eng_name": "Avia narrow slope",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "ef1e75be",
@@ -3935,7 +5006,10 @@
     "weight": 27,
     "maxCount": 4,
     "build_hp": 17,
-    "eng_name": "Left thorn"
+    "eng_name": "Left thorn",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "efaabde0",
@@ -3946,7 +5020,10 @@
     "weight": 14,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right skid landing gear"
+    "eng_name": "Right skid landing gear",
+    "size_x": 8,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "f054efdb",
@@ -3957,7 +5034,10 @@
     "weight": 34,
     "maxCount": 1,
     "build_hp": 16,
-    "eng_name": "Left nautilus"
+    "eng_name": "Left nautilus",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "f0851847",
@@ -3968,7 +5048,10 @@
     "weight": 40,
     "maxCount": 4,
     "build_hp": 23,
-    "eng_name": "Truck rib"
+    "eng_name": "Truck rib",
+    "size_x": 8,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "f0bea34c",
@@ -3979,7 +5062,10 @@
     "weight": 61,
     "maxCount": 4,
     "build_hp": 26,
-    "eng_name": "Wide slope"
+    "eng_name": "Wide slope",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "f1c3e607",
@@ -3990,7 +5076,10 @@
     "weight": 102,
     "maxCount": 2,
     "build_hp": 51,
-    "eng_name": "Right suneate"
+    "eng_name": "Right suneate",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "f20e3ae3",
@@ -4001,7 +5090,10 @@
     "weight": 37,
     "maxCount": 2,
     "build_hp": 19,
-    "eng_name": "Right sode"
+    "eng_name": "Right sode",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "f2aad4ea",
@@ -4012,7 +5104,10 @@
     "weight": 242,
     "maxCount": 4,
     "build_hp": 101,
-    "eng_name": "Long slope"
+    "eng_name": "Long slope",
+    "size_x": 5,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "f30a1916",
@@ -4023,7 +5118,10 @@
     "weight": 218,
     "maxCount": 3,
     "build_hp": 0,
-    "eng_name": "Right flail"
+    "eng_name": "Right flail",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 3
   },
   {
     "id": "f33d16c8",
@@ -4034,7 +5132,10 @@
     "weight": 88,
     "maxCount": 2,
     "build_hp": 44,
-    "eng_name": "Left kohire"
+    "eng_name": "Left kohire",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "f3fecbc7",
@@ -4045,7 +5146,10 @@
     "weight": 24,
     "maxCount": 1,
     "build_hp": 16,
-    "eng_name": "Left phalanx"
+    "eng_name": "Left phalanx",
+    "size_x": 6,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "f5adc733",
@@ -4056,7 +5160,10 @@
     "weight": 17,
     "maxCount": 1,
     "build_hp": 8,
-    "eng_name": "Right pauldron"
+    "eng_name": "Right pauldron",
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 1
   },
   {
     "id": "f9141b2e",
@@ -4067,7 +5174,10 @@
     "weight": 81,
     "maxCount": 1,
     "build_hp": 42,
-    "eng_name": "\"Hot Rod\" right rear fender"
+    "eng_name": "\"Hot Rod\" right rear fender",
+    "size_x": 5,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "f95db62a",
@@ -4078,7 +5188,10 @@
     "weight": 157,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right sports car bumper"
+    "eng_name": "Right sports car bumper",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "f9ec4d99",
@@ -4089,7 +5202,10 @@
     "weight": 213,
     "maxCount": 3,
     "build_hp": 119,
-    "eng_name": "Torino bonnet"
+    "eng_name": "Torino bonnet",
+    "size_x": 4,
+    "size_y": 6,
+    "size_z": 2
   },
   {
     "id": "faeed7c1",
@@ -4100,7 +5216,10 @@
     "weight": 40,
     "maxCount": 1,
     "build_hp": 16,
-    "eng_name": "Left barrier"
+    "eng_name": "Left barrier",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 4
   },
   {
     "id": "fd443a78",
@@ -4111,7 +5230,10 @@
     "weight": 88,
     "maxCount": 1,
     "build_hp": 59,
-    "eng_name": "Electric car nosecut"
+    "eng_name": "Electric car nosecut",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "fdc6b71a",
@@ -4122,7 +5244,10 @@
     "weight": 72,
     "maxCount": 4,
     "build_hp": 32,
-    "eng_name": "Small platform"
+    "eng_name": "Small platform",
+    "size_x": 2,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "fe044361",
@@ -4133,7 +5258,10 @@
     "weight": 106,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Twin BladeWing"
+    "eng_name": "Twin BladeWing",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "fe7858cd",
@@ -4144,7 +5272,10 @@
     "weight": 44,
     "maxCount": 4,
     "build_hp": 22,
-    "eng_name": "Tenmaku"
+    "eng_name": "Tenmaku",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "fe8a9df6",
@@ -4155,7 +5286,10 @@
     "weight": 22,
     "maxCount": 2,
     "build_hp": 11,
-    "eng_name": "Right knee"
+    "eng_name": "Right knee",
+    "size_x": 2,
+    "size_y": 2,
+    "size_z": 1
   },
   {
     "id": "ffbc559e",
@@ -4166,7 +5300,10 @@
     "weight": 79,
     "maxCount": 6,
     "build_hp": 0,
-    "eng_name": "Incisor"
+    "eng_name": "Incisor",
+    "size_x": 2,
+    "size_y": 3,
+    "size_z": 2
   },
   {
     "id": "100f624e",
@@ -4177,7 +5314,10 @@
     "weight": 56,
     "maxCount": 12,
     "build_hp": 32,
-    "eng_name": "Fender"
+    "eng_name": "Fender",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "11fb0d00",
@@ -4188,7 +5328,10 @@
     "weight": 105,
     "maxCount": 4,
     "build_hp": 56,
-    "eng_name": "Right slate"
+    "eng_name": "Right slate",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "12d173c0",
@@ -4199,7 +5342,10 @@
     "weight": 41,
     "maxCount": 2,
     "build_hp": 25,
-    "eng_name": "Right flame fender"
+    "eng_name": "Right flame fender",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "1986920a",
@@ -4210,7 +5356,10 @@
     "weight": 121,
     "maxCount": 0,
     "build_hp": 51,
-    "eng_name": "Corner wall"
+    "eng_name": "Corner wall",
+    "size_x": 4,
+    "size_y": 2,
+    "size_z": 2
   },
   {
     "id": "207afb59",
@@ -4221,7 +5370,10 @@
     "weight": 178,
     "maxCount": 2,
     "build_hp": 86,
-    "eng_name": "Semi-enclave"
+    "eng_name": "Semi-enclave",
+    "size_x": 6,
+    "size_y": 4,
+    "size_z": 1
   },
   {
     "id": "2a565de0",
@@ -4232,7 +5384,10 @@
     "weight": 16,
     "maxCount": 4,
     "build_hp": 0,
-    "eng_name": "Link"
+    "eng_name": "Link",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "36b4ac5e",
@@ -4243,7 +5398,10 @@
     "weight": 293,
     "maxCount": 2,
     "build_hp": 107,
-    "eng_name": "Armoured panel"
+    "eng_name": "Armoured panel",
+    "size_x": 6,
+    "size_y": 3,
+    "size_z": 1
   },
   {
     "id": "500fff9e",
@@ -4254,7 +5412,10 @@
     "weight": 196,
     "maxCount": 1,
     "build_hp": 0,
-    "eng_name": "Трубчатый бампер"
+    "eng_name": "Трубчатый бампер",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "50ee75a7",
@@ -4265,7 +5426,10 @@
     "weight": 81,
     "maxCount": 0,
     "build_hp": 0,
-    "eng_name": "Pioneers bumper"
+    "eng_name": "Pioneers bumper",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "72e3dbfc",
@@ -4276,7 +5440,10 @@
     "weight": 25,
     "maxCount": 4,
     "build_hp": 14,
-    "eng_name": "Right shard"
+    "eng_name": "Right shard",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "7d77d263",
@@ -4287,7 +5454,10 @@
     "weight": 387,
     "maxCount": 0,
     "build_hp": 0,
-    "eng_name": "Snout"
+    "eng_name": "Snout",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "88e6b1f8",
@@ -4298,7 +5468,10 @@
     "weight": 246,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left perimeter"
+    "eng_name": "Left perimeter",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "a12e78d3",
@@ -4309,7 +5482,10 @@
     "weight": 104,
     "maxCount": 2,
     "build_hp": 64,
-    "eng_name": "Fork of flame"
+    "eng_name": "Fork of flame",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "afe625f3",
@@ -4320,7 +5496,10 @@
     "weight": 345,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right limit"
+    "eng_name": "Right limit",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "b7be4073",
@@ -4331,7 +5510,10 @@
     "weight": 215,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Crucible"
+    "eng_name": "Crucible",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "ba19e0f8",
@@ -4342,7 +5524,10 @@
     "weight": 25,
     "maxCount": 4,
     "build_hp": 14,
-    "eng_name": "Left shard"
+    "eng_name": "Left shard",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "c907ce43",
@@ -4353,7 +5538,10 @@
     "weight": 41,
     "maxCount": 2,
     "build_hp": 25,
-    "eng_name": "Left flame fender"
+    "eng_name": "Left flame fender",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "cc02c11c",
@@ -4364,7 +5552,10 @@
     "weight": 105,
     "maxCount": 4,
     "build_hp": 56,
-    "eng_name": "Left slate"
+    "eng_name": "Left slate",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "f5a50cba",
@@ -4375,7 +5566,10 @@
     "weight": 246,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Right perimeter"
+    "eng_name": "Right perimeter",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "f7ba07ac",
@@ -4386,7 +5580,10 @@
     "weight": 345,
     "maxCount": 2,
     "build_hp": 0,
-    "eng_name": "Left limit"
+    "eng_name": "Left limit",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   },
   {
     "id": "fa8e2fd7",
@@ -4397,6 +5594,9 @@
     "weight": 45,
     "maxCount": 2,
     "build_hp": 18,
-    "eng_name": "Mounting bracket sector"
+    "eng_name": "Mounting bracket sector",
+    "size_x": 0,
+    "size_y": 0,
+    "size_z": 0
   }
 ]

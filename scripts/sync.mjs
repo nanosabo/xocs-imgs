@@ -492,6 +492,9 @@ const toRepoPart = (part) => ({
   maxCount: part.quantity,
   build_hp: part.build_hp,
   eng_name: part.name_en,
+  size_x: Number.isFinite(part.size_x) ? part.size_x : 0,
+  size_y: Number.isFinite(part.size_y) ? part.size_y : 0,
+  size_z: Number.isFinite(part.size_z) ? part.size_z : 0,
 });
 
 /**
