@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-11-13T23:49:11.000Z",
+  "updatedAt": "2026-11-15T20:58:46.000Z",
   "amountUnit": "kopecks",
   "jar": {
     "sendId": "jar/4CErJGG8WM",
     "title": "Craft Solution",
     "currencyCode": 980,
-    "balance": 5000,
+    "balance": 15000,
     "goal": 1000000
   },
   "donations": [
+    {
+      "id": "f4WSyICg_ivvbWKJaeMd_YAadWMwcBe-ZHmEBISN9w",
+      "time": "2026-11-15T20:57:24.000Z",
+      "amount": 10000,
+      "comment": "Спасибо автору за такое удобное приложение"
+    },
     {
       "id": "tPERshBkR38AoS23snZ5b2Eb8KpBWQE7gKdrlPUq9w",
       "time": "2026-11-13T21:20:14.000Z",
